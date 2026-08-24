@@ -59,20 +59,35 @@ class BoltAdapter:
 
     def create_schema(self) -> None:
         with self._session() as s:
-            # Both constraints and indexes are idempotent on Neo4j/Memgraph.
-            # The fallback syntax is intentionally isolated here if a service differs.
-            for query in (
-                "CREATE CONSTRAINT user_id_unique IF NOT EXISTS FOR (u:User) REQUIRE u.user_id IS UNIQUE",
-                "CREATE INDEX user_country IF NOT EXISTS FOR (u:User) ON (u.country)",
-            ):
-                try:
-                    s.run(query).consume()
-                except Exception:
-                    # Some compatible services accept the older index syntax.
-                    if "user_country" in query:
-                        s.run("CREATE INDEX ON :User(country)").consume()
-                    else:
-                        raise
+            if self.config.name in {"memgraph", "memgraph_docker"}:
+                # Memgraph does not implement Neo4j's constraint syntax. The
+                # dataset has unique IDs by construction, so a property index
+                # is sufficient for lookup performance on this benchmark.
+                queries = (
+                    "CREATE INDEX ON :User(user_id)",
+                    "CREATE INDEX ON :User(country)",
+                )
+                for query in queries:
+                    try:
+                        s.run(query).consume()
+                    except Exception as exc:
+                        # Re-runs retain schema objects; duplicate-index errors
+                        # are safe to ignore, while other errors must surface.
+                        if "already exists" not in str(exc).lower() and "exists" not in str(exc).lower():
+                            raise
+            else:
+                for query in (
+                    "CREATE CONSTRAINT user_id_unique IF NOT EXISTS FOR (u:User) REQUIRE u.user_id IS UNIQUE",
+                    "CREATE INDEX user_country IF NOT EXISTS FOR (u:User) ON (u.country)",
+                ):
+                    try:
+                        s.run(query).consume()
+                    except Exception:
+                        # Some compatible services accept the older index syntax.
+                        if "user_country" in query:
+                            s.run("CREATE INDEX ON :User(country)").consume()
+                        else:
+                            raise
 
     def load_batch(self, nodes: Iterable[NodeRow], edges: Iterable[EdgeRow]) -> None:
         node_rows = [{"user_id": n.user_id, "name": n.name, "country": n.country, "age": n.age} for n in nodes]
