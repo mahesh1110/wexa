@@ -3,6 +3,8 @@ set -euo pipefail
 
 COMPOSE=(docker compose --env-file .env.docker -f docker-compose.local.yml)
 mkdir -p results docker-data/{neo4j,memgraph,falkordb,arango,arango-apps}
+# Ensure no idle database container competes with the target under test.
+"${COMPOSE[@]}" down --remove-orphans
 
 for pair in \
   "neo4j:neo4j_docker" \
