@@ -66,7 +66,8 @@ def make_adapter(name: str):
             user = os.environ.get(f"{key}_USER", "cognodb" if name == "cognodb" else "neo4j")
             password = os.environ[f"{key}_PASSWORD"]
             database = os.environ.get(f"{key}_DATABASE")
-        return BoltAdapter(BoltConfig(name, uri, user, password, database))
+        encrypted = not name.endswith("_docker")
+        return BoltAdapter(BoltConfig(name, uri, user, password, database, encrypted=encrypted))
     if name == "arango_docker":
         return ArangoAdapter(ArangoConfig(
             name=name,
