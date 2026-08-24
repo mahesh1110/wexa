@@ -3,6 +3,7 @@ from __future__ import annotations
 import csv
 import json
 import os
+import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
@@ -26,6 +27,10 @@ from graphbench.drivers.arango import ArangoAdapter, ArangoConfig
 
 
 COUNTRIES = ("IN", "US", "DE", "GB", "BR", "JP", "CA", "AU")
+
+
+def progress(message: str) -> None:
+    print(f"[graphbench] {message}", file=sys.stderr, flush=True)
 
 
 def load_dataset(path: str | Path) -> tuple[list[NodeRow], list[EdgeRow]]:
@@ -109,13 +114,16 @@ def make_adapter(name: str):
 
 def timed_samples(database: str, workload: str, fn: Callable[[], Any], iterations: int, concurrency: int | None = None) -> list[Sample]:
     samples: list[Sample] = []
-    for _ in range(iterations):
+    progress(f"{database}: {workload} — {iterations} measured iterations")
+    for index in range(iterations):
         started = utc_now()
         try:
             _, duration_ms = timed_call(fn)
             samples.append(Sample(workload, database, started, duration_ms, True, concurrency=concurrency))
         except Exception as exc:
             samples.append(Sample(workload, database, started, 0.0, False, repr(exc), concurrency))
+        if (index + 1) % 10 == 0 or index + 1 == iterations:
+            progress(f"{database}: {workload} — completed {index + 1}/{iterations}")
     return samples
 
 
@@ -138,19 +146,29 @@ def run_benchmark(database: str, data_dir: str, out_path: str, warmup: int = 10,
     samples: list[Sample] = []
     notes: list[str] = []
     try:
+        progress(f"{database}: ping")
         adapter.ping()
+        progress(f"{database}: reset")
         adapter.reset()
         # Build lookup structures before relationship ingestion; otherwise each
         # edge batch may scan all loaded users on small cloud tiers.
+        progress(f"{database}: create schema")
         adapter.create_schema()
         load_start = time.perf_counter()
         batch_size = int(os.environ.get("GRAPHBENCH_BATCH_SIZE", "1000"))
+        progress(f"{database}: loading {len(nodes)} nodes and {len(edges)} relationships with batch_size={batch_size}")
         for i in range(0, len(nodes), batch_size):
             adapter.load_batch(nodes[i:i + batch_size], [])
+            if (i // batch_size + 1) % 5 == 0 or i + batch_size >= len(nodes):
+                progress(f"{database}: nodes {min(i + batch_size, len(nodes))}/{len(nodes)}")
         for i in range(0, len(edges), batch_size):
             adapter.load_batch([], edges[i:i + batch_size])
+            if (i // batch_size + 1) % 5 == 0 or i + batch_size >= len(edges):
+                progress(f"{database}: relationships {min(i + batch_size, len(edges))}/{len(edges)}")
         load_ms = (time.perf_counter() - load_start) * 1000
+        progress(f"{database}: counting loaded graph")
         n_count, r_count = adapter.counts()
+        progress(f"{database}: loaded counts nodes={n_count}, relationships={r_count}")
         notes.append(json.dumps({"load_wall_ms": load_ms, "loaded_nodes": n_count, "loaded_relationships": r_count}))
         start_ids = choose_start_ids(nodes, min(iterations, 100), seed=20260824)
         countries = [COUNTRIES[i % len(COUNTRIES)] for i in range(iterations)]
@@ -180,18 +198,22 @@ def run_benchmark(database: str, data_dir: str, out_path: str, warmup: int = 10,
             else:
                 adapter.mixed_write(start_ids[index % len(start_ids)], start_ids[(index + 1) % len(start_ids)], index)
 
+        progress(f"{database}: mixed_read_write — {iterations} concurrent operations, clients={clients}")
         mixed_start = time.perf_counter()
         mixed_ok = 0
         with ThreadPoolExecutor(max_workers=clients) as pool:
-            futures = [pool.submit(mixed_operation, i) for i in range(iterations)]
-            for index, future in enumerate(as_completed(futures)):
-                seq_started = utc_now()
+            submitted = {pool.submit(mixed_operation, i): (utc_now(), time.perf_counter()) for i in range(iterations)}
+            for index, future in enumerate(as_completed(submitted)):
+                seq_started, operation_start = submitted[future]
+                duration_ms = (time.perf_counter() - operation_start) * 1000
                 try:
                     future.result()
                     mixed_ok += 1
-                    samples.append(Sample("mixed_read_write", database, seq_started, 0.0, True, concurrency=clients))
+                    samples.append(Sample("mixed_read_write", database, seq_started, duration_ms, True, concurrency=clients))
                 except Exception as exc:
-                    samples.append(Sample("mixed_read_write", database, seq_started, 0.0, False, repr(exc), clients))
+                    samples.append(Sample("mixed_read_write", database, seq_started, duration_ms, False, error=repr(exc), concurrency=clients))
+                if (index + 1) % 10 == 0 or index + 1 == iterations:
+                    progress(f"{database}: mixed_read_write — completed {index + 1}/{iterations}")
         mixed_seconds = time.perf_counter() - mixed_start
         notes.append(json.dumps({"mixed_clients": clients, "mixed_ok": mixed_ok, "mixed_qps": mixed_ok / mixed_seconds if mixed_seconds else 0.0, "read_fraction": 0.5, "write_fraction": 0.5}))
     finally:
