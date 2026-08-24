@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Iterable
+from typing import Any, Iterable
 
 import redis
 
@@ -16,6 +16,15 @@ class FalkorConfig:
     password: str
     graph: str = "benchmark"
     ssl: bool = True
+
+
+def first_scalar(value: Any) -> Any:
+    """Return the first scalar from FalkorDB's nested compact response."""
+    while isinstance(value, (list, tuple)):
+        if not value:
+            return 0
+        value = value[0]
+    return value
 
 
 class FalkorAdapter:
@@ -85,7 +94,7 @@ class FalkorAdapter:
     def counts(self) -> tuple[int, int]:
         nodes = self._query("MATCH (u:User) RETURN count(u)")
         rels = self._query("MATCH (:User)-[r:FOLLOWS]->(:User) RETURN count(r)")
-        return int(nodes[1][0][0]), int(rels[1][0][0])
+        return int(first_scalar(nodes[1])), int(first_scalar(rels[1]))
 
     def traversal(self, start_id: int, hops: int) -> int:
         result = self._query(
@@ -93,21 +102,21 @@ class FalkorAdapter:
             "RETURN count(DISTINCT x)",
             {"user_id": start_id},
         )
-        return int(result[1][0][0])
+        return int(first_scalar(result[1]))
 
     def point_lookup(self, user_id: int) -> int:
         result = self._query(
             "MATCH (u:User) WHERE u.user_id = $user_id RETURN count(u)",
             {"user_id": user_id},
         )
-        return int(result[1][0][0])
+        return int(first_scalar(result[1]))
 
     def indexed_lookup(self, country: str) -> int:
         result = self._query(
             "MATCH (u:User) WHERE u.country = $country RETURN count(u)",
             {"country": country},
         )
-        return int(result[1][0][0])
+        return int(first_scalar(result[1]))
 
     def aggregate(self) -> int:
         result = self._query("MATCH (u:User) RETURN u.country, count(*) ORDER BY count(*) DESC")
