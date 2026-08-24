@@ -34,7 +34,7 @@ The source page and citation are recorded in `data/pokec_sample/MANIFEST.md`. Ke
 
 ## Docker comparison topology
 
-For the strict resource-parity run, the four comparison engines run locally in Docker on the same host, one benchmark at a time, while the benchmark client runs on that host. The Compose file declares **0.5 CPU, 256 MB RAM, and a 1 GB writable layer per service**. The local services are Neo4j Community, Memgraph, FalkorDB Server, and ArangoDB. CognoDB cannot be made a local Docker peer from the credentials supplied, so it remains the external managed reference; its result is reported in a separate section with the client-to-cloud network caveat.
+For the strict resource-parity run, the four comparison engines run locally in Docker on the same host, one benchmark at a time, while the benchmark client runs on that host. The Compose file declares **0.5 CPU, 512 MB RAM, and a 1 GB writable layer per service**. The local services are Neo4j Community, Memgraph, FalkorDB Server, and ArangoDB. CognoDB cannot be made a local Docker peer from the credentials supplied, so it remains the external managed reference at its fixed c0 allocation; its result is reported in a separate section with the client-to-cloud network caveat. The four Docker results are the equal-resource comparison, while CognoDB is a contextual reference rather than part of that ranking.
 
 ```bash
 cp .env.docker.example .env.docker
@@ -43,7 +43,7 @@ docker compose --env-file .env.docker -f docker-compose.local.yml up -d
 docker compose --env-file .env.docker -f docker-compose.local.yml ps
 ```
 
-The local Docker connection variables are `bolt://localhost:17687` for Neo4j, `bolt://localhost:27687` for Memgraph, Redis port `36379` for FalkorDB, and `http://localhost:18529` for ArangoDB. Before measuring, record the actual image tags or immutable digests and confirm that every container reports healthy. If Docker on the host does not support `storage_opt`, the run must record that storage was not hard-capped and must not call the comparison fully equal-resource. If any engine fails to start or cannot load the minimum 100,000 relationships within 256 MB, mark it as **not comparable under the common envelope** rather than raising its memory limit for only that engine.
+The local Docker connection variables are `bolt://localhost:17687` for Neo4j, `bolt://localhost:27687` for Memgraph, Redis port `36379` for FalkorDB, and `http://localhost:18529` for ArangoDB. Before measuring, record the actual image tags or immutable digests and confirm that every container reports healthy. If Docker on the host does not support `storage_opt`, the run must record that storage was not hard-capped and must not call the comparison fully equal-resource. The 512 MB envelope was selected because the verified Memgraph 2.14.1 image exited with code 139 at 256 MB but stayed healthy at 512 MB. If any engine fails to start or cannot load the minimum 100,000 relationships within 512 MB, mark it as **not comparable under the common envelope** rather than raising its memory limit for only that engine.
 
 Run the four local targets with:
 

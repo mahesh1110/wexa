@@ -6,13 +6,13 @@ services:
       - "17687:7687"
     environment:
       NEO4J_AUTH: neo4j/${LOCAL_NEO4J_PASSWORD:-graphbench_neo4j}
-      NEO4J_server_memory_heap_initial__size: 64m
-      NEO4J_server_memory_heap_max__size: 64m
-      NEO4J_server_memory_pagecache_size: 32m
+      NEO4J_server_memory_heap_initial__size: 128m
+      NEO4J_server_memory_heap_max__size: 128m
+      NEO4J_server_memory_pagecache_size: 64m
     volumes:
       - ./docker-data/neo4j:/data
     cpus: "0.5"
-    mem_limit: 256m
+    mem_limit: 512m
     storage_opt:
       size: 1G
     healthcheck:
@@ -30,7 +30,7 @@ services:
     volumes:
       - ./docker-data/memgraph:/var/lib/memgraph
     cpus: "0.5"
-    mem_limit: 256m
+    mem_limit: 512m
     storage_opt:
       size: 1G
     healthcheck:
@@ -50,7 +50,7 @@ services:
     volumes:
       - ./docker-data/falkordb:/data
     cpus: "0.5"
-    mem_limit: 256m
+    mem_limit: 512m
     storage_opt:
       size: 1G
     healthcheck:
@@ -70,7 +70,7 @@ services:
       - ./docker-data/arango:/var/lib/arangodb3
       - ./docker-data/arango-apps:/var/lib/arangodb3-apps
     cpus: "0.5"
-    mem_limit: 256m
+    mem_limit: 512m
     storage_opt:
       size: 1G
     healthcheck:
