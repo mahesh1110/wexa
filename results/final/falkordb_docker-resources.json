@@ -1,0 +1,9 @@
+{
+  "name": "/graphbench-falkordb",
+  "image": "falkordb/falkordb-server:latest",
+  "cpus_nano": 500000000,
+  "memory_bytes": 536870912,
+  "storage_opt": {
+    "size": "1G"
+  }
+}

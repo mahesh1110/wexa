@@ -1,0 +1,6331 @@
+{
+  "database": "cognodb",
+  "started_at": "2026-08-24T18:17:24.750110+00:00",
+  "finished_at": "2026-08-24T18:21:17.971481+00:00",
+  "host": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "cpu_count": 22,
+    "hostname": "redacted"
+  },
+  "platform": {
+    "name": "cognodb",
+    "resource_specs": "0.5 vCPU; 256 MB RAM; 1 GB disk; region=us-east4"
+  },
+  "dataset": {
+    "directory": "data/pokec_sample",
+    "nodes": 74062,
+    "relationships": 150000
+  },
+  "settings": {
+    "warmup": 10,
+    "iterations": 100,
+    "mixed_clients": 10
+  },
+  "samples": [
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:03.469722+00:00",
+      "duration_ms": 262.6376,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:03.732407+00:00",
+      "duration_ms": 262.5636,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:03.995014+00:00",
+      "duration_ms": 264.2678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:04.259311+00:00",
+      "duration_ms": 262.1749,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:04.521519+00:00",
+      "duration_ms": 263.9336,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:04.785497+00:00",
+      "duration_ms": 263.061,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:05.048593+00:00",
+      "duration_ms": 263.1917,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:05.311822+00:00",
+      "duration_ms": 266.4003,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:05.578261+00:00",
+      "duration_ms": 265.809,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:05.844104+00:00",
+      "duration_ms": 268.573,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:06.112950+00:00",
+      "duration_ms": 265.567,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:06.378553+00:00",
+      "duration_ms": 266.6927,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:06.645280+00:00",
+      "duration_ms": 263.3251,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:06.908647+00:00",
+      "duration_ms": 262.9956,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:07.171682+00:00",
+      "duration_ms": 263.7928,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:07.435506+00:00",
+      "duration_ms": 266.276,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:07.701814+00:00",
+      "duration_ms": 263.9294,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:07.965769+00:00",
+      "duration_ms": 262.3602,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:08.228151+00:00",
+      "duration_ms": 262.4056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:08.490584+00:00",
+      "duration_ms": 264.4235,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:08.755446+00:00",
+      "duration_ms": 263.5863,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:09.019078+00:00",
+      "duration_ms": 263.8242,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:09.282937+00:00",
+      "duration_ms": 264.027,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:09.547000+00:00",
+      "duration_ms": 264.7435,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:09.811778+00:00",
+      "duration_ms": 263.4236,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:10.075236+00:00",
+      "duration_ms": 263.5463,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:10.338814+00:00",
+      "duration_ms": 262.8017,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:10.601653+00:00",
+      "duration_ms": 264.4291,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:10.866122+00:00",
+      "duration_ms": 264.6959,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:11.130858+00:00",
+      "duration_ms": 262.8944,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:11.393922+00:00",
+      "duration_ms": 263.2781,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:11.657233+00:00",
+      "duration_ms": 265.0978,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:11.922367+00:00",
+      "duration_ms": 265.6766,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:12.188083+00:00",
+      "duration_ms": 264.2046,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:12.452325+00:00",
+      "duration_ms": 263.9692,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:12.716334+00:00",
+      "duration_ms": 264.1641,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:12.980536+00:00",
+      "duration_ms": 264.4813,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:13.245049+00:00",
+      "duration_ms": 262.5104,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:13.507588+00:00",
+      "duration_ms": 262.3526,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:13.769967+00:00",
+      "duration_ms": 263.0053,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:14.033385+00:00",
+      "duration_ms": 263.9709,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:14.297397+00:00",
+      "duration_ms": 262.5068,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:14.559943+00:00",
+      "duration_ms": 263.2954,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:14.823280+00:00",
+      "duration_ms": 265.4864,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:15.088827+00:00",
+      "duration_ms": 263.1514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:15.352018+00:00",
+      "duration_ms": 262.4625,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:15.614515+00:00",
+      "duration_ms": 263.6836,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:15.878409+00:00",
+      "duration_ms": 263.4515,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:16.141906+00:00",
+      "duration_ms": 262.7714,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:16.404715+00:00",
+      "duration_ms": 263.0705,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:16.667940+00:00",
+      "duration_ms": 263.4229,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:16.931406+00:00",
+      "duration_ms": 262.884,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:17.194328+00:00",
+      "duration_ms": 262.3486,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:17.456715+00:00",
+      "duration_ms": 262.995,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:17.719737+00:00",
+      "duration_ms": 281.1753,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:18.000941+00:00",
+      "duration_ms": 262.3896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:18.263364+00:00",
+      "duration_ms": 263.6514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:18.527051+00:00",
+      "duration_ms": 263.0034,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:18.790087+00:00",
+      "duration_ms": 263.6694,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:19.053786+00:00",
+      "duration_ms": 263.5564,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:19.317851+00:00",
+      "duration_ms": 264.0626,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:19.581965+00:00",
+      "duration_ms": 263.4201,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:19.845422+00:00",
+      "duration_ms": 262.0745,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:20.107525+00:00",
+      "duration_ms": 263.3287,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:20.370895+00:00",
+      "duration_ms": 264.8325,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:20.635775+00:00",
+      "duration_ms": 263.2601,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:20.899069+00:00",
+      "duration_ms": 263.7954,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:21.162896+00:00",
+      "duration_ms": 264.7271,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:21.427667+00:00",
+      "duration_ms": 264.9058,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:21.692622+00:00",
+      "duration_ms": 263.0427,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:21.955892+00:00",
+      "duration_ms": 262.9421,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:22.218874+00:00",
+      "duration_ms": 262.6128,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:22.481523+00:00",
+      "duration_ms": 262.3942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:22.743959+00:00",
+      "duration_ms": 262.1026,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:23.006099+00:00",
+      "duration_ms": 263.3262,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:23.269452+00:00",
+      "duration_ms": 264.6347,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:23.534123+00:00",
+      "duration_ms": 262.4994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:23.796663+00:00",
+      "duration_ms": 264.1946,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:24.060891+00:00",
+      "duration_ms": 262.4673,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:24.323392+00:00",
+      "duration_ms": 265.7984,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:24.589649+00:00",
+      "duration_ms": 262.9982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:24.852690+00:00",
+      "duration_ms": 263.1306,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:25.115860+00:00",
+      "duration_ms": 263.3577,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:25.379251+00:00",
+      "duration_ms": 262.8577,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:25.642146+00:00",
+      "duration_ms": 262.7872,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:25.904979+00:00",
+      "duration_ms": 262.771,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:26.167789+00:00",
+      "duration_ms": 264.3312,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:26.432159+00:00",
+      "duration_ms": 262.8735,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:26.695072+00:00",
+      "duration_ms": 266.143,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:26.961243+00:00",
+      "duration_ms": 263.8433,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:27.225255+00:00",
+      "duration_ms": 263.1516,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:27.488446+00:00",
+      "duration_ms": 264.3427,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:27.752823+00:00",
+      "duration_ms": 262.3181,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:28.015169+00:00",
+      "duration_ms": 262.6789,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:28.277883+00:00",
+      "duration_ms": 263.7538,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:28.541677+00:00",
+      "duration_ms": 263.6546,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:28.805371+00:00",
+      "duration_ms": 262.8477,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:29.068274+00:00",
+      "duration_ms": 262.4804,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:29.330791+00:00",
+      "duration_ms": 263.7518,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:29.594579+00:00",
+      "duration_ms": 263.5592,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:32.496324+00:00",
+      "duration_ms": 265.4826,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:32.761844+00:00",
+      "duration_ms": 275.5547,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:33.037433+00:00",
+      "duration_ms": 274.1601,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:33.311628+00:00",
+      "duration_ms": 262.8466,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:33.574519+00:00",
+      "duration_ms": 264.4249,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:33.838979+00:00",
+      "duration_ms": 262.5392,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:34.101552+00:00",
+      "duration_ms": 263.0935,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:34.364680+00:00",
+      "duration_ms": 262.8083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:34.627526+00:00",
+      "duration_ms": 262.5531,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:34.890113+00:00",
+      "duration_ms": 267.4393,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:35.157754+00:00",
+      "duration_ms": 262.6128,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:35.420402+00:00",
+      "duration_ms": 262.8328,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:35.683268+00:00",
+      "duration_ms": 263.1209,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:35.946422+00:00",
+      "duration_ms": 397.6589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:36.344118+00:00",
+      "duration_ms": 264.6334,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:36.608791+00:00",
+      "duration_ms": 264.1015,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:36.872936+00:00",
+      "duration_ms": 262.8272,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:37.135808+00:00",
+      "duration_ms": 269.8867,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:37.405742+00:00",
+      "duration_ms": 263.447,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:37.669239+00:00",
+      "duration_ms": 262.7051,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:37.932509+00:00",
+      "duration_ms": 264.0351,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:38.196588+00:00",
+      "duration_ms": 262.4869,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:38.459114+00:00",
+      "duration_ms": 263.4797,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:38.722635+00:00",
+      "duration_ms": 264.1422,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:38.986806+00:00",
+      "duration_ms": 262.1106,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:39.248939+00:00",
+      "duration_ms": 263.9154,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:39.512888+00:00",
+      "duration_ms": 264.9122,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:39.777838+00:00",
+      "duration_ms": 262.4757,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:40.040343+00:00",
+      "duration_ms": 267.3338,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:40.307716+00:00",
+      "duration_ms": 263.6582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:40.571625+00:00",
+      "duration_ms": 263.4901,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:40.835161+00:00",
+      "duration_ms": 264.0456,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:41.099247+00:00",
+      "duration_ms": 264.0411,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:41.363330+00:00",
+      "duration_ms": 263.5699,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:41.626942+00:00",
+      "duration_ms": 267.7718,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:41.894755+00:00",
+      "duration_ms": 264.2981,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:42.159099+00:00",
+      "duration_ms": 263.0723,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:42.422218+00:00",
+      "duration_ms": 263.2896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:42.685541+00:00",
+      "duration_ms": 262.7984,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:42.948377+00:00",
+      "duration_ms": 264.5838,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:43.213368+00:00",
+      "duration_ms": 264.8857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:43.478309+00:00",
+      "duration_ms": 264.9903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:43.743348+00:00",
+      "duration_ms": 263.5399,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:44.006933+00:00",
+      "duration_ms": 263.3256,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:44.270294+00:00",
+      "duration_ms": 264.6748,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:44.535015+00:00",
+      "duration_ms": 264.3857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:44.799445+00:00",
+      "duration_ms": 263.9012,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:45.063380+00:00",
+      "duration_ms": 264.7092,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:45.328123+00:00",
+      "duration_ms": 264.7226,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:45.592885+00:00",
+      "duration_ms": 263.3227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:45.856415+00:00",
+      "duration_ms": 263.2873,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:46.119745+00:00",
+      "duration_ms": 263.1773,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:46.382961+00:00",
+      "duration_ms": 262.2466,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:46.645251+00:00",
+      "duration_ms": 262.5621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:46.907858+00:00",
+      "duration_ms": 263.3875,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:47.171286+00:00",
+      "duration_ms": 263.1141,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:47.434439+00:00",
+      "duration_ms": 269.7997,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:47.704268+00:00",
+      "duration_ms": 262.5928,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:47.966888+00:00",
+      "duration_ms": 262.4301,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:48.229347+00:00",
+      "duration_ms": 261.8151,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:48.491344+00:00",
+      "duration_ms": 261.6252,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:48.753003+00:00",
+      "duration_ms": 262.6588,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:49.015691+00:00",
+      "duration_ms": 262.9518,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:49.278680+00:00",
+      "duration_ms": 265.3053,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:49.544023+00:00",
+      "duration_ms": 263.816,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:49.807877+00:00",
+      "duration_ms": 262.7261,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:50.070650+00:00",
+      "duration_ms": 263.9737,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:50.334665+00:00",
+      "duration_ms": 265.0996,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:50.599808+00:00",
+      "duration_ms": 263.4866,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:50.863337+00:00",
+      "duration_ms": 262.4887,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:51.125947+00:00",
+      "duration_ms": 263.2399,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:51.389222+00:00",
+      "duration_ms": 262.1556,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:51.651415+00:00",
+      "duration_ms": 262.8681,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:51.914316+00:00",
+      "duration_ms": 262.891,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:52.177248+00:00",
+      "duration_ms": 263.9327,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:52.441222+00:00",
+      "duration_ms": 262.841,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:52.704104+00:00",
+      "duration_ms": 262.9107,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:52.967055+00:00",
+      "duration_ms": 264.4441,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:53.231531+00:00",
+      "duration_ms": 265.1397,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:53.496705+00:00",
+      "duration_ms": 263.4703,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:53.760473+00:00",
+      "duration_ms": 262.7086,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:54.023214+00:00",
+      "duration_ms": 261.9938,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:54.285238+00:00",
+      "duration_ms": 263.5713,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:54.548842+00:00",
+      "duration_ms": 262.0498,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:54.810925+00:00",
+      "duration_ms": 263.2406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:55.074199+00:00",
+      "duration_ms": 265.6696,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:55.339904+00:00",
+      "duration_ms": 263.5873,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:55.603529+00:00",
+      "duration_ms": 262.4095,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:55.865980+00:00",
+      "duration_ms": 263.4769,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:56.129496+00:00",
+      "duration_ms": 263.7146,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:56.393420+00:00",
+      "duration_ms": 263.398,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:56.656861+00:00",
+      "duration_ms": 267.801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:56.924704+00:00",
+      "duration_ms": 264.2993,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:57.189057+00:00",
+      "duration_ms": 263.7425,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:57.452844+00:00",
+      "duration_ms": 262.8883,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:57.715767+00:00",
+      "duration_ms": 263.9035,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:57.979705+00:00",
+      "duration_ms": 263.3315,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:58.243072+00:00",
+      "duration_ms": 263.3381,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:58.506444+00:00",
+      "duration_ms": 261.8681,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:18:58.768349+00:00",
+      "duration_ms": 263.0444,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:01.845828+00:00",
+      "duration_ms": 264.4897,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:02.110348+00:00",
+      "duration_ms": 263.4701,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:02.373852+00:00",
+      "duration_ms": 264.1676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:02.638068+00:00",
+      "duration_ms": 263.1322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:02.901288+00:00",
+      "duration_ms": 263.3134,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:03.164639+00:00",
+      "duration_ms": 263.818,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:03.428495+00:00",
+      "duration_ms": 263.6541,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:03.692189+00:00",
+      "duration_ms": 262.9824,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:03.955207+00:00",
+      "duration_ms": 262.1415,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:04.217376+00:00",
+      "duration_ms": 466.3771,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:04.684253+00:00",
+      "duration_ms": 281.4038,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:04.965700+00:00",
+      "duration_ms": 268.2801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:05.234021+00:00",
+      "duration_ms": 263.99,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:05.498047+00:00",
+      "duration_ms": 561.3309,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:06.059518+00:00",
+      "duration_ms": 263.3395,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:06.322900+00:00",
+      "duration_ms": 262.737,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:06.585673+00:00",
+      "duration_ms": 263.6188,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:06.849327+00:00",
+      "duration_ms": 263.271,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:07.112632+00:00",
+      "duration_ms": 262.7092,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:07.375378+00:00",
+      "duration_ms": 262.7462,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:07.638620+00:00",
+      "duration_ms": 263.7903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:07.902454+00:00",
+      "duration_ms": 273.2925,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:08.175779+00:00",
+      "duration_ms": 264.6788,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:08.440491+00:00",
+      "duration_ms": 267.7645,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:08.708289+00:00",
+      "duration_ms": 268.4858,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:08.976815+00:00",
+      "duration_ms": 262.7614,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:09.239616+00:00",
+      "duration_ms": 262.5387,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:09.502186+00:00",
+      "duration_ms": 268.8915,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:09.771109+00:00",
+      "duration_ms": 266.2872,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:10.037430+00:00",
+      "duration_ms": 263.4108,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:10.301208+00:00",
+      "duration_ms": 267.2934,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:10.568534+00:00",
+      "duration_ms": 264.1144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:10.832687+00:00",
+      "duration_ms": 266.5385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:11.099273+00:00",
+      "duration_ms": 264.2901,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:11.363598+00:00",
+      "duration_ms": 677.3919,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:12.041024+00:00",
+      "duration_ms": 264.5653,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:12.305628+00:00",
+      "duration_ms": 263.9822,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:12.569649+00:00",
+      "duration_ms": 262.8319,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:12.832513+00:00",
+      "duration_ms": 262.7723,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:13.095316+00:00",
+      "duration_ms": 262.9635,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:13.358617+00:00",
+      "duration_ms": 263.7309,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:13.622393+00:00",
+      "duration_ms": 263.8377,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:13.886265+00:00",
+      "duration_ms": 263.1179,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:14.149417+00:00",
+      "duration_ms": 264.3822,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:14.413836+00:00",
+      "duration_ms": 264.1509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:14.678024+00:00",
+      "duration_ms": 264.0799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:14.942140+00:00",
+      "duration_ms": 264.299,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:15.206477+00:00",
+      "duration_ms": 264.486,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:15.471007+00:00",
+      "duration_ms": 265.1511,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:15.736196+00:00",
+      "duration_ms": 262.7176,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:15.999148+00:00",
+      "duration_ms": 262.6725,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:16.261856+00:00",
+      "duration_ms": 264.1359,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:16.526034+00:00",
+      "duration_ms": 262.9955,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:16.789080+00:00",
+      "duration_ms": 262.664,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:17.051781+00:00",
+      "duration_ms": 262.8497,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:17.314668+00:00",
+      "duration_ms": 263.0647,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:17.577772+00:00",
+      "duration_ms": 264.5216,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:17.842327+00:00",
+      "duration_ms": 264.2689,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:18.106633+00:00",
+      "duration_ms": 263.2401,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:18.369917+00:00",
+      "duration_ms": 264.1076,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:18.634469+00:00",
+      "duration_ms": 263.4401,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:18.897952+00:00",
+      "duration_ms": 264.4363,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:19.162428+00:00",
+      "duration_ms": 265.0326,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:19.427500+00:00",
+      "duration_ms": 281.3903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:19.708930+00:00",
+      "duration_ms": 264.0961,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:19.973061+00:00",
+      "duration_ms": 264.5426,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:20.237636+00:00",
+      "duration_ms": 263.2954,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:20.500972+00:00",
+      "duration_ms": 264.279,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:20.765309+00:00",
+      "duration_ms": 263.6854,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:21.029039+00:00",
+      "duration_ms": 264.0556,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:21.293666+00:00",
+      "duration_ms": 263.3865,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:21.557098+00:00",
+      "duration_ms": 262.6514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:21.819785+00:00",
+      "duration_ms": 263.6851,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:22.083503+00:00",
+      "duration_ms": 267.3089,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:22.350853+00:00",
+      "duration_ms": 264.148,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:22.615041+00:00",
+      "duration_ms": 264.0959,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:22.879172+00:00",
+      "duration_ms": 262.7268,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:23.142081+00:00",
+      "duration_ms": 262.7696,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:23.404923+00:00",
+      "duration_ms": 262.7904,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:23.667749+00:00",
+      "duration_ms": 264.2539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:23.932227+00:00",
+      "duration_ms": 261.9266,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:24.194195+00:00",
+      "duration_ms": 262.678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:24.456913+00:00",
+      "duration_ms": 262.9069,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:24.719864+00:00",
+      "duration_ms": 262.9593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:24.982866+00:00",
+      "duration_ms": 262.4896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:25.245400+00:00",
+      "duration_ms": 262.7781,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:25.508220+00:00",
+      "duration_ms": 262.5197,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:25.770773+00:00",
+      "duration_ms": 262.744,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:26.033549+00:00",
+      "duration_ms": 263.4914,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:26.297074+00:00",
+      "duration_ms": 263.3248,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:26.560806+00:00",
+      "duration_ms": 263.8221,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:26.824666+00:00",
+      "duration_ms": 533.8435,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:27.358543+00:00",
+      "duration_ms": 265.2834,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:27.623869+00:00",
+      "duration_ms": 265.6157,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:27.889523+00:00",
+      "duration_ms": 265.6273,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:28.155182+00:00",
+      "duration_ms": 263.8215,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:28.419038+00:00",
+      "duration_ms": 264.137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:28.683210+00:00",
+      "duration_ms": 264.3691,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:28.947620+00:00",
+      "duration_ms": 262.3193,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:29.209984+00:00",
+      "duration_ms": 266.4142,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:32.110682+00:00",
+      "duration_ms": 262.8444,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:32.373561+00:00",
+      "duration_ms": 262.9476,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:32.636541+00:00",
+      "duration_ms": 263.0921,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:32.899674+00:00",
+      "duration_ms": 264.1799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:33.163896+00:00",
+      "duration_ms": 262.7904,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:33.426728+00:00",
+      "duration_ms": 263.0633,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:33.689831+00:00",
+      "duration_ms": 264.9703,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:33.955022+00:00",
+      "duration_ms": 262.6373,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:34.217703+00:00",
+      "duration_ms": 262.788,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:34.480525+00:00",
+      "duration_ms": 262.8041,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:34.743514+00:00",
+      "duration_ms": 262.8841,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:35.006443+00:00",
+      "duration_ms": 263.4308,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:35.269908+00:00",
+      "duration_ms": 264.3237,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:35.534283+00:00",
+      "duration_ms": 263.6619,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:35.797989+00:00",
+      "duration_ms": 264.5434,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:36.062579+00:00",
+      "duration_ms": 263.4016,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:36.326027+00:00",
+      "duration_ms": 263.0342,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:36.589112+00:00",
+      "duration_ms": 262.7888,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:36.851948+00:00",
+      "duration_ms": 262.7801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:37.114768+00:00",
+      "duration_ms": 262.942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:37.378198+00:00",
+      "duration_ms": 261.7119,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:37.639951+00:00",
+      "duration_ms": 262.7456,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:37.902730+00:00",
+      "duration_ms": 263.2352,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:38.166000+00:00",
+      "duration_ms": 263.6882,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:38.429727+00:00",
+      "duration_ms": 264.0274,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:38.693796+00:00",
+      "duration_ms": 263.2313,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:38.957068+00:00",
+      "duration_ms": 264.4746,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:39.221580+00:00",
+      "duration_ms": 262.9685,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:39.484588+00:00",
+      "duration_ms": 263.6705,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:39.748295+00:00",
+      "duration_ms": 263.2918,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:40.011872+00:00",
+      "duration_ms": 264.5011,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:40.276421+00:00",
+      "duration_ms": 263.6962,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:40.540152+00:00",
+      "duration_ms": 264.0016,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:40.804188+00:00",
+      "duration_ms": 262.7818,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:41.067004+00:00",
+      "duration_ms": 263.1789,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:41.330216+00:00",
+      "duration_ms": 262.7563,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:41.593006+00:00",
+      "duration_ms": 262.0624,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:41.855102+00:00",
+      "duration_ms": 263.3096,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:42.118444+00:00",
+      "duration_ms": 263.2519,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:42.381729+00:00",
+      "duration_ms": 264.0488,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:42.646074+00:00",
+      "duration_ms": 264.9808,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:42.911105+00:00",
+      "duration_ms": 262.9518,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:43.174100+00:00",
+      "duration_ms": 262.7879,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:43.436925+00:00",
+      "duration_ms": 263.3938,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:43.700359+00:00",
+      "duration_ms": 265.3998,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:43.965797+00:00",
+      "duration_ms": 262.7967,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:44.228653+00:00",
+      "duration_ms": 263.4165,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:44.492103+00:00",
+      "duration_ms": 264.8738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:44.757012+00:00",
+      "duration_ms": 264.2721,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:45.021317+00:00",
+      "duration_ms": 263.7915,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:45.285562+00:00",
+      "duration_ms": 263.0602,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:45.548664+00:00",
+      "duration_ms": 263.8373,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:45.812537+00:00",
+      "duration_ms": 263.4933,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:46.076062+00:00",
+      "duration_ms": 263.0163,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:46.339106+00:00",
+      "duration_ms": 262.7573,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:46.601897+00:00",
+      "duration_ms": 263.2795,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:46.865216+00:00",
+      "duration_ms": 263.2794,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:47.128536+00:00",
+      "duration_ms": 263.8054,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:47.392382+00:00",
+      "duration_ms": 262.2915,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:47.654720+00:00",
+      "duration_ms": 263.7429,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:47.918729+00:00",
+      "duration_ms": 262.9244,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:48.181690+00:00",
+      "duration_ms": 262.6302,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:48.444359+00:00",
+      "duration_ms": 262.7401,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:48.707134+00:00",
+      "duration_ms": 264.5575,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:48.971724+00:00",
+      "duration_ms": 264.6064,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:49.236370+00:00",
+      "duration_ms": 262.2656,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:49.498681+00:00",
+      "duration_ms": 262.8963,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:49.761610+00:00",
+      "duration_ms": 262.5552,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:50.024199+00:00",
+      "duration_ms": 262.4499,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:50.286682+00:00",
+      "duration_ms": 262.8589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:50.549909+00:00",
+      "duration_ms": 264.0442,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:50.813994+00:00",
+      "duration_ms": 262.9857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:51.077017+00:00",
+      "duration_ms": 263.9996,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:51.341054+00:00",
+      "duration_ms": 263.6738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:51.604762+00:00",
+      "duration_ms": 262.7877,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:51.867586+00:00",
+      "duration_ms": 262.941,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:52.130565+00:00",
+      "duration_ms": 262.8712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:52.393478+00:00",
+      "duration_ms": 262.321,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:52.655833+00:00",
+      "duration_ms": 262.9396,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:52.918811+00:00",
+      "duration_ms": 262.796,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:53.181948+00:00",
+      "duration_ms": 262.7171,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:53.444699+00:00",
+      "duration_ms": 263.0641,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:53.707798+00:00",
+      "duration_ms": 264.5799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:53.972412+00:00",
+      "duration_ms": 264.4885,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:54.236937+00:00",
+      "duration_ms": 262.6573,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:54.499628+00:00",
+      "duration_ms": 262.5093,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:54.762175+00:00",
+      "duration_ms": 261.8561,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:55.024061+00:00",
+      "duration_ms": 264.6043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:55.288695+00:00",
+      "duration_ms": 263.3473,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:55.552078+00:00",
+      "duration_ms": 263.3369,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:55.815815+00:00",
+      "duration_ms": 262.5011,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:56.078350+00:00",
+      "duration_ms": 263.1939,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:56.341571+00:00",
+      "duration_ms": 262.3438,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:56.603957+00:00",
+      "duration_ms": 262.2391,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:56.866236+00:00",
+      "duration_ms": 261.9693,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:57.128238+00:00",
+      "duration_ms": 268.4019,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:57.396676+00:00",
+      "duration_ms": 264.9137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:57.661626+00:00",
+      "duration_ms": 264.0832,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:57.925771+00:00",
+      "duration_ms": 267.0514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:19:58.192854+00:00",
+      "duration_ms": 263.0158,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:01.282361+00:00",
+      "duration_ms": 286.6138,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:01.569018+00:00",
+      "duration_ms": 287.5285,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:01.856587+00:00",
+      "duration_ms": 286.0723,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:02.142699+00:00",
+      "duration_ms": 275.8099,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:02.418547+00:00",
+      "duration_ms": 280.7458,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:02.699331+00:00",
+      "duration_ms": 276.8453,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:02.976221+00:00",
+      "duration_ms": 281.3981,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:03.257663+00:00",
+      "duration_ms": 277.2881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:03.534990+00:00",
+      "duration_ms": 284.1744,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:03.819205+00:00",
+      "duration_ms": 276.0984,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:04.095526+00:00",
+      "duration_ms": 283.858,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:04.379427+00:00",
+      "duration_ms": 278.1215,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:04.657589+00:00",
+      "duration_ms": 283.7473,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:04.941378+00:00",
+      "duration_ms": 281.3507,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:05.222763+00:00",
+      "duration_ms": 281.7084,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:05.504509+00:00",
+      "duration_ms": 279.5044,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:05.784058+00:00",
+      "duration_ms": 336.2709,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:06.120365+00:00",
+      "duration_ms": 278.4797,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:06.398873+00:00",
+      "duration_ms": 283.2479,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:06.682148+00:00",
+      "duration_ms": 279.076,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:06.961413+00:00",
+      "duration_ms": 281.9074,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:07.243354+00:00",
+      "duration_ms": 275.7054,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:07.519106+00:00",
+      "duration_ms": 284.7251,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:07.803862+00:00",
+      "duration_ms": 278.7776,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:08.082677+00:00",
+      "duration_ms": 283.0215,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:08.365736+00:00",
+      "duration_ms": 279.2045,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:08.644979+00:00",
+      "duration_ms": 282.4343,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:08.927453+00:00",
+      "duration_ms": 277.9471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:09.205443+00:00",
+      "duration_ms": 294.4221,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:09.499908+00:00",
+      "duration_ms": 284.7196,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:09.784870+00:00",
+      "duration_ms": 281.9507,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:10.066866+00:00",
+      "duration_ms": 290.6895,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:10.357590+00:00",
+      "duration_ms": 281.678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:10.639303+00:00",
+      "duration_ms": 285.7046,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:10.925038+00:00",
+      "duration_ms": 310.2685,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:11.235335+00:00",
+      "duration_ms": 318.1941,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:11.553569+00:00",
+      "duration_ms": 310.7186,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:11.864333+00:00",
+      "duration_ms": 277.0503,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:12.141424+00:00",
+      "duration_ms": 280.5107,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:12.421971+00:00",
+      "duration_ms": 278.8385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:12.701130+00:00",
+      "duration_ms": 282.3655,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:12.983535+00:00",
+      "duration_ms": 319.8793,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:13.303453+00:00",
+      "duration_ms": 287.3433,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:13.590837+00:00",
+      "duration_ms": 324.0712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:13.914945+00:00",
+      "duration_ms": 293.7572,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:14.208743+00:00",
+      "duration_ms": 278.81,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:14.487616+00:00",
+      "duration_ms": 330.4615,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:14.818108+00:00",
+      "duration_ms": 282.4225,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:15.100563+00:00",
+      "duration_ms": 322.4335,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:15.423028+00:00",
+      "duration_ms": 277.354,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:15.700579+00:00",
+      "duration_ms": 285.3988,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:15.986015+00:00",
+      "duration_ms": 277.3897,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:16.263442+00:00",
+      "duration_ms": 301.6481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:16.565132+00:00",
+      "duration_ms": 276.5706,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:16.841745+00:00",
+      "duration_ms": 280.2923,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:17.122076+00:00",
+      "duration_ms": 277.1906,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:17.399305+00:00",
+      "duration_ms": 282.4291,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:17.681770+00:00",
+      "duration_ms": 282.2308,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:17.964036+00:00",
+      "duration_ms": 282.6242,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:18.246696+00:00",
+      "duration_ms": 278.2855,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:18.525184+00:00",
+      "duration_ms": 284.0737,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:18.809296+00:00",
+      "duration_ms": 279.8249,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:19.089155+00:00",
+      "duration_ms": 283.0268,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:19.372214+00:00",
+      "duration_ms": 276.8691,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:19.649123+00:00",
+      "duration_ms": 284.689,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:19.933862+00:00",
+      "duration_ms": 278.7525,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:20.212659+00:00",
+      "duration_ms": 288.0546,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:20.500757+00:00",
+      "duration_ms": 276.8881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:20.777687+00:00",
+      "duration_ms": 280.6731,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:21.058397+00:00",
+      "duration_ms": 277.4904,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:21.336094+00:00",
+      "duration_ms": 281.9471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:21.618079+00:00",
+      "duration_ms": 278.8166,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:21.896937+00:00",
+      "duration_ms": 282.4612,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:22.179443+00:00",
+      "duration_ms": 278.052,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:22.457540+00:00",
+      "duration_ms": 281.3053,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:22.738921+00:00",
+      "duration_ms": 276.233,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:23.015199+00:00",
+      "duration_ms": 282.1181,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:23.297361+00:00",
+      "duration_ms": 277.6271,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:23.575030+00:00",
+      "duration_ms": 279.9329,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:23.855005+00:00",
+      "duration_ms": 275.0319,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:24.130678+00:00",
+      "duration_ms": 287.0297,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:24.417740+00:00",
+      "duration_ms": 275.5385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:24.693314+00:00",
+      "duration_ms": 281.7117,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:24.975061+00:00",
+      "duration_ms": 277.2244,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:25.252320+00:00",
+      "duration_ms": 281.2619,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:25.533617+00:00",
+      "duration_ms": 277.3551,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:25.811014+00:00",
+      "duration_ms": 287.3755,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:26.098436+00:00",
+      "duration_ms": 276.536,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:26.375020+00:00",
+      "duration_ms": 280.88,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:26.655950+00:00",
+      "duration_ms": 278.0931,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:26.934280+00:00",
+      "duration_ms": 284.6095,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:27.218931+00:00",
+      "duration_ms": 279.3887,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:27.498365+00:00",
+      "duration_ms": 282.3797,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:27.780781+00:00",
+      "duration_ms": 278.4977,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:28.059305+00:00",
+      "duration_ms": 283.0056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:28.342538+00:00",
+      "duration_ms": 276.3539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:28.618933+00:00",
+      "duration_ms": 282.2684,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:28.901233+00:00",
+      "duration_ms": 274.4876,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:29.175754+00:00",
+      "duration_ms": 281.659,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:29.457450+00:00",
+      "duration_ms": 275.4779,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:33.675922+00:00",
+      "duration_ms": 396.0006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:34.071964+00:00",
+      "duration_ms": 403.3777,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:34.475375+00:00",
+      "duration_ms": 391.498,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:34.866911+00:00",
+      "duration_ms": 401.3481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:35.268297+00:00",
+      "duration_ms": 394.7872,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:35.663127+00:00",
+      "duration_ms": 481.122,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:36.144290+00:00",
+      "duration_ms": 411.2557,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:36.555585+00:00",
+      "duration_ms": 395.7851,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:36.951418+00:00",
+      "duration_ms": 403.36,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:37.354819+00:00",
+      "duration_ms": 464.0332,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:37.819103+00:00",
+      "duration_ms": 399.0422,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:38.218189+00:00",
+      "duration_ms": 347.9982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:38.566223+00:00",
+      "duration_ms": 396.0705,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:38.962330+00:00",
+      "duration_ms": 409.9534,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:39.372319+00:00",
+      "duration_ms": 392.3088,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:39.764668+00:00",
+      "duration_ms": 391.7992,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:40.156509+00:00",
+      "duration_ms": 400.3035,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:40.556845+00:00",
+      "duration_ms": 457.7899,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:41.014668+00:00",
+      "duration_ms": 401.4481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:41.416160+00:00",
+      "duration_ms": 352.6309,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:41.769065+00:00",
+      "duration_ms": 412.1397,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:42.181252+00:00",
+      "duration_ms": 382.209,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:42.563495+00:00",
+      "duration_ms": 409.9903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:42.973523+00:00",
+      "duration_ms": 410.4828,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:43.384052+00:00",
+      "duration_ms": 391.8217,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:43.775929+00:00",
+      "duration_ms": 473.4536,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:44.249431+00:00",
+      "duration_ms": 401.1162,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:44.650594+00:00",
+      "duration_ms": 402.2449,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:45.052879+00:00",
+      "duration_ms": 402.6006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:45.455517+00:00",
+      "duration_ms": 398.0076,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:45.853761+00:00",
+      "duration_ms": 405.6013,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:46.259407+00:00",
+      "duration_ms": 392.0745,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:46.651526+00:00",
+      "duration_ms": 395.1755,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:47.046750+00:00",
+      "duration_ms": 395.4117,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:47.442207+00:00",
+      "duration_ms": 398.4779,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:47.840726+00:00",
+      "duration_ms": 388.3137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:48.229067+00:00",
+      "duration_ms": 415.3171,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:48.644420+00:00",
+      "duration_ms": 480.1007,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:49.124566+00:00",
+      "duration_ms": 403.7075,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:49.528312+00:00",
+      "duration_ms": 392.9286,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:49.922744+00:00",
+      "duration_ms": 342.8659,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:50.265646+00:00",
+      "duration_ms": 403.6206,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:50.669302+00:00",
+      "duration_ms": 404.1798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:51.073517+00:00",
+      "duration_ms": 397.1025,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:51.470664+00:00",
+      "duration_ms": 393.0624,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:51.863772+00:00",
+      "duration_ms": 392.9777,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:52.256793+00:00",
+      "duration_ms": 402.4321,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:52.659264+00:00",
+      "duration_ms": 394.9265,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:53.054225+00:00",
+      "duration_ms": 389.6907,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:53.443945+00:00",
+      "duration_ms": 395.8748,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:53.840023+00:00",
+      "duration_ms": 394.9102,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:54.234967+00:00",
+      "duration_ms": 392.3787,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:54.627374+00:00",
+      "duration_ms": 403.7982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:55.031209+00:00",
+      "duration_ms": 398.9942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:55.430239+00:00",
+      "duration_ms": 392.8469,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:55.823120+00:00",
+      "duration_ms": 397.6327,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:56.220787+00:00",
+      "duration_ms": 392.5184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:56.613344+00:00",
+      "duration_ms": 398.6063,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:57.011996+00:00",
+      "duration_ms": 362.721,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:57.374757+00:00",
+      "duration_ms": 393.21,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:57.768169+00:00",
+      "duration_ms": 403.4891,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:58.171699+00:00",
+      "duration_ms": 396.0543,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:58.567788+00:00",
+      "duration_ms": 405.1239,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:58.972948+00:00",
+      "duration_ms": 391.4389,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:59.364422+00:00",
+      "duration_ms": 392.6658,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:20:59.757126+00:00",
+      "duration_ms": 484.6772,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:00.241845+00:00",
+      "duration_ms": 389.9768,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:00.631867+00:00",
+      "duration_ms": 401.7775,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:01.033684+00:00",
+      "duration_ms": 393.4569,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:01.427183+00:00",
+      "duration_ms": 399.5711,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:01.826999+00:00",
+      "duration_ms": 392.0086,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:02.219057+00:00",
+      "duration_ms": 349.206,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:02.568306+00:00",
+      "duration_ms": 407.4873,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:02.975836+00:00",
+      "duration_ms": 399.5845,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:03.375456+00:00",
+      "duration_ms": 397.3142,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:03.772806+00:00",
+      "duration_ms": 395.6639,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:04.168506+00:00",
+      "duration_ms": 441.7517,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:04.610290+00:00",
+      "duration_ms": 358.7304,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:04.969049+00:00",
+      "duration_ms": 397.9975,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:05.367082+00:00",
+      "duration_ms": 398.8713,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:05.766302+00:00",
+      "duration_ms": 474.7144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:06.241073+00:00",
+      "duration_ms": 403.2301,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:06.644338+00:00",
+      "duration_ms": 398.0639,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:07.042439+00:00",
+      "duration_ms": 398.2069,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:07.440683+00:00",
+      "duration_ms": 401.3522,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:07.842063+00:00",
+      "duration_ms": 476.5712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:08.318667+00:00",
+      "duration_ms": 396.4831,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:08.715193+00:00",
+      "duration_ms": 410.561,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:09.125787+00:00",
+      "duration_ms": 411.7056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:09.537523+00:00",
+      "duration_ms": 396.8529,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:09.936028+00:00",
+      "duration_ms": 392.8167,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:10.328883+00:00",
+      "duration_ms": 389.2485,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:10.718164+00:00",
+      "duration_ms": 392.8699,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:11.111074+00:00",
+      "duration_ms": 402.056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:11.513171+00:00",
+      "duration_ms": 357.8896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:11.871103+00:00",
+      "duration_ms": 468.6721,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:12.339819+00:00",
+      "duration_ms": 416.5141,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:12.756373+00:00",
+      "duration_ms": 466.9359,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:13.223350+00:00",
+      "duration_ms": 401.7319,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:13.625119+00:00",
+      "duration_ms": 397.2948,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.024379+00:00",
+      "duration_ms": 261.85799995437264,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029818+00:00",
+      "duration_ms": 519.0471999812871,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029826+00:00",
+      "duration_ms": 803.6642000079155,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029830+00:00",
+      "duration_ms": 1066.3538998924196,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029835+00:00",
+      "duration_ms": 1348.0811000335962,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.026355+00:00",
+      "duration_ms": 1410.0164000410587,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.027953+00:00",
+      "duration_ms": 1413.5203999467194,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.026909+00:00",
+      "duration_ms": 1431.59320007544,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029423+00:00",
+      "duration_ms": 1482.7759999316186,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.027594+00:00",
+      "duration_ms": 1484.622300020419,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029799+00:00",
+      "duration_ms": 1484.3247000826523,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.028249+00:00",
+      "duration_ms": 1488.6441000271589,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.028692+00:00",
+      "duration_ms": 1489.3939000321552,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.025336+00:00",
+      "duration_ms": 1505.8512999676168,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029839+00:00",
+      "duration_ms": 1611.498299986124,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029847+00:00",
+      "duration_ms": 1675.5776000209153,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029843+00:00",
+      "duration_ms": 1679.3725999305025,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029851+00:00",
+      "duration_ms": 1705.4825000232086,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029864+00:00",
+      "duration_ms": 1742.0528000220656,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029856+00:00",
+      "duration_ms": 1749.4970000116155,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029873+00:00",
+      "duration_ms": 1750.8302999194711,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029868+00:00",
+      "duration_ms": 1771.4039999991655,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029860+00:00",
+      "duration_ms": 1785.3197999065742,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029876+00:00",
+      "duration_ms": 1801.094200112857,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029880+00:00",
+      "duration_ms": 1874.7175000607967,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029888+00:00",
+      "duration_ms": 1943.2997999247164,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029884+00:00",
+      "duration_ms": 1949.1007999749854,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029892+00:00",
+      "duration_ms": 1983.595300000161,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029896+00:00",
+      "duration_ms": 1998.7319000065327,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029904+00:00",
+      "duration_ms": 2013.5749999899417,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029900+00:00",
+      "duration_ms": 2032.764200004749,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029908+00:00",
+      "duration_ms": 2052.3488000035286,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029912+00:00",
+      "duration_ms": 2057.0264999987558,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029915+00:00",
+      "duration_ms": 2082.816499983892,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029919+00:00",
+      "duration_ms": 2137.773099937476,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029926+00:00",
+      "duration_ms": 2213.2796000223607,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029922+00:00",
+      "duration_ms": 2217.0264000305906,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029934+00:00",
+      "duration_ms": 2257.4788000201806,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029929+00:00",
+      "duration_ms": 2261.228400049731,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029938+00:00",
+      "duration_ms": 2292.1455000760034,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029942+00:00",
+      "duration_ms": 2300.005799974315,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029950+00:00",
+      "duration_ms": 2338.234999915585,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029946+00:00",
+      "duration_ms": 2338.495900039561,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029955+00:00",
+      "duration_ms": 2362.490300089121,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029959+00:00",
+      "duration_ms": 2399.595999973826,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029967+00:00",
+      "duration_ms": 2480.3595999255776,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029962+00:00",
+      "duration_ms": 2483.216500026174,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029974+00:00",
+      "duration_ms": 2523.770199972205,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029971+00:00",
+      "duration_ms": 2530.1614000927657,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029989+00:00",
+      "duration_ms": 2567.7504000486806,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029978+00:00",
+      "duration_ms": 2569.9523999355733,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029996+00:00",
+      "duration_ms": 2605.987799935974,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.029992+00:00",
+      "duration_ms": 2623.8970999838784,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030000+00:00",
+      "duration_ms": 2645.661700051278,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030003+00:00",
+      "duration_ms": 2661.083300015889,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030011+00:00",
+      "duration_ms": 2737.7384999999776,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030007+00:00",
+      "duration_ms": 2752.4375000502914,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030018+00:00",
+      "duration_ms": 2795.6764000700787,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030014+00:00",
+      "duration_ms": 2797.886800020933,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030024+00:00",
+      "duration_ms": 2834.0898000169545,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030021+00:00",
+      "duration_ms": 2849.055500002578,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030028+00:00",
+      "duration_ms": 2887.301299953833,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030031+00:00",
+      "duration_ms": 2894.460599985905,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030034+00:00",
+      "duration_ms": 2928.068600012921,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030038+00:00",
+      "duration_ms": 2928.080999990925,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030041+00:00",
+      "duration_ms": 3009.6407999517396,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030045+00:00",
+      "duration_ms": 3011.2788000842556,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030052+00:00",
+      "duration_ms": 3061.858700006269,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030048+00:00",
+      "duration_ms": 3066.9877000618726,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030055+00:00",
+      "duration_ms": 3114.9415000109,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030059+00:00",
+      "duration_ms": 3116.9917999068275,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030062+00:00",
+      "duration_ms": 3169.448100030422,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030066+00:00",
+      "duration_ms": 3169.460600009188,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030074+00:00",
+      "duration_ms": 3189.3724999390543,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030070+00:00",
+      "duration_ms": 3206.972499960102,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030081+00:00",
+      "duration_ms": 3276.518400060013,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030078+00:00",
+      "duration_ms": 3281.0254000360146,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030088+00:00",
+      "duration_ms": 3335.393999936059,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030085+00:00",
+      "duration_ms": 3337.340999976732,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030095+00:00",
+      "duration_ms": 3388.273000018671,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030092+00:00",
+      "duration_ms": 3393.6108000343665,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030102+00:00",
+      "duration_ms": 3445.9008999401703,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030099+00:00",
+      "duration_ms": 3450.410000048578,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030106+00:00",
+      "duration_ms": 3464.2376000992954,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030110+00:00",
+      "duration_ms": 3470.795499975793,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030119+00:00",
+      "duration_ms": 3548.7968999659643,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030113+00:00",
+      "duration_ms": 3553.9110000245273,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030126+00:00",
+      "duration_ms": 3604.1013000067323,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030122+00:00",
+      "duration_ms": 3608.4675000747666,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030134+00:00",
+      "duration_ms": 3657.660999917425,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030130+00:00",
+      "duration_ms": 3672.109300037846,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030141+00:00",
+      "duration_ms": 3716.972199967131,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030137+00:00",
+      "duration_ms": 3732.4804000090808,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030147+00:00",
+      "duration_ms": 3743.139300029725,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030144+00:00",
+      "duration_ms": 3748.0417999904603,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030155+00:00",
+      "duration_ms": 3815.8900000853464,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030151+00:00",
+      "duration_ms": 3818.6792000196874,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030163+00:00",
+      "duration_ms": 3864.006599993445,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030159+00:00",
+      "duration_ms": 3878.4548999974504,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "cognodb",
+      "started_at": "2026-08-24T18:21:14.030166+00:00",
+      "duration_ms": 3937.2901999158785,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    }
+  ],
+  "notes": [
+    "{\"load_wall_ms\": 28765.28019993566, \"loaded_nodes\": 74062, \"loaded_relationships\": 150000}",
+    "{\"mixed_clients\": 10, \"mixed_ok\": 100, \"mixed_qps\": 25.340491312189922, \"read_fraction\": 0.5, \"write_fraction\": 0.5}"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "/graphbench-arango",
+  "image": "arangodb:3.12.4",
+  "cpus_nano": 500000000,
+  "memory_bytes": 536870912,
+  "storage_opt": {
+    "size": "1G"
+  }
+}

@@ -1,0 +1,6331 @@
+{
+  "database": "neo4j_docker",
+  "started_at": "2026-08-24T18:48:04.055125+00:00",
+  "finished_at": "2026-08-24T18:49:05.005639+00:00",
+  "host": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "cpu_count": 22,
+    "hostname": "redacted"
+  },
+  "platform": {
+    "name": "neo4j_docker",
+    "resource_specs": "not recorded"
+  },
+  "dataset": {
+    "directory": "data/pokec_sample",
+    "nodes": 74062,
+    "relationships": 150000
+  },
+  "settings": {
+    "warmup": 10,
+    "iterations": 100,
+    "mixed_clients": 10
+  },
+  "samples": [
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.518956+00:00",
+      "duration_ms": 83.4733,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.602471+00:00",
+      "duration_ms": 4.3974,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.606893+00:00",
+      "duration_ms": 4.7629,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.611675+00:00",
+      "duration_ms": 3.4087,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.615104+00:00",
+      "duration_ms": 83.6172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.698748+00:00",
+      "duration_ms": 4.9086,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.703682+00:00",
+      "duration_ms": 3.6626,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.707362+00:00",
+      "duration_ms": 3.2171,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.710596+00:00",
+      "duration_ms": 3.064,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.713675+00:00",
+      "duration_ms": 84.1764,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.798256+00:00",
+      "duration_ms": 5.2356,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.803522+00:00",
+      "duration_ms": 4.2524,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.807798+00:00",
+      "duration_ms": 3.9077,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.811726+00:00",
+      "duration_ms": 4.2139,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.815957+00:00",
+      "duration_ms": 84.312,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.900310+00:00",
+      "duration_ms": 6.1914,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.906532+00:00",
+      "duration_ms": 5.5702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.912130+00:00",
+      "duration_ms": 7.1194,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:50.919293+00:00",
+      "duration_ms": 81.0036,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.000328+00:00",
+      "duration_ms": 4.4708,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.005096+00:00",
+      "duration_ms": 5.1104,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.010235+00:00",
+      "duration_ms": 4.6803,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.014938+00:00",
+      "duration_ms": 4.1588,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.019119+00:00",
+      "duration_ms": 80.4276,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.099571+00:00",
+      "duration_ms": 4.8934,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.104489+00:00",
+      "duration_ms": 4.8184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.109330+00:00",
+      "duration_ms": 5.849,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.115203+00:00",
+      "duration_ms": 4.1533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.119377+00:00",
+      "duration_ms": 4.0184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.123417+00:00",
+      "duration_ms": 73.7918,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.197343+00:00",
+      "duration_ms": 5.1678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.202547+00:00",
+      "duration_ms": 4.5862,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.207156+00:00",
+      "duration_ms": 5.0789,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.212259+00:00",
+      "duration_ms": 4.5982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.216881+00:00",
+      "duration_ms": 4.4867,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.221392+00:00",
+      "duration_ms": 79.9272,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.301354+00:00",
+      "duration_ms": 4.6137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.305993+00:00",
+      "duration_ms": 4.1006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.310115+00:00",
+      "duration_ms": 4.0366,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.314173+00:00",
+      "duration_ms": 3.7782,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.318091+00:00",
+      "duration_ms": 3.9033,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.322027+00:00",
+      "duration_ms": 3.8419,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.325889+00:00",
+      "duration_ms": 3.6529,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.329563+00:00",
+      "duration_ms": 3.9368,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.333520+00:00",
+      "duration_ms": 66.8292,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.400374+00:00",
+      "duration_ms": 4.7917,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.405193+00:00",
+      "duration_ms": 4.3076,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.409522+00:00",
+      "duration_ms": 3.7792,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.413321+00:00",
+      "duration_ms": 3.7149,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.417056+00:00",
+      "duration_ms": 3.6468,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.420925+00:00",
+      "duration_ms": 3.7542,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.424711+00:00",
+      "duration_ms": 3.661,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.428392+00:00",
+      "duration_ms": 69.7913,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.498215+00:00",
+      "duration_ms": 5.6063,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.503851+00:00",
+      "duration_ms": 4.391,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.508262+00:00",
+      "duration_ms": 3.9246,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.512207+00:00",
+      "duration_ms": 4.8734,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.517102+00:00",
+      "duration_ms": 3.9738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.521097+00:00",
+      "duration_ms": 4.0702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.525186+00:00",
+      "duration_ms": 3.5069,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.531079+00:00",
+      "duration_ms": 4.1754,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.535279+00:00",
+      "duration_ms": 62.7881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.598092+00:00",
+      "duration_ms": 4.7169,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.602833+00:00",
+      "duration_ms": 4.3565,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.607209+00:00",
+      "duration_ms": 3.8994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.611129+00:00",
+      "duration_ms": 3.5043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.614653+00:00",
+      "duration_ms": 5.815,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.620486+00:00",
+      "duration_ms": 3.3503,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.623854+00:00",
+      "duration_ms": 75.0209,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.698900+00:00",
+      "duration_ms": 4.1932,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.703221+00:00",
+      "duration_ms": 4.2347,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.707477+00:00",
+      "duration_ms": 4.0154,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.711512+00:00",
+      "duration_ms": 3.4539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.714986+00:00",
+      "duration_ms": 3.3392,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.718342+00:00",
+      "duration_ms": 3.0981,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.721457+00:00",
+      "duration_ms": 3.6426,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.725117+00:00",
+      "duration_ms": 73.3823,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.798529+00:00",
+      "duration_ms": 4.9881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.803546+00:00",
+      "duration_ms": 4.0141,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.807582+00:00",
+      "duration_ms": 3.8219,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.811707+00:00",
+      "duration_ms": 3.5314,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.815258+00:00",
+      "duration_ms": 3.4414,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.818718+00:00",
+      "duration_ms": 3.2793,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.822014+00:00",
+      "duration_ms": 3.2571,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.825289+00:00",
+      "duration_ms": 3.0806,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.828388+00:00",
+      "duration_ms": 3.0937,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.831499+00:00",
+      "duration_ms": 65.8458,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.897366+00:00",
+      "duration_ms": 4.5308,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.901964+00:00",
+      "duration_ms": 3.8663,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.905849+00:00",
+      "duration_ms": 3.9017,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.910816+00:00",
+      "duration_ms": 5.0239,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.915868+00:00",
+      "duration_ms": 5.2036,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.921097+00:00",
+      "duration_ms": 4.8438,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.925967+00:00",
+      "duration_ms": 4.1016,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.930090+00:00",
+      "duration_ms": 3.2359,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.933345+00:00",
+      "duration_ms": 3.3916,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.936754+00:00",
+      "duration_ms": 62.9158,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:51.999690+00:00",
+      "duration_ms": 3.6483,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.003363+00:00",
+      "duration_ms": 4.6048,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.007986+00:00",
+      "duration_ms": 3.3889,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.513413+00:00",
+      "duration_ms": 7.6696,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.521117+00:00",
+      "duration_ms": 2.9644,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.524102+00:00",
+      "duration_ms": 76.4385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.600563+00:00",
+      "duration_ms": 3.8799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.604469+00:00",
+      "duration_ms": 3.6386,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.608125+00:00",
+      "duration_ms": 2.9639,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.611105+00:00",
+      "duration_ms": 2.802,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.613922+00:00",
+      "duration_ms": 2.5825,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.616518+00:00",
+      "duration_ms": 2.3416,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.618874+00:00",
+      "duration_ms": 3.4377,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.624687+00:00",
+      "duration_ms": 3.791,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.628504+00:00",
+      "duration_ms": 3.2509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.631773+00:00",
+      "duration_ms": 66.6393,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.698438+00:00",
+      "duration_ms": 6.5374,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.705002+00:00",
+      "duration_ms": 4.0168,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.709039+00:00",
+      "duration_ms": 3.3796,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.712438+00:00",
+      "duration_ms": 3.2719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.715729+00:00",
+      "duration_ms": 82.5844,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.798339+00:00",
+      "duration_ms": 5.7177,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.804087+00:00",
+      "duration_ms": 3.6059,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.808058+00:00",
+      "duration_ms": 3.786,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.811868+00:00",
+      "duration_ms": 3.2026,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.815085+00:00",
+      "duration_ms": 2.7415,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.817841+00:00",
+      "duration_ms": 2.8852,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.820739+00:00",
+      "duration_ms": 2.6583,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.823412+00:00",
+      "duration_ms": 2.7713,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.826200+00:00",
+      "duration_ms": 2.7776,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.828994+00:00",
+      "duration_ms": 70.3127,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.899329+00:00",
+      "duration_ms": 4.5892,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.903944+00:00",
+      "duration_ms": 3.2133,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.907499+00:00",
+      "duration_ms": 3.0547,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.910579+00:00",
+      "duration_ms": 2.2388,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.912831+00:00",
+      "duration_ms": 2.4582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.915301+00:00",
+      "duration_ms": 2.126,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.917439+00:00",
+      "duration_ms": 2.984,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.920437+00:00",
+      "duration_ms": 2.803,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.923256+00:00",
+      "duration_ms": 3.116,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.926387+00:00",
+      "duration_ms": 71.4843,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:52.997899+00:00",
+      "duration_ms": 4.6843,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.002617+00:00",
+      "duration_ms": 4.2376,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.007175+00:00",
+      "duration_ms": 3.7267,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.010922+00:00",
+      "duration_ms": 3.5341,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.014478+00:00",
+      "duration_ms": 3.0747,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.017572+00:00",
+      "duration_ms": 2.9998,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.020590+00:00",
+      "duration_ms": 3.12,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.023728+00:00",
+      "duration_ms": 3.5658,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.027312+00:00",
+      "duration_ms": 3.3086,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.030641+00:00",
+      "duration_ms": 3.0184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.033678+00:00",
+      "duration_ms": 3.1111,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.036807+00:00",
+      "duration_ms": 60.8512,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.097767+00:00",
+      "duration_ms": 4.667,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.102461+00:00",
+      "duration_ms": 3.2212,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.105702+00:00",
+      "duration_ms": 3.7079,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.109429+00:00",
+      "duration_ms": 3.2499,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.112698+00:00",
+      "duration_ms": 3.2882,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.116003+00:00",
+      "duration_ms": 2.8994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.118919+00:00",
+      "duration_ms": 2.9966,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.121931+00:00",
+      "duration_ms": 78.6962,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.200646+00:00",
+      "duration_ms": 3.3629,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.204028+00:00",
+      "duration_ms": 2.4029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.206544+00:00",
+      "duration_ms": 2.75,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.209309+00:00",
+      "duration_ms": 2.6736,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.211997+00:00",
+      "duration_ms": 2.7597,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.214770+00:00",
+      "duration_ms": 3.164,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.217948+00:00",
+      "duration_ms": 3.6324,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.221595+00:00",
+      "duration_ms": 2.8663,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.224477+00:00",
+      "duration_ms": 2.9833,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.227477+00:00",
+      "duration_ms": 70.2825,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.297782+00:00",
+      "duration_ms": 4.2565,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.302063+00:00",
+      "duration_ms": 3.3325,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.305512+00:00",
+      "duration_ms": 3.548,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.309080+00:00",
+      "duration_ms": 2.6459,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.311744+00:00",
+      "duration_ms": 2.4322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.314192+00:00",
+      "duration_ms": 2.4076,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.316616+00:00",
+      "duration_ms": 2.6337,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.319265+00:00",
+      "duration_ms": 2.3151,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.321594+00:00",
+      "duration_ms": 2.4915,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.324101+00:00",
+      "duration_ms": 73.3999,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.397522+00:00",
+      "duration_ms": 4.6891,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.402237+00:00",
+      "duration_ms": 3.3997,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.405750+00:00",
+      "duration_ms": 3.5093,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.409290+00:00",
+      "duration_ms": 3.3475,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.412659+00:00",
+      "duration_ms": 2.9896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.415662+00:00",
+      "duration_ms": 3.0031,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.418680+00:00",
+      "duration_ms": 3.0672,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.421761+00:00",
+      "duration_ms": 76.1671,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.497955+00:00",
+      "duration_ms": 5.288,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.503271+00:00",
+      "duration_ms": 2.9629,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.506249+00:00",
+      "duration_ms": 2.7044,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.508966+00:00",
+      "duration_ms": 2.7905,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.511856+00:00",
+      "duration_ms": 2.9277,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.514806+00:00",
+      "duration_ms": 2.7761,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.517597+00:00",
+      "duration_ms": 2.4349,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.520047+00:00",
+      "duration_ms": 2.3068,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.522367+00:00",
+      "duration_ms": 2.4176,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.524798+00:00",
+      "duration_ms": 2.643,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.527457+00:00",
+      "duration_ms": 2.3779,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.529850+00:00",
+      "duration_ms": 2.3044,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.532167+00:00",
+      "duration_ms": 65.6985,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.597890+00:00",
+      "duration_ms": 4.3142,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:53.999540+00:00",
+      "duration_ms": 8.476,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.008051+00:00",
+      "duration_ms": 3.1985,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.011268+00:00",
+      "duration_ms": 2.6413,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.013923+00:00",
+      "duration_ms": 2.7144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.016652+00:00",
+      "duration_ms": 2.91,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.019578+00:00",
+      "duration_ms": 76.4836,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.096091+00:00",
+      "duration_ms": 4.2916,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.100409+00:00",
+      "duration_ms": 3.7227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.104155+00:00",
+      "duration_ms": 2.9459,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.107119+00:00",
+      "duration_ms": 3.6449,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.111048+00:00",
+      "duration_ms": 2.6593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.113721+00:00",
+      "duration_ms": 2.7712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.116507+00:00",
+      "duration_ms": 2.5347,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.119056+00:00",
+      "duration_ms": 82.7563,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.201830+00:00",
+      "duration_ms": 3.8079,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.205660+00:00",
+      "duration_ms": 2.9344,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.208610+00:00",
+      "duration_ms": 2.5387,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.211163+00:00",
+      "duration_ms": 2.3782,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.213555+00:00",
+      "duration_ms": 2.6453,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.216218+00:00",
+      "duration_ms": 2.1629,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.218482+00:00",
+      "duration_ms": 2.8117,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.221311+00:00",
+      "duration_ms": 76.5807,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.297915+00:00",
+      "duration_ms": 4.1889,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.302133+00:00",
+      "duration_ms": 3.5813,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.305737+00:00",
+      "duration_ms": 2.337,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.308088+00:00",
+      "duration_ms": 2.0376,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.310137+00:00",
+      "duration_ms": 1.9266,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.312075+00:00",
+      "duration_ms": 1.7719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.313857+00:00",
+      "duration_ms": 1.9868,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.315856+00:00",
+      "duration_ms": 2.0766,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.318040+00:00",
+      "duration_ms": 2.599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.320656+00:00",
+      "duration_ms": 2.2135,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.322883+00:00",
+      "duration_ms": 2.2036,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.325099+00:00",
+      "duration_ms": 2.3367,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.327450+00:00",
+      "duration_ms": 70.5708,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.398044+00:00",
+      "duration_ms": 3.9803,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.402047+00:00",
+      "duration_ms": 3.0826,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.405144+00:00",
+      "duration_ms": 2.7574,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.407918+00:00",
+      "duration_ms": 2.8022,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.410736+00:00",
+      "duration_ms": 2.2712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.413154+00:00",
+      "duration_ms": 83.9905,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.497175+00:00",
+      "duration_ms": 3.7082,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.500904+00:00",
+      "duration_ms": 12.2184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.513142+00:00",
+      "duration_ms": 3.9212,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.517085+00:00",
+      "duration_ms": 2.3424,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.519444+00:00",
+      "duration_ms": 2.666,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.522125+00:00",
+      "duration_ms": 2.6887,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.524830+00:00",
+      "duration_ms": 2.4648,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.527312+00:00",
+      "duration_ms": 71.6608,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.598994+00:00",
+      "duration_ms": 3.1712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.602304+00:00",
+      "duration_ms": 2.5682,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.604902+00:00",
+      "duration_ms": 2.2756,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.607194+00:00",
+      "duration_ms": 2.8778,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.610086+00:00",
+      "duration_ms": 2.7089,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.612811+00:00",
+      "duration_ms": 102.978,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.715808+00:00",
+      "duration_ms": 3.7899,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.719620+00:00",
+      "duration_ms": 3.0061,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.722645+00:00",
+      "duration_ms": 2.8272,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.725489+00:00",
+      "duration_ms": 73.9197,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.799429+00:00",
+      "duration_ms": 3.8514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.803557+00:00",
+      "duration_ms": 3.7485,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.807335+00:00",
+      "duration_ms": 2.6719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.810025+00:00",
+      "duration_ms": 2.4863,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.812528+00:00",
+      "duration_ms": 85.702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.898256+00:00",
+      "duration_ms": 3.5914,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.901878+00:00",
+      "duration_ms": 4.5297,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.906428+00:00",
+      "duration_ms": 2.5942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.909041+00:00",
+      "duration_ms": 2.3458,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.911403+00:00",
+      "duration_ms": 2.2215,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.913639+00:00",
+      "duration_ms": 2.1,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.915859+00:00",
+      "duration_ms": 2.2549,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.918129+00:00",
+      "duration_ms": 2.1826,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.920325+00:00",
+      "duration_ms": 2.2061,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.922543+00:00",
+      "duration_ms": 3.176,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.925733+00:00",
+      "duration_ms": 71.2832,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:54.997041+00:00",
+      "duration_ms": 4.1901,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.001262+00:00",
+      "duration_ms": 3.1124,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.004397+00:00",
+      "duration_ms": 2.9168,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.007326+00:00",
+      "duration_ms": 3.0347,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.010382+00:00",
+      "duration_ms": 3.2263,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.013887+00:00",
+      "duration_ms": 3.0099,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.016913+00:00",
+      "duration_ms": 80.6925,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.097626+00:00",
+      "duration_ms": 3.6022,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.101251+00:00",
+      "duration_ms": 2.6811,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.103949+00:00",
+      "duration_ms": 2.7462,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.106712+00:00",
+      "duration_ms": 2.6621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.109391+00:00",
+      "duration_ms": 2.4652,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.111872+00:00",
+      "duration_ms": 2.8266,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.114714+00:00",
+      "duration_ms": 2.8812,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.117610+00:00",
+      "duration_ms": 2.3828,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.120101+00:00",
+      "duration_ms": 2.8314,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.122975+00:00",
+      "duration_ms": 3.1492,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.126140+00:00",
+      "duration_ms": 2.2716,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.128427+00:00",
+      "duration_ms": 69.0816,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.197532+00:00",
+      "duration_ms": 3.4996,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.201059+00:00",
+      "duration_ms": 3.2604,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.204339+00:00",
+      "duration_ms": 3.0227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.207380+00:00",
+      "duration_ms": 2.0581,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.209455+00:00",
+      "duration_ms": 1.9905,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.211462+00:00",
+      "duration_ms": 2.3846,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.516496+00:00",
+      "duration_ms": 6.3028,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.522844+00:00",
+      "duration_ms": 74.5185,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.597390+00:00",
+      "duration_ms": 3.9366,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.601354+00:00",
+      "duration_ms": 2.7013,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.604073+00:00",
+      "duration_ms": 3.1021,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.607190+00:00",
+      "duration_ms": 2.0926,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.609298+00:00",
+      "duration_ms": 2.1926,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.611505+00:00",
+      "duration_ms": 2.1632,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.613683+00:00",
+      "duration_ms": 2.1174,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.615814+00:00",
+      "duration_ms": 2.3569,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.618624+00:00",
+      "duration_ms": 2.8239,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.621470+00:00",
+      "duration_ms": 2.3997,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.623886+00:00",
+      "duration_ms": 2.3147,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.626215+00:00",
+      "duration_ms": 2.1591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.628388+00:00",
+      "duration_ms": 2.0859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.630489+00:00",
+      "duration_ms": 1.8841,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.632386+00:00",
+      "duration_ms": 1.8815,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.634280+00:00",
+      "duration_ms": 1.9881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.636281+00:00",
+      "duration_ms": 2.1808,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.638475+00:00",
+      "duration_ms": 2.1941,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.643135+00:00",
+      "duration_ms": 2.4976,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.645657+00:00",
+      "duration_ms": 2.1762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.647847+00:00",
+      "duration_ms": 50.6267,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.698497+00:00",
+      "duration_ms": 2.7035,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.701224+00:00",
+      "duration_ms": 2.877,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.704117+00:00",
+      "duration_ms": 2.812,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.706945+00:00",
+      "duration_ms": 1.8606,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.708821+00:00",
+      "duration_ms": 2.0572,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.710891+00:00",
+      "duration_ms": 1.8161,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.712719+00:00",
+      "duration_ms": 1.9332,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.714887+00:00",
+      "duration_ms": 2.6267,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.717532+00:00",
+      "duration_ms": 2.5322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.720082+00:00",
+      "duration_ms": 2.1795,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.722272+00:00",
+      "duration_ms": 2.0798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.724364+00:00",
+      "duration_ms": 1.8693,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.726248+00:00",
+      "duration_ms": 1.9247,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.728186+00:00",
+      "duration_ms": 2.0839,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.730280+00:00",
+      "duration_ms": 2.057,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.732349+00:00",
+      "duration_ms": 2.1382,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.734501+00:00",
+      "duration_ms": 2.0799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.736689+00:00",
+      "duration_ms": 2.1085,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.738814+00:00",
+      "duration_ms": 58.5564,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.797394+00:00",
+      "duration_ms": 4.342,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.801763+00:00",
+      "duration_ms": 3.0425,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.804826+00:00",
+      "duration_ms": 2.5124,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.807357+00:00",
+      "duration_ms": 2.0618,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.809434+00:00",
+      "duration_ms": 2.067,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.811515+00:00",
+      "duration_ms": 2.2763,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.813805+00:00",
+      "duration_ms": 2.2017,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.816022+00:00",
+      "duration_ms": 1.894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.818021+00:00",
+      "duration_ms": 2.0964,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.820134+00:00",
+      "duration_ms": 1.8589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.822007+00:00",
+      "duration_ms": 1.81,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.823831+00:00",
+      "duration_ms": 2.0587,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.825904+00:00",
+      "duration_ms": 1.6862,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.827603+00:00",
+      "duration_ms": 1.7781,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.829394+00:00",
+      "duration_ms": 2.3267,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.831733+00:00",
+      "duration_ms": 1.7309,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.833476+00:00",
+      "duration_ms": 1.718,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.835206+00:00",
+      "duration_ms": 1.5977,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.836900+00:00",
+      "duration_ms": 1.6871,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.838600+00:00",
+      "duration_ms": 2.3569,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.840972+00:00",
+      "duration_ms": 2.2403,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.843229+00:00",
+      "duration_ms": 1.8816,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.845126+00:00",
+      "duration_ms": 1.809,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.846950+00:00",
+      "duration_ms": 51.9192,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.898891+00:00",
+      "duration_ms": 3.2382,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.902154+00:00",
+      "duration_ms": 2.2882,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.904458+00:00",
+      "duration_ms": 2.2717,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.906745+00:00",
+      "duration_ms": 2.1945,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.909058+00:00",
+      "duration_ms": 2.5936,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.911669+00:00",
+      "duration_ms": 2.0475,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.913731+00:00",
+      "duration_ms": 2.068,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.915812+00:00",
+      "duration_ms": 2.1439,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.917969+00:00",
+      "duration_ms": 1.9886,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.919970+00:00",
+      "duration_ms": 2.0166,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.921998+00:00",
+      "duration_ms": 2.2494,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.924262+00:00",
+      "duration_ms": 2.2829,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.926558+00:00",
+      "duration_ms": 2.0035,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.928575+00:00",
+      "duration_ms": 2.048,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.930724+00:00",
+      "duration_ms": 1.905,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.932642+00:00",
+      "duration_ms": 2.1992,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.934855+00:00",
+      "duration_ms": 2.2158,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.937086+00:00",
+      "duration_ms": 2.1621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.939260+00:00",
+      "duration_ms": 2.2158,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.941490+00:00",
+      "duration_ms": 2.1142,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.943621+00:00",
+      "duration_ms": 54.6257,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:55.998266+00:00",
+      "duration_ms": 2.5314,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.000819+00:00",
+      "duration_ms": 3.0446,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.003882+00:00",
+      "duration_ms": 2.419,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.006408+00:00",
+      "duration_ms": 2.8759,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.009302+00:00",
+      "duration_ms": 2.3297,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.011647+00:00",
+      "duration_ms": 2.2959,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.013959+00:00",
+      "duration_ms": 2.5122,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.016486+00:00",
+      "duration_ms": 2.1541,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.018654+00:00",
+      "duration_ms": 2.0049,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.020673+00:00",
+      "duration_ms": 2.0979,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.022789+00:00",
+      "duration_ms": 2.8845,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.025691+00:00",
+      "duration_ms": 2.3944,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.028099+00:00",
+      "duration_ms": 2.1805,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.315993+00:00",
+      "duration_ms": 6.7418,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.322776+00:00",
+      "duration_ms": 3.0522,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.325849+00:00",
+      "duration_ms": 73.4121,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.399284+00:00",
+      "duration_ms": 3.5386,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.402849+00:00",
+      "duration_ms": 2.5932,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.405458+00:00",
+      "duration_ms": 2.4756,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.407946+00:00",
+      "duration_ms": 2.6847,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.410644+00:00",
+      "duration_ms": 2.4124,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.413069+00:00",
+      "duration_ms": 3.2997,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.416380+00:00",
+      "duration_ms": 2.5799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.419533+00:00",
+      "duration_ms": 4.6667,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.424223+00:00",
+      "duration_ms": 3.1214,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.427362+00:00",
+      "duration_ms": 2.7889,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.430165+00:00",
+      "duration_ms": 2.7473,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.432926+00:00",
+      "duration_ms": 2.3684,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.435308+00:00",
+      "duration_ms": 65.1906,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.500516+00:00",
+      "duration_ms": 3.5267,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.504062+00:00",
+      "duration_ms": 3.0044,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.507082+00:00",
+      "duration_ms": 3.4616,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.510561+00:00",
+      "duration_ms": 2.6142,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.513286+00:00",
+      "duration_ms": 2.6542,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.515953+00:00",
+      "duration_ms": 2.3701,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.518337+00:00",
+      "duration_ms": 2.2974,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.520646+00:00",
+      "duration_ms": 2.3624,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.523020+00:00",
+      "duration_ms": 2.4929,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.525526+00:00",
+      "duration_ms": 2.8481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.528393+00:00",
+      "duration_ms": 68.5955,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.597019+00:00",
+      "duration_ms": 11.0033,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.608053+00:00",
+      "duration_ms": 3.6214,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.611698+00:00",
+      "duration_ms": 3.5382,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.615344+00:00",
+      "duration_ms": 3.917,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.619279+00:00",
+      "duration_ms": 2.8286,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.622123+00:00",
+      "duration_ms": 2.6758,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.624813+00:00",
+      "duration_ms": 2.4345,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.627262+00:00",
+      "duration_ms": 2.3301,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.629605+00:00",
+      "duration_ms": 2.3114,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.631928+00:00",
+      "duration_ms": 2.369,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.634309+00:00",
+      "duration_ms": 2.1995,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.636520+00:00",
+      "duration_ms": 2.2821,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.638816+00:00",
+      "duration_ms": 2.182,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.641110+00:00",
+      "duration_ms": 2.3995,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.643525+00:00",
+      "duration_ms": 2.199,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.645737+00:00",
+      "duration_ms": 2.2567,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.648007+00:00",
+      "duration_ms": 2.2982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.650318+00:00",
+      "duration_ms": 2.2817,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.652611+00:00",
+      "duration_ms": 44.4817,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.697108+00:00",
+      "duration_ms": 3.3579,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.700486+00:00",
+      "duration_ms": 2.9591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.703461+00:00",
+      "duration_ms": 2.7976,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.706273+00:00",
+      "duration_ms": 2.8746,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.709253+00:00",
+      "duration_ms": 2.8595,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.712126+00:00",
+      "duration_ms": 3.1023,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.715243+00:00",
+      "duration_ms": 2.7374,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.717995+00:00",
+      "duration_ms": 2.5638,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.720573+00:00",
+      "duration_ms": 2.403,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.722990+00:00",
+      "duration_ms": 2.7583,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.725761+00:00",
+      "duration_ms": 2.3942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.728169+00:00",
+      "duration_ms": 2.5029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.730685+00:00",
+      "duration_ms": 2.6128,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.733311+00:00",
+      "duration_ms": 3.195,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.736733+00:00",
+      "duration_ms": 2.7831,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.739541+00:00",
+      "duration_ms": 2.6568,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.742213+00:00",
+      "duration_ms": 55.9137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.798146+00:00",
+      "duration_ms": 3.7659,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.801936+00:00",
+      "duration_ms": 3.2314,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.805187+00:00",
+      "duration_ms": 2.5156,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.807720+00:00",
+      "duration_ms": 2.436,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.810171+00:00",
+      "duration_ms": 2.4762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.812663+00:00",
+      "duration_ms": 2.428,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.815106+00:00",
+      "duration_ms": 2.1406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.817577+00:00",
+      "duration_ms": 2.3973,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.819999+00:00",
+      "duration_ms": 2.3118,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.822325+00:00",
+      "duration_ms": 2.2863,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.824625+00:00",
+      "duration_ms": 2.6894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.827328+00:00",
+      "duration_ms": 2.7115,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.830054+00:00",
+      "duration_ms": 2.2542,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.832320+00:00",
+      "duration_ms": 2.2204,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.834553+00:00",
+      "duration_ms": 2.1419,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.836706+00:00",
+      "duration_ms": 60.2752,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.897005+00:00",
+      "duration_ms": 5.229,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.902514+00:00",
+      "duration_ms": 3.4117,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.905945+00:00",
+      "duration_ms": 3.6767,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.909639+00:00",
+      "duration_ms": 2.4144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.912071+00:00",
+      "duration_ms": 2.3231,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.914409+00:00",
+      "duration_ms": 3.1977,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.917621+00:00",
+      "duration_ms": 2.203,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.919840+00:00",
+      "duration_ms": 2.3375,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.922192+00:00",
+      "duration_ms": 2.5092,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.924716+00:00",
+      "duration_ms": 2.4154,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.927147+00:00",
+      "duration_ms": 2.3481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.929963+00:00",
+      "duration_ms": 2.6592,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.932648+00:00",
+      "duration_ms": 2.5356,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.935200+00:00",
+      "duration_ms": 2.7158,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.937934+00:00",
+      "duration_ms": 2.7371,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.940687+00:00",
+      "duration_ms": 58.4058,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:56.999114+00:00",
+      "duration_ms": 8.1343,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:57.007272+00:00",
+      "duration_ms": 3.4598,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:57.010756+00:00",
+      "duration_ms": 3.8918,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:57.014667+00:00",
+      "duration_ms": 2.6973,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:57.017379+00:00",
+      "duration_ms": 2.767,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.422990+00:00",
+      "duration_ms": 92.6121,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.515634+00:00",
+      "duration_ms": 89.1442,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.604802+00:00",
+      "duration_ms": 97.7868,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.702612+00:00",
+      "duration_ms": 11.4422,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.714077+00:00",
+      "duration_ms": 10.7744,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.724870+00:00",
+      "duration_ms": 74.2238,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.799116+00:00",
+      "duration_ms": 13.3202,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.812461+00:00",
+      "duration_ms": 21.5323,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.834015+00:00",
+      "duration_ms": 77.4162,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:58.911460+00:00",
+      "duration_ms": 112.2112,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.023888+00:00",
+      "duration_ms": 80.3531,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.104269+00:00",
+      "duration_ms": 11.7121,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.116005+00:00",
+      "duration_ms": 97.0671,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.213095+00:00",
+      "duration_ms": 12.413,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.225532+00:00",
+      "duration_ms": 81.6385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.307200+00:00",
+      "duration_ms": 11.9279,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.319156+00:00",
+      "duration_ms": 10.624,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.329798+00:00",
+      "duration_ms": 10.1441,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.339959+00:00",
+      "duration_ms": 75.4843,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.415461+00:00",
+      "duration_ms": 13.2173,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.428790+00:00",
+      "duration_ms": 12.4166,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.441228+00:00",
+      "duration_ms": 65.8518,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.507102+00:00",
+      "duration_ms": 10.8371,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.517967+00:00",
+      "duration_ms": 10.6277,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.528613+00:00",
+      "duration_ms": 76.8089,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.605442+00:00",
+      "duration_ms": 94.5371,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.700003+00:00",
+      "duration_ms": 101.611,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.801639+00:00",
+      "duration_ms": 13.0671,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.814729+00:00",
+      "duration_ms": 86.6006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.901357+00:00",
+      "duration_ms": 13.2125,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.914696+00:00",
+      "duration_ms": 84.5206,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:48:59.999253+00:00",
+      "duration_ms": 13.0147,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.012291+00:00",
+      "duration_ms": 12.0484,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.024363+00:00",
+      "duration_ms": 11.4668,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.035853+00:00",
+      "duration_ms": 10.6138,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.046486+00:00",
+      "duration_ms": 67.5913,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.114097+00:00",
+      "duration_ms": 11.5906,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.125709+00:00",
+      "duration_ms": 10.7921,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.136520+00:00",
+      "duration_ms": 65.1346,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.201677+00:00",
+      "duration_ms": 11.6621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.213449+00:00",
+      "duration_ms": 11.2645,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.224736+00:00",
+      "duration_ms": 85.5942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.310358+00:00",
+      "duration_ms": 16.6582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.327046+00:00",
+      "duration_ms": 81.7642,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.408835+00:00",
+      "duration_ms": 111.5022,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.520366+00:00",
+      "duration_ms": 83.2029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.603597+00:00",
+      "duration_ms": 11.6022,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.615222+00:00",
+      "duration_ms": 16.6835,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.631924+00:00",
+      "duration_ms": 10.4787,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.642421+00:00",
+      "duration_ms": 63.8605,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.706482+00:00",
+      "duration_ms": 12.3229,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.718833+00:00",
+      "duration_ms": 10.9456,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.729801+00:00",
+      "duration_ms": 78.6172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.808441+00:00",
+      "duration_ms": 15.1413,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.823604+00:00",
+      "duration_ms": 13.0492,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.836674+00:00",
+      "duration_ms": 65.7764,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.902475+00:00",
+      "duration_ms": 17.5698,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.920072+00:00",
+      "duration_ms": 14.368,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:00.934467+00:00",
+      "duration_ms": 68.5286,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.003024+00:00",
+      "duration_ms": 20.0242,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.023313+00:00",
+      "duration_ms": 86.982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.110326+00:00",
+      "duration_ms": 108.5212,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.218877+00:00",
+      "duration_ms": 79.0942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.298001+00:00",
+      "duration_ms": 10.9893,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.309012+00:00",
+      "duration_ms": 12.0538,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.321084+00:00",
+      "duration_ms": 14.2937,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.335396+00:00",
+      "duration_ms": 11.0934,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.346507+00:00",
+      "duration_ms": 59.8294,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.406355+00:00",
+      "duration_ms": 10.8232,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.417198+00:00",
+      "duration_ms": 11.1165,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.428461+00:00",
+      "duration_ms": 74.5938,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.503094+00:00",
+      "duration_ms": 18.7459,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.521867+00:00",
+      "duration_ms": 78.4285,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.600324+00:00",
+      "duration_ms": 11.4289,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.611779+00:00",
+      "duration_ms": 10.5334,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.622328+00:00",
+      "duration_ms": 13.8005,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.636145+00:00",
+      "duration_ms": 70.2809,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.706453+00:00",
+      "duration_ms": 22.7487,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.729232+00:00",
+      "duration_ms": 79.5748,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.808833+00:00",
+      "duration_ms": 108.9115,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.917851+00:00",
+      "duration_ms": 79.62,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:01.997502+00:00",
+      "duration_ms": 13.7921,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.011323+00:00",
+      "duration_ms": 11.5618,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.022905+00:00",
+      "duration_ms": 79.4678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.102392+00:00",
+      "duration_ms": 13.598,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.116010+00:00",
+      "duration_ms": 11.1023,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.127133+00:00",
+      "duration_ms": 11.2751,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.138428+00:00",
+      "duration_ms": 59.9912,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.198444+00:00",
+      "duration_ms": 14.874,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.213347+00:00",
+      "duration_ms": 10.6749,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.224130+00:00",
+      "duration_ms": 12.8528,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.237011+00:00",
+      "duration_ms": 70.6949,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.307729+00:00",
+      "duration_ms": 12.2722,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.320029+00:00",
+      "duration_ms": 77.7004,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.397758+00:00",
+      "duration_ms": 15.0469,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.412835+00:00",
+      "duration_ms": 14.9942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.427851+00:00",
+      "duration_ms": 80.6837,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.508558+00:00",
+      "duration_ms": 115.9145,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.624495+00:00",
+      "duration_ms": 86.2595,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.710778+00:00",
+      "duration_ms": 10.8324,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.723195+00:00",
+      "duration_ms": 77.59260002058,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727186+00:00",
+      "duration_ms": 79.06750007532537,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.723942+00:00",
+      "duration_ms": 176.54239991679788,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727233+00:00",
+      "duration_ms": 270.94260009471327,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.726773+00:00",
+      "duration_ms": 271.4196000015363,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.724853+00:00",
+      "duration_ms": 274.08280002418905,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727271+00:00",
+      "duration_ms": 369.88689994905144,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727306+00:00",
+      "duration_ms": 572.5061999401078,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.725792+00:00",
+      "duration_ms": 672.3028999986127,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727343+00:00",
+      "duration_ms": 770.0410999823362,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.723557+00:00",
+      "duration_ms": 1380.000300006941,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.724501+00:00",
+      "duration_ms": 1379.837599932216,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727214+00:00",
+      "duration_ms": 1379.8250999534503,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.726276+00:00",
+      "duration_ms": 1380.7722999481484,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727288+00:00",
+      "duration_ms": 1379.7638999531046,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727361+00:00",
+      "duration_ms": 1379.6945000067353,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.725329+00:00",
+      "duration_ms": 1381.7259999923408,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727324+00:00",
+      "duration_ms": 1380.6267000036314,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727251+00:00",
+      "duration_ms": 1380.708200042136,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727124+00:00",
+      "duration_ms": 1380.8238999918103,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727414+00:00",
+      "duration_ms": 1381.2740999273956,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727582+00:00",
+      "duration_ms": 1382.4508999241516,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727377+00:00",
+      "duration_ms": 1470.6747999880463,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727485+00:00",
+      "duration_ms": 1471.7930000042543,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727597+00:00",
+      "duration_ms": 1473.29280001577,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727450+00:00",
+      "duration_ms": 1473.4503000508994,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727609+00:00",
+      "duration_ms": 1475.1142000313848,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727747+00:00",
+      "duration_ms": 1569.340700050816,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727432+00:00",
+      "duration_ms": 1570.8013999974355,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727736+00:00",
+      "duration_ms": 1570.5100999912247,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727755+00:00",
+      "duration_ms": 1574.4686000980437,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727742+00:00",
+      "duration_ms": 1576.420900062658,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727467+00:00",
+      "duration_ms": 1576.7039000056684,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727503+00:00",
+      "duration_ms": 1576.6334000509232,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727590+00:00",
+      "duration_ms": 1576.5901000704616,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727720+00:00",
+      "duration_ms": 1577.0529001019895,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727817+00:00",
+      "duration_ms": 1577.9334000544623,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727395+00:00",
+      "duration_ms": 1578.3628999488428,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727828+00:00",
+      "duration_ms": 1578.4266999689862,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727751+00:00",
+      "duration_ms": 1579.0329999290407,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727847+00:00",
+      "duration_ms": 1670.4329000785947,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727603+00:00",
+      "duration_ms": 1670.7016000291333,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727759+00:00",
+      "duration_ms": 1671.39200004749,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727839+00:00",
+      "duration_ms": 1671.8766000121832,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727856+00:00",
+      "duration_ms": 1672.4113000091165,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727864+00:00",
+      "duration_ms": 1673.137600068003,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727874+00:00",
+      "duration_ms": 1673.6612999811769,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727835+00:00",
+      "duration_ms": 1770.8573000272736,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727843+00:00",
+      "duration_ms": 1770.8752999315038,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727860+00:00",
+      "duration_ms": 1773.3018000144511,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727823+00:00",
+      "duration_ms": 1773.6715000355616,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727883+00:00",
+      "duration_ms": 1773.6228000139818,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727879+00:00",
+      "duration_ms": 1775.928599992767,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727851+00:00",
+      "duration_ms": 1775.967700057663,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727870+00:00",
+      "duration_ms": 1775.9530999464914,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727887+00:00",
+      "duration_ms": 1777.087099966593,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727907+00:00",
+      "duration_ms": 1777.0879999734461,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727899+00:00",
+      "duration_ms": 1778.063099947758,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727891+00:00",
+      "duration_ms": 1778.632599976845,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727896+00:00",
+      "duration_ms": 1870.446400018409,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727914+00:00",
+      "duration_ms": 1871.1622999981046,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727938+00:00",
+      "duration_ms": 1871.9862001016736,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727922+00:00",
+      "duration_ms": 1873.434599954635,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727930+00:00",
+      "duration_ms": 1873.4406000003219,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727934+00:00",
+      "duration_ms": 1973.1801999732852,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727946+00:00",
+      "duration_ms": 1973.1815999839455,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727911+00:00",
+      "duration_ms": 1973.2210000511259,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727903+00:00",
+      "duration_ms": 1973.2317000161856,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727918+00:00",
+      "duration_ms": 1973.2194999232888,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727926+00:00",
+      "duration_ms": 1974.8721000505611,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727954+00:00",
+      "duration_ms": 1975.1327000558376,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727974+00:00",
+      "duration_ms": 1975.8716999785975,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727963+00:00",
+      "duration_ms": 1976.339599932544,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727942+00:00",
+      "duration_ms": 2069.6968999691308,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727958+00:00",
+      "duration_ms": 2071.0888999747112,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727981+00:00",
+      "duration_ms": 2073.316299938597,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727950+00:00",
+      "duration_ms": 2073.363699950278,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727989+00:00",
+      "duration_ms": 2074.1515000117943,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728003+00:00",
+      "duration_ms": 2074.1558000445366,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727996+00:00",
+      "duration_ms": 2075.651500024833,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727967+00:00",
+      "duration_ms": 2076.242799987085,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728020+00:00",
+      "duration_ms": 2076.697300071828,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727977+00:00",
+      "duration_ms": 2079.976800014265,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727985+00:00",
+      "duration_ms": 2080.440300051123,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727999+00:00",
+      "duration_ms": 2170.288399909623,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.727992+00:00",
+      "duration_ms": 2170.320100034587,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728035+00:00",
+      "duration_ms": 2172.4852999905124,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728012+00:00",
+      "duration_ms": 2172.533500008285,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728027+00:00",
+      "duration_ms": 2174.142299918458,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728135+00:00",
+      "duration_ms": 2174.0469000069425,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728144+00:00",
+      "duration_ms": 2174.736800021492,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728016+00:00",
+      "duration_ms": 2175.447400077246,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728007+00:00",
+      "duration_ms": 2269.141500000842,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728024+00:00",
+      "duration_ms": 2269.2024999996647,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728151+00:00",
+      "duration_ms": 2269.498899928294,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728130+00:00",
+      "duration_ms": 2269.9447999475524,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728140+00:00",
+      "duration_ms": 2271.990400040522,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728155+00:00",
+      "duration_ms": 2274.2463999893516,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728031+00:00",
+      "duration_ms": 2274.63150001131,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "neo4j_docker",
+      "started_at": "2026-08-24T18:49:02.728147+00:00",
+      "duration_ms": 2274.7105000307783,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    }
+  ],
+  "notes": [
+    "{\"load_wall_ms\": 36516.14810002502, \"loaded_nodes\": 74062, \"loaded_relationships\": 150000}",
+    "{\"mixed_clients\": 10, \"mixed_ok\": 100, \"mixed_qps\": 43.82054121322195, \"read_fraction\": 0.5, \"write_fraction\": 0.5}"
+  ]
+}

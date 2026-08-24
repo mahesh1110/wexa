@@ -1,0 +1,6331 @@
+{
+  "database": "memgraph_docker",
+  "started_at": "2026-08-24T17:51:09.921916+00:00",
+  "finished_at": "2026-08-24T17:51:19.843289+00:00",
+  "host": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "cpu_count": 22,
+    "hostname": "redacted"
+  },
+  "platform": {
+    "name": "memgraph_docker",
+    "resource_specs": "not recorded"
+  },
+  "dataset": {
+    "directory": "data/pokec_sample",
+    "nodes": 74062,
+    "relationships": 150000
+  },
+  "settings": {
+    "warmup": 10,
+    "iterations": 100,
+    "mixed_clients": 10
+  },
+  "samples": [
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.739282+00:00",
+      "duration_ms": 0.738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.740044+00:00",
+      "duration_ms": 5.5896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.745650+00:00",
+      "duration_ms": 0.9599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.746621+00:00",
+      "duration_ms": 1.9023,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.748533+00:00",
+      "duration_ms": 0.9952,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.749538+00:00",
+      "duration_ms": 0.7121,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.750262+00:00",
+      "duration_ms": 1.0538,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.751329+00:00",
+      "duration_ms": 3.905,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.755243+00:00",
+      "duration_ms": 0.8622,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.756116+00:00",
+      "duration_ms": 0.7306,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.757035+00:00",
+      "duration_ms": 0.6807,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.757726+00:00",
+      "duration_ms": 0.5628,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.758299+00:00",
+      "duration_ms": 0.5593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.758869+00:00",
+      "duration_ms": 0.594,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.759472+00:00",
+      "duration_ms": 2.3821,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.761863+00:00",
+      "duration_ms": 0.8456,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.762718+00:00",
+      "duration_ms": 0.6449,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.763372+00:00",
+      "duration_ms": 0.7856,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.764167+00:00",
+      "duration_ms": 0.5161,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.764692+00:00",
+      "duration_ms": 1.2273,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.766045+00:00",
+      "duration_ms": 1.0301,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.767085+00:00",
+      "duration_ms": 0.6851,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.767779+00:00",
+      "duration_ms": 0.6271,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.768415+00:00",
+      "duration_ms": 0.6824,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.769105+00:00",
+      "duration_ms": 0.5999,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.769714+00:00",
+      "duration_ms": 0.6282,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.770352+00:00",
+      "duration_ms": 0.6204,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.770982+00:00",
+      "duration_ms": 0.594,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.771585+00:00",
+      "duration_ms": 0.5762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.772170+00:00",
+      "duration_ms": 0.7256,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.773040+00:00",
+      "duration_ms": 0.6355,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.773686+00:00",
+      "duration_ms": 0.6018,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.774296+00:00",
+      "duration_ms": 0.5954,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.774901+00:00",
+      "duration_ms": 0.5885,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.775498+00:00",
+      "duration_ms": 0.5964,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.776102+00:00",
+      "duration_ms": 0.6004,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.776711+00:00",
+      "duration_ms": 0.9759,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.777701+00:00",
+      "duration_ms": 0.8438,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.778560+00:00",
+      "duration_ms": 0.6144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.779183+00:00",
+      "duration_ms": 0.6206,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.779890+00:00",
+      "duration_ms": 0.6748,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.780581+00:00",
+      "duration_ms": 1.0473,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.781638+00:00",
+      "duration_ms": 0.6053,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.782251+00:00",
+      "duration_ms": 0.5936,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.782854+00:00",
+      "duration_ms": 0.5908,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.783454+00:00",
+      "duration_ms": 0.5754,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.784038+00:00",
+      "duration_ms": 0.5724,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.784619+00:00",
+      "duration_ms": 0.6671,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.785294+00:00",
+      "duration_ms": 0.7536,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.786060+00:00",
+      "duration_ms": 0.7846,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.786923+00:00",
+      "duration_ms": 0.6561,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.787598+00:00",
+      "duration_ms": 0.5723,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.788182+00:00",
+      "duration_ms": 0.6241,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.788823+00:00",
+      "duration_ms": 0.7051,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.789543+00:00",
+      "duration_ms": 0.6166,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.790169+00:00",
+      "duration_ms": 0.5942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.790775+00:00",
+      "duration_ms": 0.5815,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.791366+00:00",
+      "duration_ms": 0.6092,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.791985+00:00",
+      "duration_ms": 0.6384,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.792632+00:00",
+      "duration_ms": 0.6211,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.794025+00:00",
+      "duration_ms": 0.7599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.794803+00:00",
+      "duration_ms": 0.6326,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.795445+00:00",
+      "duration_ms": 0.6907,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.796145+00:00",
+      "duration_ms": 0.8769,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.797031+00:00",
+      "duration_ms": 1.5675,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.798609+00:00",
+      "duration_ms": 0.6351,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.799254+00:00",
+      "duration_ms": 0.5896,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.799855+00:00",
+      "duration_ms": 0.5909,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.800455+00:00",
+      "duration_ms": 0.6231,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.801087+00:00",
+      "duration_ms": 0.5438,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.801696+00:00",
+      "duration_ms": 0.6164,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.802323+00:00",
+      "duration_ms": 0.6099,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.802945+00:00",
+      "duration_ms": 0.5751,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.803529+00:00",
+      "duration_ms": 0.5762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.804114+00:00",
+      "duration_ms": 0.5743,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.804697+00:00",
+      "duration_ms": 0.5959,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.805302+00:00",
+      "duration_ms": 0.5694,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.805881+00:00",
+      "duration_ms": 0.5838,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.806474+00:00",
+      "duration_ms": 0.5686,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.807052+00:00",
+      "duration_ms": 0.5745,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.807685+00:00",
+      "duration_ms": 0.7357,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.808432+00:00",
+      "duration_ms": 0.6796,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.809121+00:00",
+      "duration_ms": 0.6402,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.809773+00:00",
+      "duration_ms": 0.583,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.810366+00:00",
+      "duration_ms": 0.8087,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.811184+00:00",
+      "duration_ms": 0.7306,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.811923+00:00",
+      "duration_ms": 0.7514,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.812684+00:00",
+      "duration_ms": 0.9963,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.813690+00:00",
+      "duration_ms": 0.8156,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.814514+00:00",
+      "duration_ms": 0.6241,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.815940+00:00",
+      "duration_ms": 0.6043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.816563+00:00",
+      "duration_ms": 0.5856,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.817156+00:00",
+      "duration_ms": 0.5683,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.817735+00:00",
+      "duration_ms": 0.5603,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.818305+00:00",
+      "duration_ms": 0.5546,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.818868+00:00",
+      "duration_ms": 0.5543,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.819432+00:00",
+      "duration_ms": 0.5545,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.819995+00:00",
+      "duration_ms": 0.5382,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.820542+00:00",
+      "duration_ms": 0.5554,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.821105+00:00",
+      "duration_ms": 0.5041,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.827701+00:00",
+      "duration_ms": 0.6187,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.828332+00:00",
+      "duration_ms": 0.9471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.829290+00:00",
+      "duration_ms": 0.6129,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.829914+00:00",
+      "duration_ms": 0.532,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.830455+00:00",
+      "duration_ms": 0.5674,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.831031+00:00",
+      "duration_ms": 0.5746,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.831615+00:00",
+      "duration_ms": 0.5205,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.832144+00:00",
+      "duration_ms": 0.5005,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.832653+00:00",
+      "duration_ms": 0.5775,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.833239+00:00",
+      "duration_ms": 0.6931,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.834000+00:00",
+      "duration_ms": 0.601,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.834612+00:00",
+      "duration_ms": 0.5753,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.835196+00:00",
+      "duration_ms": 0.5041,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.835710+00:00",
+      "duration_ms": 2.1607,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.837878+00:00",
+      "duration_ms": 0.5504,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.838438+00:00",
+      "duration_ms": 0.5234,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.838970+00:00",
+      "duration_ms": 0.5128,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.839492+00:00",
+      "duration_ms": 0.5283,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.840029+00:00",
+      "duration_ms": 0.5104,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.840548+00:00",
+      "duration_ms": 0.578,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.841185+00:00",
+      "duration_ms": 0.6079,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.841804+00:00",
+      "duration_ms": 0.5481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.842362+00:00",
+      "duration_ms": 0.5619,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.842932+00:00",
+      "duration_ms": 0.5164,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.843457+00:00",
+      "duration_ms": 0.6647,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.844133+00:00",
+      "duration_ms": 0.9885,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.845132+00:00",
+      "duration_ms": 0.6448,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.845786+00:00",
+      "duration_ms": 0.7356,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.846530+00:00",
+      "duration_ms": 0.6442,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.847184+00:00",
+      "duration_ms": 0.586,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.847856+00:00",
+      "duration_ms": 0.6328,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.848499+00:00",
+      "duration_ms": 0.5851,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.849093+00:00",
+      "duration_ms": 0.5311,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.849633+00:00",
+      "duration_ms": 0.5073,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.850149+00:00",
+      "duration_ms": 0.71,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.850873+00:00",
+      "duration_ms": 0.5062,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.851389+00:00",
+      "duration_ms": 0.5307,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.851928+00:00",
+      "duration_ms": 0.5814,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.852518+00:00",
+      "duration_ms": 0.5805,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.853108+00:00",
+      "duration_ms": 0.5708,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.853740+00:00",
+      "duration_ms": 0.5857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.854336+00:00",
+      "duration_ms": 0.5596,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.854905+00:00",
+      "duration_ms": 0.5495,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.855463+00:00",
+      "duration_ms": 0.5333,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.856006+00:00",
+      "duration_ms": 0.5204,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.856535+00:00",
+      "duration_ms": 0.5509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.857095+00:00",
+      "duration_ms": 0.5174,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.857621+00:00",
+      "duration_ms": 0.5011,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.858130+00:00",
+      "duration_ms": 0.7172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.858856+00:00",
+      "duration_ms": 0.5593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.859542+00:00",
+      "duration_ms": 0.599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.860151+00:00",
+      "duration_ms": 0.7235,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.860887+00:00",
+      "duration_ms": 0.7289,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.861629+00:00",
+      "duration_ms": 0.6575,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.862295+00:00",
+      "duration_ms": 0.5351,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.862839+00:00",
+      "duration_ms": 0.5671,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.863414+00:00",
+      "duration_ms": 0.5559,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.863979+00:00",
+      "duration_ms": 0.558,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.864546+00:00",
+      "duration_ms": 0.5419,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.865096+00:00",
+      "duration_ms": 0.5448,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.865710+00:00",
+      "duration_ms": 0.6031,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.866324+00:00",
+      "duration_ms": 0.5446,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.866877+00:00",
+      "duration_ms": 0.5424,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.867428+00:00",
+      "duration_ms": 0.6736,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.868110+00:00",
+      "duration_ms": 0.5033,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.868622+00:00",
+      "duration_ms": 0.571,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.869202+00:00",
+      "duration_ms": 0.5108,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.869720+00:00",
+      "duration_ms": 0.5204,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.870250+00:00",
+      "duration_ms": 0.5568,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.870815+00:00",
+      "duration_ms": 0.5273,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.871402+00:00",
+      "duration_ms": 0.5861,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.871998+00:00",
+      "duration_ms": 0.5474,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.872555+00:00",
+      "duration_ms": 0.7854,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.873349+00:00",
+      "duration_ms": 0.5208,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.873878+00:00",
+      "duration_ms": 0.5001,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.874387+00:00",
+      "duration_ms": 0.6198,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.875016+00:00",
+      "duration_ms": 0.6858,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.875715+00:00",
+      "duration_ms": 0.6991,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.876427+00:00",
+      "duration_ms": 0.5845,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.877020+00:00",
+      "duration_ms": 0.6855,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.877874+00:00",
+      "duration_ms": 0.6157,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.878501+00:00",
+      "duration_ms": 0.6741,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.879184+00:00",
+      "duration_ms": 0.6083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.879801+00:00",
+      "duration_ms": 0.5483,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.880358+00:00",
+      "duration_ms": 0.5798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.880946+00:00",
+      "duration_ms": 0.548,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.881503+00:00",
+      "duration_ms": 0.5527,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.882065+00:00",
+      "duration_ms": 0.5365,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.882610+00:00",
+      "duration_ms": 0.5227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.883142+00:00",
+      "duration_ms": 0.5407,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.883741+00:00",
+      "duration_ms": 0.6063,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.884358+00:00",
+      "duration_ms": 0.8704,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.885238+00:00",
+      "duration_ms": 0.5652,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.885812+00:00",
+      "duration_ms": 0.5431,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.886364+00:00",
+      "duration_ms": 0.5341,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.886907+00:00",
+      "duration_ms": 0.7372,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.887653+00:00",
+      "duration_ms": 0.539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.888201+00:00",
+      "duration_ms": 0.5279,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.888750+00:00",
+      "duration_ms": 0.5508,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.889343+00:00",
+      "duration_ms": 0.5818,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.901605+00:00",
+      "duration_ms": 0.5892,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.902209+00:00",
+      "duration_ms": 0.5797,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.902798+00:00",
+      "duration_ms": 0.5589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.903366+00:00",
+      "duration_ms": 0.5511,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.903927+00:00",
+      "duration_ms": 0.5702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.904506+00:00",
+      "duration_ms": 0.6424,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.905158+00:00",
+      "duration_ms": 0.5839,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.905751+00:00",
+      "duration_ms": 0.643,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.906403+00:00",
+      "duration_ms": 0.5765,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.906989+00:00",
+      "duration_ms": 2.7402,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.909798+00:00",
+      "duration_ms": 0.6298,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.910438+00:00",
+      "duration_ms": 0.7188,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.911166+00:00",
+      "duration_ms": 0.6227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.911798+00:00",
+      "duration_ms": 4.6257,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.916433+00:00",
+      "duration_ms": 0.598,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.917040+00:00",
+      "duration_ms": 0.6068,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.917657+00:00",
+      "duration_ms": 0.5887,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.918256+00:00",
+      "duration_ms": 0.6553,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.918921+00:00",
+      "duration_ms": 1.0146,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.919946+00:00",
+      "duration_ms": 1.1131,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.921342+00:00",
+      "duration_ms": 1.3249,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.922713+00:00",
+      "duration_ms": 0.6705,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.923394+00:00",
+      "duration_ms": 0.647,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.924052+00:00",
+      "duration_ms": 0.7557,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.924819+00:00",
+      "duration_ms": 0.6587,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.925489+00:00",
+      "duration_ms": 0.666,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.926165+00:00",
+      "duration_ms": 0.6145,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.926789+00:00",
+      "duration_ms": 0.7187,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.927518+00:00",
+      "duration_ms": 0.7305,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.928258+00:00",
+      "duration_ms": 0.6972,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.929318+00:00",
+      "duration_ms": 1.0073,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.930344+00:00",
+      "duration_ms": 0.6643,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.931018+00:00",
+      "duration_ms": 0.6574,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.931685+00:00",
+      "duration_ms": 0.8589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.932554+00:00",
+      "duration_ms": 4.8019,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.937365+00:00",
+      "duration_ms": 0.5859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.937961+00:00",
+      "duration_ms": 0.8784,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.938848+00:00",
+      "duration_ms": 0.5418,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.939399+00:00",
+      "duration_ms": 0.5609,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.939968+00:00",
+      "duration_ms": 0.5253,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.940786+00:00",
+      "duration_ms": 0.6006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.941397+00:00",
+      "duration_ms": 0.5144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.941920+00:00",
+      "duration_ms": 0.5373,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.942466+00:00",
+      "duration_ms": 0.5484,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.943024+00:00",
+      "duration_ms": 0.5331,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.943566+00:00",
+      "duration_ms": 0.6294,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.944206+00:00",
+      "duration_ms": 0.6875,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.944903+00:00",
+      "duration_ms": 0.5757,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.945488+00:00",
+      "duration_ms": 0.5584,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.946056+00:00",
+      "duration_ms": 0.5686,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.946861+00:00",
+      "duration_ms": 0.6509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.947525+00:00",
+      "duration_ms": 0.6604,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.948197+00:00",
+      "duration_ms": 0.5283,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.948754+00:00",
+      "duration_ms": 0.5539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.949336+00:00",
+      "duration_ms": 0.5526,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.949898+00:00",
+      "duration_ms": 0.5677,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.950474+00:00",
+      "duration_ms": 0.7217,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.951205+00:00",
+      "duration_ms": 0.5365,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.951751+00:00",
+      "duration_ms": 0.4903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.952249+00:00",
+      "duration_ms": 0.6415,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.953010+00:00",
+      "duration_ms": 0.8027,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.953829+00:00",
+      "duration_ms": 0.7188,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.954561+00:00",
+      "duration_ms": 0.9482,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.955519+00:00",
+      "duration_ms": 1.1676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.956696+00:00",
+      "duration_ms": 0.6489,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.957355+00:00",
+      "duration_ms": 0.6145,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.957979+00:00",
+      "duration_ms": 0.5632,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.958551+00:00",
+      "duration_ms": 0.8496,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.959410+00:00",
+      "duration_ms": 0.5188,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.959938+00:00",
+      "duration_ms": 0.539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.960808+00:00",
+      "duration_ms": 0.9205,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.961749+00:00",
+      "duration_ms": 0.6354,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.962394+00:00",
+      "duration_ms": 2.2385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.964642+00:00",
+      "duration_ms": 0.6826,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.965335+00:00",
+      "duration_ms": 0.6044,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.965949+00:00",
+      "duration_ms": 0.5546,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.966513+00:00",
+      "duration_ms": 0.5512,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.967075+00:00",
+      "duration_ms": 0.5875,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.967671+00:00",
+      "duration_ms": 0.5979,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.968279+00:00",
+      "duration_ms": 0.6649,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.969268+00:00",
+      "duration_ms": 0.9147,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.970195+00:00",
+      "duration_ms": 0.6502,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.970856+00:00",
+      "duration_ms": 0.6611,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.971526+00:00",
+      "duration_ms": 0.6035,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.972140+00:00",
+      "duration_ms": 0.6456,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.972797+00:00",
+      "duration_ms": 0.5852,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.973392+00:00",
+      "duration_ms": 0.648,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.974050+00:00",
+      "duration_ms": 0.6302,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.974691+00:00",
+      "duration_ms": 0.616,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.975317+00:00",
+      "duration_ms": 0.7718,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.976647+00:00",
+      "duration_ms": 0.932,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.977592+00:00",
+      "duration_ms": 3.7654,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.981370+00:00",
+      "duration_ms": 0.6918,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.982076+00:00",
+      "duration_ms": 0.6198,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.982705+00:00",
+      "duration_ms": 0.5786,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.983294+00:00",
+      "duration_ms": 0.5774,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.983881+00:00",
+      "duration_ms": 0.6499,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.984541+00:00",
+      "duration_ms": 0.5989,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.985150+00:00",
+      "duration_ms": 0.5663,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.985726+00:00",
+      "duration_ms": 0.5627,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.994001+00:00",
+      "duration_ms": 0.714,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.994728+00:00",
+      "duration_ms": 0.5794,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.995318+00:00",
+      "duration_ms": 1.1584,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.996486+00:00",
+      "duration_ms": 1.3406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.997836+00:00",
+      "duration_ms": 0.6355,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.998481+00:00",
+      "duration_ms": 0.5894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.999080+00:00",
+      "duration_ms": 0.6653,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:14.999755+00:00",
+      "duration_ms": 0.6177,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.000382+00:00",
+      "duration_ms": 0.6202,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.001012+00:00",
+      "duration_ms": 0.5437,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.001740+00:00",
+      "duration_ms": 0.6414,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.002392+00:00",
+      "duration_ms": 0.588,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.002989+00:00",
+      "duration_ms": 0.5191,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.003517+00:00",
+      "duration_ms": 0.5208,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.004047+00:00",
+      "duration_ms": 0.5441,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.004601+00:00",
+      "duration_ms": 0.582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.005192+00:00",
+      "duration_ms": 0.5509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.005752+00:00",
+      "duration_ms": 0.8306,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.006592+00:00",
+      "duration_ms": 0.5373,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.007139+00:00",
+      "duration_ms": 0.5101,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.007884+00:00",
+      "duration_ms": 0.5615,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.008455+00:00",
+      "duration_ms": 0.5973,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.009061+00:00",
+      "duration_ms": 0.5578,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.009628+00:00",
+      "duration_ms": 0.5204,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.010158+00:00",
+      "duration_ms": 0.6159,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.010783+00:00",
+      "duration_ms": 0.5392,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.011331+00:00",
+      "duration_ms": 0.6056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.011946+00:00",
+      "duration_ms": 0.5747,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.012530+00:00",
+      "duration_ms": 0.5511,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.013090+00:00",
+      "duration_ms": 0.5519,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.013991+00:00",
+      "duration_ms": 0.5853,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.014587+00:00",
+      "duration_ms": 0.5435,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.015140+00:00",
+      "duration_ms": 0.5423,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.015691+00:00",
+      "duration_ms": 0.5376,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.016238+00:00",
+      "duration_ms": 0.5697,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.016817+00:00",
+      "duration_ms": 0.4952,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.017320+00:00",
+      "duration_ms": 0.5284,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.017858+00:00",
+      "duration_ms": 0.5654,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.018432+00:00",
+      "duration_ms": 0.5304,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.018971+00:00",
+      "duration_ms": 0.5088,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.019693+00:00",
+      "duration_ms": 0.7873,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.020491+00:00",
+      "duration_ms": 0.5864,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.021087+00:00",
+      "duration_ms": 0.5367,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.021632+00:00",
+      "duration_ms": 0.5013,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.022142+00:00",
+      "duration_ms": 0.534,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.022685+00:00",
+      "duration_ms": 0.5286,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.023223+00:00",
+      "duration_ms": 0.4997,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.023731+00:00",
+      "duration_ms": 0.5169,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.024257+00:00",
+      "duration_ms": 0.6043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.024871+00:00",
+      "duration_ms": 0.5804,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.025513+00:00",
+      "duration_ms": 0.5771,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.026100+00:00",
+      "duration_ms": 0.5342,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.026643+00:00",
+      "duration_ms": 0.5196,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.027171+00:00",
+      "duration_ms": 0.611,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.027791+00:00",
+      "duration_ms": 0.6153,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.028416+00:00",
+      "duration_ms": 0.6326,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.029058+00:00",
+      "duration_ms": 0.5732,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.029641+00:00",
+      "duration_ms": 0.5381,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.030188+00:00",
+      "duration_ms": 0.6155,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.030813+00:00",
+      "duration_ms": 0.5596,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.031449+00:00",
+      "duration_ms": 0.5847,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.032044+00:00",
+      "duration_ms": 0.574,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.032627+00:00",
+      "duration_ms": 0.5618,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.033198+00:00",
+      "duration_ms": 0.5272,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.033734+00:00",
+      "duration_ms": 0.7232,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.034466+00:00",
+      "duration_ms": 0.523,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.034998+00:00",
+      "duration_ms": 0.5045,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.035512+00:00",
+      "duration_ms": 0.5295,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.036050+00:00",
+      "duration_ms": 0.5469,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.036605+00:00",
+      "duration_ms": 0.5594,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.037222+00:00",
+      "duration_ms": 0.5573,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.037790+00:00",
+      "duration_ms": 0.5484,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.038348+00:00",
+      "duration_ms": 0.5613,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.038918+00:00",
+      "duration_ms": 0.5384,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.039466+00:00",
+      "duration_ms": 0.5019,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.039976+00:00",
+      "duration_ms": 0.5118,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.040496+00:00",
+      "duration_ms": 0.505,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.041011+00:00",
+      "duration_ms": 0.5082,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.041528+00:00",
+      "duration_ms": 0.5197,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.042056+00:00",
+      "duration_ms": 0.5029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.042612+00:00",
+      "duration_ms": 0.5677,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.043190+00:00",
+      "duration_ms": 0.531,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.043730+00:00",
+      "duration_ms": 0.5466,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.044285+00:00",
+      "duration_ms": 0.6945,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.044989+00:00",
+      "duration_ms": 0.5784,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.045577+00:00",
+      "duration_ms": 0.5126,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.046099+00:00",
+      "duration_ms": 0.5647,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.046674+00:00",
+      "duration_ms": 0.7655,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.047448+00:00",
+      "duration_ms": 0.5304,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.047988+00:00",
+      "duration_ms": 0.586,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.048653+00:00",
+      "duration_ms": 0.6084,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.049273+00:00",
+      "duration_ms": 0.5151,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.049797+00:00",
+      "duration_ms": 0.532,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.050338+00:00",
+      "duration_ms": 0.537,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.050884+00:00",
+      "duration_ms": 0.4947,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.051387+00:00",
+      "duration_ms": 0.5003,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.051896+00:00",
+      "duration_ms": 0.5151,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.052420+00:00",
+      "duration_ms": 0.5322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.052961+00:00",
+      "duration_ms": 0.5362,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.053507+00:00",
+      "duration_ms": 0.5338,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.118591+00:00",
+      "duration_ms": 5.7174,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.124329+00:00",
+      "duration_ms": 5.6626,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.130008+00:00",
+      "duration_ms": 5.538,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.135561+00:00",
+      "duration_ms": 5.1056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.140685+00:00",
+      "duration_ms": 5.385,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.146083+00:00",
+      "duration_ms": 6.0222,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.152119+00:00",
+      "duration_ms": 49.2464,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.201385+00:00",
+      "duration_ms": 6.8767,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.208289+00:00",
+      "duration_ms": 5.4191,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.213738+00:00",
+      "duration_ms": 5.1623,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.219026+00:00",
+      "duration_ms": 5.9093,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.224949+00:00",
+      "duration_ms": 5.4172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.230381+00:00",
+      "duration_ms": 5.3399,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.235735+00:00",
+      "duration_ms": 5.2097,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.240958+00:00",
+      "duration_ms": 5.8332,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.246806+00:00",
+      "duration_ms": 5.3882,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.252211+00:00",
+      "duration_ms": 50.1454,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.302381+00:00",
+      "duration_ms": 6.2577,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.308667+00:00",
+      "duration_ms": 5.4969,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.314185+00:00",
+      "duration_ms": 5.2599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.319569+00:00",
+      "duration_ms": 5.9824,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.325566+00:00",
+      "duration_ms": 5.8768,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.331457+00:00",
+      "duration_ms": 5.5761,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.337044+00:00",
+      "duration_ms": 5.1348,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.342190+00:00",
+      "duration_ms": 5.4946,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.347697+00:00",
+      "duration_ms": 5.2991,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.353008+00:00",
+      "duration_ms": 50.4661,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.403497+00:00",
+      "duration_ms": 6.5889,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.410120+00:00",
+      "duration_ms": 5.9135,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.416062+00:00",
+      "duration_ms": 5.7043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.421890+00:00",
+      "duration_ms": 6.3065,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.428212+00:00",
+      "duration_ms": 5.6119,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.433839+00:00",
+      "duration_ms": 5.2353,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.439087+00:00",
+      "duration_ms": 5.2281,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.444328+00:00",
+      "duration_ms": 7.5653,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.451906+00:00",
+      "duration_ms": 5.4898,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.457409+00:00",
+      "duration_ms": 46.2953,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.503727+00:00",
+      "duration_ms": 6.3973,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.510150+00:00",
+      "duration_ms": 5.5249,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.515689+00:00",
+      "duration_ms": 5.2006,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.521000+00:00",
+      "duration_ms": 5.3934,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.526406+00:00",
+      "duration_ms": 5.6825,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.532099+00:00",
+      "duration_ms": 5.4372,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.537548+00:00",
+      "duration_ms": 5.1562,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.542715+00:00",
+      "duration_ms": 5.4716,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.548197+00:00",
+      "duration_ms": 5.8455,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.554054+00:00",
+      "duration_ms": 50.7062,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.604779+00:00",
+      "duration_ms": 6.0759,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.610879+00:00",
+      "duration_ms": 5.8591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.616756+00:00",
+      "duration_ms": 5.2527,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.622125+00:00",
+      "duration_ms": 5.7579,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.627905+00:00",
+      "duration_ms": 7.0134,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.634939+00:00",
+      "duration_ms": 5.9023,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.640857+00:00",
+      "duration_ms": 5.593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.646462+00:00",
+      "duration_ms": 5.2864,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.651761+00:00",
+      "duration_ms": 5.1826,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.656955+00:00",
+      "duration_ms": 46.1018,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.703079+00:00",
+      "duration_ms": 6.7873,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.709892+00:00",
+      "duration_ms": 5.7607,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.715670+00:00",
+      "duration_ms": 4.9719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.720880+00:00",
+      "duration_ms": 5.6561,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.726551+00:00",
+      "duration_ms": 5.4389,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.732002+00:00",
+      "duration_ms": 5.0322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.737047+00:00",
+      "duration_ms": 5.4496,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.742509+00:00",
+      "duration_ms": 5.1475,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.747668+00:00",
+      "duration_ms": 5.1297,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.752810+00:00",
+      "duration_ms": 49.9567,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.802786+00:00",
+      "duration_ms": 6.5699,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.809377+00:00",
+      "duration_ms": 5.2643,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.814653+00:00",
+      "duration_ms": 5.242,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.820016+00:00",
+      "duration_ms": 5.6098,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.825641+00:00",
+      "duration_ms": 6.2388,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.831893+00:00",
+      "duration_ms": 6.0509,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.837957+00:00",
+      "duration_ms": 5.7321,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.843701+00:00",
+      "duration_ms": 6.1884,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.849901+00:00",
+      "duration_ms": 5.7173,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.855631+00:00",
+      "duration_ms": 46.1652,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.901811+00:00",
+      "duration_ms": 5.6788,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.907505+00:00",
+      "duration_ms": 5.8506,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.913368+00:00",
+      "duration_ms": 5.1782,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.918652+00:00",
+      "duration_ms": 5.4798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.924144+00:00",
+      "duration_ms": 6.233,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.930392+00:00",
+      "duration_ms": 5.7016,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.936109+00:00",
+      "duration_ms": 5.4795,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.941602+00:00",
+      "duration_ms": 5.9085,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.947524+00:00",
+      "duration_ms": 5.3562,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:15.952895+00:00",
+      "duration_ms": 252.0331,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.204953+00:00",
+      "duration_ms": 5.3407,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.210322+00:00",
+      "duration_ms": 4.4001,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.214745+00:00",
+      "duration_ms": 4.2795,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.219147+00:00",
+      "duration_ms": 4.4683,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.223629+00:00",
+      "duration_ms": 4.4032,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.228046+00:00",
+      "duration_ms": 4.692,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.232751+00:00",
+      "duration_ms": 4.0078,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.236770+00:00",
+      "duration_ms": 3.7593,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.240540+00:00",
+      "duration_ms": 4.3021,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.244854+00:00",
+      "duration_ms": 4.036,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.248902+00:00",
+      "duration_ms": 3.9246,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.252837+00:00",
+      "duration_ms": 4.998,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.257845+00:00",
+      "duration_ms": 44.3589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.548066+00:00",
+      "duration_ms": 61.2318,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.609331+00:00",
+      "duration_ms": 16.195,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.625552+00:00",
+      "duration_ms": 14.9114,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.640481+00:00",
+      "duration_ms": 66.2147,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.706713+00:00",
+      "duration_ms": 18.1031,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.724836+00:00",
+      "duration_ms": 15.0859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.739940+00:00",
+      "duration_ms": 15.4881,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.755445+00:00",
+      "duration_ms": 56.1942,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.811663+00:00",
+      "duration_ms": 15.8704,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.827562+00:00",
+      "duration_ms": 15.8533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.843635+00:00",
+      "duration_ms": 65.9769,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.909632+00:00",
+      "duration_ms": 17.9425,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.927600+00:00",
+      "duration_ms": 15.9645,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:16.943585+00:00",
+      "duration_ms": 65.313,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.008918+00:00",
+      "duration_ms": 15.5841,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.024523+00:00",
+      "duration_ms": 90.6834,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.115228+00:00",
+      "duration_ms": 15.4483,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.130697+00:00",
+      "duration_ms": 15.4494,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.146168+00:00",
+      "duration_ms": 65.6008,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.211793+00:00",
+      "duration_ms": 17.098,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.229219+00:00",
+      "duration_ms": 15.5627,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.244804+00:00",
+      "duration_ms": 61.3405,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.306169+00:00",
+      "duration_ms": 15.4279,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.321614+00:00",
+      "duration_ms": 15.2516,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.336888+00:00",
+      "duration_ms": 15.935,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.352847+00:00",
+      "duration_ms": 60.506,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.413371+00:00",
+      "duration_ms": 15.8339,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.429224+00:00",
+      "duration_ms": 14.8156,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.444057+00:00",
+      "duration_ms": 65.3025,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.509379+00:00",
+      "duration_ms": 14.9616,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.524512+00:00",
+      "duration_ms": 16.6247,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.541161+00:00",
+      "duration_ms": 66.7429,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.607927+00:00",
+      "duration_ms": 15.6523,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.623605+00:00",
+      "duration_ms": 15.6674,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.639289+00:00",
+      "duration_ms": 66.5737,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.705881+00:00",
+      "duration_ms": 16.3547,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.722257+00:00",
+      "duration_ms": 15.4088,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.737685+00:00",
+      "duration_ms": 15.2177,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.752919+00:00",
+      "duration_ms": 60.6687,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.813610+00:00",
+      "duration_ms": 15.664,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.829626+00:00",
+      "duration_ms": 17.0654,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.846714+00:00",
+      "duration_ms": 64.9907,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.911725+00:00",
+      "duration_ms": 15.2521,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.926998+00:00",
+      "duration_ms": 16.1109,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:17.943125+00:00",
+      "duration_ms": 64.9743,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.008117+00:00",
+      "duration_ms": 15.6586,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.023795+00:00",
+      "duration_ms": 16.1172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.039931+00:00",
+      "duration_ms": 15.5527,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.055501+00:00",
+      "duration_ms": 57.0102,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.112527+00:00",
+      "duration_ms": 17.0057,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.129904+00:00",
+      "duration_ms": 16.8812,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.146809+00:00",
+      "duration_ms": 65.1553,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.211988+00:00",
+      "duration_ms": 15.8798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.227895+00:00",
+      "duration_ms": 16.3862,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.244299+00:00",
+      "duration_ms": 65.6882,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.310010+00:00",
+      "duration_ms": 15.6149,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.325651+00:00",
+      "duration_ms": 16.6296,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.342297+00:00",
+      "duration_ms": 66.2155,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.408532+00:00",
+      "duration_ms": 16.0121,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.424569+00:00",
+      "duration_ms": 16.1232,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.441997+00:00",
+      "duration_ms": 60.9707,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.502998+00:00",
+      "duration_ms": 16.5897,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.519617+00:00",
+      "duration_ms": 16.1916,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.535830+00:00",
+      "duration_ms": 16.7094,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.552561+00:00",
+      "duration_ms": 61.4023,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.613988+00:00",
+      "duration_ms": 16.6384,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.630649+00:00",
+      "duration_ms": 16.7702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.647441+00:00",
+      "duration_ms": 65.3801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.712848+00:00",
+      "duration_ms": 17.1821,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.730058+00:00",
+      "duration_ms": 16.3869,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.746618+00:00",
+      "duration_ms": 67.0652,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.813702+00:00",
+      "duration_ms": 18.1698,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.831893+00:00",
+      "duration_ms": 16.002,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.847915+00:00",
+      "duration_ms": 61.3689,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.909302+00:00",
+      "duration_ms": 15.9101,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.925229+00:00",
+      "duration_ms": 17.0366,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:18.942282+00:00",
+      "duration_ms": 65.8701,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.008180+00:00",
+      "duration_ms": 18.1662,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.026375+00:00",
+      "duration_ms": 17.085,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.043479+00:00",
+      "duration_ms": 62.1331,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.105754+00:00",
+      "duration_ms": 17.6951,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.123476+00:00",
+      "duration_ms": 15.7227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.139216+00:00",
+      "duration_ms": 65.4827,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.204717+00:00",
+      "duration_ms": 15.7601,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.220495+00:00",
+      "duration_ms": 16.2453,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.236754+00:00",
+      "duration_ms": 15.3154,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.252083+00:00",
+      "duration_ms": 62.7945,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.314892+00:00",
+      "duration_ms": 15.487,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.330400+00:00",
+      "duration_ms": 16.2485,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.346670+00:00",
+      "duration_ms": 65.3424,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.412251+00:00",
+      "duration_ms": 17.781,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.430060+00:00",
+      "duration_ms": 16.9203,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.447003+00:00",
+      "duration_ms": 60.8093,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.507841+00:00",
+      "duration_ms": 17.8237,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.525689+00:00",
+      "duration_ms": 17.9075,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.543620+00:00",
+      "duration_ms": 62.2833,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.605928+00:00",
+      "duration_ms": 24.5327,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.630486+00:00",
+      "duration_ms": 22.4956,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.653008+00:00",
+      "duration_ms": 63.3335,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.716367+00:00",
+      "duration_ms": 20.0886,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.737783+00:00",
+      "duration_ms": 7.584700011648238,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.739164+00:00",
+      "duration_ms": 11.405900004319847,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743954+00:00",
+      "duration_ms": 7.564399973489344,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743965+00:00",
+      "duration_ms": 8.35640006698668,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743975+00:00",
+      "duration_ms": 9.25110001116991,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743984+00:00",
+      "duration_ms": 10.130699956789613,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743992+00:00",
+      "duration_ms": 11.183900060132146,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744001+00:00",
+      "duration_ms": 11.99789997190237,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744009+00:00",
+      "duration_ms": 12.789900065399706,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744017+00:00",
+      "duration_ms": 13.566199922934175,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744142+00:00",
+      "duration_ms": 14.276499976404011,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744172+00:00",
+      "duration_ms": 15.017800033092499,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744208+00:00",
+      "duration_ms": 15.775699983350933,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744221+00:00",
+      "duration_ms": 16.621800023131073,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744232+00:00",
+      "duration_ms": 17.602099920623004,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744240+00:00",
+      "duration_ms": 18.435999983921647,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744250+00:00",
+      "duration_ms": 19.471399951726198,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744259+00:00",
+      "duration_ms": 57.574299979023635,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744269+00:00",
+      "duration_ms": 58.918300084769726,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744279+00:00",
+      "duration_ms": 60.10090000927448,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744289+00:00",
+      "duration_ms": 61.28360005095601,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744300+00:00",
+      "duration_ms": 63.19810007698834,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.739117+00:00",
+      "duration_ms": 69.69649996608496,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744311+00:00",
+      "duration_ms": 65.48599991947412,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.740832+00:00",
+      "duration_ms": 72.73810007609427,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.738408+00:00",
+      "duration_ms": 75.17149997875094,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.740218+00:00",
+      "duration_ms": 73.36799998302013,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744331+00:00",
+      "duration_ms": 69.26880008541048,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744352+00:00",
+      "duration_ms": 69.25239996053278,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.741729+00:00",
+      "duration_ms": 71.87380001414567,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743923+00:00",
+      "duration_ms": 71.62809988949448,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744322+00:00",
+      "duration_ms": 71.24660001136363,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744383+00:00",
+      "duration_ms": 71.1928999517113,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744364+00:00",
+      "duration_ms": 71.21580000966787,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.743047+00:00",
+      "duration_ms": 72.52449996303767,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744341+00:00",
+      "duration_ms": 71.24359998852015,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744392+00:00",
+      "duration_ms": 72.53780006431043,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744402+00:00",
+      "duration_ms": 72.5381999509409,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.742723+00:00",
+      "duration_ms": 74.2100999923423,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744600+00:00",
+      "duration_ms": 75.26189996860921,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744607+00:00",
+      "duration_ms": 77.43800000753254,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744411+00:00",
+      "duration_ms": 77.65019999351352,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744373+00:00",
+      "duration_ms": 77.69409997854382,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744568+00:00",
+      "duration_ms": 77.50249991659075,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744593+00:00",
+      "duration_ms": 77.48430001083761,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744635+00:00",
+      "duration_ms": 77.44710007682443,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744615+00:00",
+      "duration_ms": 77.47639995068312,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744647+00:00",
+      "duration_ms": 77.44939997792244,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744420+00:00",
+      "duration_ms": 77.56850006990135,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.742202+00:00",
+      "duration_ms": 79.89119994454086,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744641+00:00",
+      "duration_ms": 78.34740006364882,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744653+00:00",
+      "duration_ms": 78.34910007659346,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744629+00:00",
+      "duration_ms": 78.37659993674606,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744622+00:00",
+      "duration_ms": 80.60560002923012,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744700+00:00",
+      "duration_ms": 80.53640008438379,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744673+00:00",
+      "duration_ms": 80.56639996357262,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744680+00:00",
+      "duration_ms": 80.56239993311465,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744583+00:00",
+      "duration_ms": 80.66079998388886,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744659+00:00",
+      "duration_ms": 81.52280002832413,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744666+00:00",
+      "duration_ms": 83.48120003938675,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744721+00:00",
+      "duration_ms": 84.64339992497116,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744713+00:00",
+      "duration_ms": 84.67640005983412,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744686+00:00",
+      "duration_ms": 84.70800006762147,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744740+00:00",
+      "duration_ms": 84.6580999204889,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744756+00:00",
+      "duration_ms": 84.65059997979552,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744750+00:00",
+      "duration_ms": 84.65930004604161,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744765+00:00",
+      "duration_ms": 84.64789995923638,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744706+00:00",
+      "duration_ms": 87.15709997341037,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744995+00:00",
+      "duration_ms": 86.87309990637004,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745028+00:00",
+      "duration_ms": 86.8481999495998,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744760+00:00",
+      "duration_ms": 88.32440001424402,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744745+00:00",
+      "duration_ms": 88.35109998472035,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745011+00:00",
+      "duration_ms": 88.08889996726066,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745059+00:00",
+      "duration_ms": 88.04950001649559,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744774+00:00",
+      "duration_ms": 88.33870000671595,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744770+00:00",
+      "duration_ms": 91.96330001577735,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745075+00:00",
+      "duration_ms": 91.66719997301698,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745042+00:00",
+      "duration_ms": 91.7030000127852,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745019+00:00",
+      "duration_ms": 91.72810008749366,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745082+00:00",
+      "duration_ms": 91.66949999053031,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745052+00:00",
+      "duration_ms": 91.80519997607917,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744732+00:00",
+      "duration_ms": 92.14369999244809,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.744693+00:00",
+      "duration_ms": 92.18939999118447,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745121+00:00",
+      "duration_ms": 91.76699991803616,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745035+00:00",
+      "duration_ms": 92.93250006157905,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745106+00:00",
+      "duration_ms": 92.86919992882758,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745067+00:00",
+      "duration_ms": 94.62430002167821,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745201+00:00",
+      "duration_ms": 94.49629997834563,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745089+00:00",
+      "duration_ms": 94.61469994857907,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745113+00:00",
+      "duration_ms": 94.59300001617521,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745218+00:00",
+      "duration_ms": 95.47850000672042,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745212+00:00",
+      "duration_ms": 95.49639991018921,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745224+00:00",
+      "duration_ms": 95.48869996797293,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745098+00:00",
+      "duration_ms": 95.61550000216812,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745136+00:00",
+      "duration_ms": 95.54210002534091,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745247+00:00",
+      "duration_ms": 95.47450009267777,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745240+00:00",
+      "duration_ms": 95.92009999323636,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745235+00:00",
+      "duration_ms": 95.9331999765709,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745128+00:00",
+      "duration_ms": 96.04229999240488,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "memgraph_docker",
+      "started_at": "2026-08-24T17:51:19.745230+00:00",
+      "duration_ms": 95.94449994619936,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    }
+  ],
+  "notes": [
+    "{\"load_wall_ms\": 4520.139200030826, \"loaded_nodes\": 74062, \"loaded_relationships\": 150000}",
+    "{\"mixed_clients\": 10, \"mixed_ok\": 100, \"mixed_qps\": 951.193320195264, \"read_fraction\": 0.5, \"write_fraction\": 0.5}"
+  ]
+}

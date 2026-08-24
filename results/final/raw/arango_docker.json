@@ -1,0 +1,6331 @@
+{
+  "database": "arango_docker",
+  "started_at": "2026-08-24T18:07:46.666413+00:00",
+  "finished_at": "2026-08-24T18:08:36.061972+00:00",
+  "host": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.5",
+    "cpu_count": 22,
+    "hostname": "redacted"
+  },
+  "platform": {
+    "name": "arango_docker",
+    "resource_specs": "not recorded"
+  },
+  "dataset": {
+    "directory": "data/pokec_sample",
+    "nodes": 74062,
+    "relationships": 150000
+  },
+  "settings": {
+    "warmup": 10,
+    "iterations": 100,
+    "mixed_clients": 10
+  },
+  "samples": [
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.706166+00:00",
+      "duration_ms": 44.4616,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.750667+00:00",
+      "duration_ms": 43.7438,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.794440+00:00",
+      "duration_ms": 44.1251,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.838587+00:00",
+      "duration_ms": 45.3024,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.883915+00:00",
+      "duration_ms": 46.4835,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.930431+00:00",
+      "duration_ms": 46.8104,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:04.977264+00:00",
+      "duration_ms": 45.3618,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.022646+00:00",
+      "duration_ms": 43.8499,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.066520+00:00",
+      "duration_ms": 46.2283,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.112773+00:00",
+      "duration_ms": 45.5048,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.158422+00:00",
+      "duration_ms": 43.982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.202432+00:00",
+      "duration_ms": 44.0288,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.246487+00:00",
+      "duration_ms": 44.9943,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.291511+00:00",
+      "duration_ms": 56.6658,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.348206+00:00",
+      "duration_ms": 46.3588,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.394587+00:00",
+      "duration_ms": 43.6715,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.438279+00:00",
+      "duration_ms": 43.6195,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.481915+00:00",
+      "duration_ms": 44.1795,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.526113+00:00",
+      "duration_ms": 43.8784,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.570009+00:00",
+      "duration_ms": 44.493,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.614674+00:00",
+      "duration_ms": 44.0146,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.658711+00:00",
+      "duration_ms": 43.8533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.702592+00:00",
+      "duration_ms": 43.9211,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.746537+00:00",
+      "duration_ms": 43.6838,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.790241+00:00",
+      "duration_ms": 44.3876,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.834650+00:00",
+      "duration_ms": 43.4533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.878127+00:00",
+      "duration_ms": 44.1494,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.922297+00:00",
+      "duration_ms": 44.1604,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:05.966479+00:00",
+      "duration_ms": 43.9476,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.010449+00:00",
+      "duration_ms": 43.7574,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.054542+00:00",
+      "duration_ms": 43.4141,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.097984+00:00",
+      "duration_ms": 44.2009,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.142206+00:00",
+      "duration_ms": 43.9472,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.186179+00:00",
+      "duration_ms": 44.1211,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.230327+00:00",
+      "duration_ms": 47.6416,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.277990+00:00",
+      "duration_ms": 44.0863,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.322097+00:00",
+      "duration_ms": 43.9497,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.366070+00:00",
+      "duration_ms": 45.0752,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.411172+00:00",
+      "duration_ms": 43.21,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.454409+00:00",
+      "duration_ms": 43.5676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.498168+00:00",
+      "duration_ms": 44.3712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.542561+00:00",
+      "duration_ms": 43.6623,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.586245+00:00",
+      "duration_ms": 43.8556,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.630124+00:00",
+      "duration_ms": 44.1486,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.674294+00:00",
+      "duration_ms": 43.7679,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.718082+00:00",
+      "duration_ms": 44.2993,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.762403+00:00",
+      "duration_ms": 43.7285,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.806157+00:00",
+      "duration_ms": 44.0936,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.850272+00:00",
+      "duration_ms": 48.0061,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.898304+00:00",
+      "duration_ms": 44.0691,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.942541+00:00",
+      "duration_ms": 43.2245,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:06.985789+00:00",
+      "duration_ms": 43.8678,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.029675+00:00",
+      "duration_ms": 44.3599,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.074058+00:00",
+      "duration_ms": 43.8036,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.117887+00:00",
+      "duration_ms": 43.8589,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.161769+00:00",
+      "duration_ms": 44.6038,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.206399+00:00",
+      "duration_ms": 43.2523,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.249675+00:00",
+      "duration_ms": 44.3616,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.294055+00:00",
+      "duration_ms": 43.9232,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.337999+00:00",
+      "duration_ms": 44.3048,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.382437+00:00",
+      "duration_ms": 43.6172,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.426108+00:00",
+      "duration_ms": 43.9208,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.470057+00:00",
+      "duration_ms": 43.8661,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.513950+00:00",
+      "duration_ms": 48.0363,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.562010+00:00",
+      "duration_ms": 44.0899,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.606115+00:00",
+      "duration_ms": 43.7985,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.649931+00:00",
+      "duration_ms": 44.2415,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.694197+00:00",
+      "duration_ms": 43.6323,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.737854+00:00",
+      "duration_ms": 44.4058,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.782280+00:00",
+      "duration_ms": 43.9684,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.826416+00:00",
+      "duration_ms": 43.7466,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.870191+00:00",
+      "duration_ms": 44.1719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.914389+00:00",
+      "duration_ms": 48.0538,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:07.962465+00:00",
+      "duration_ms": 44.8419,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.007329+00:00",
+      "duration_ms": 43.0948,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.050451+00:00",
+      "duration_ms": 44.7274,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.095203+00:00",
+      "duration_ms": 43.0449,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.138273+00:00",
+      "duration_ms": 44.7578,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.183056+00:00",
+      "duration_ms": 43.1126,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.226198+00:00",
+      "duration_ms": 43.9511,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.270298+00:00",
+      "duration_ms": 43.8977,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.314220+00:00",
+      "duration_ms": 43.7052,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.357946+00:00",
+      "duration_ms": 44.4297,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.402394+00:00",
+      "duration_ms": 43.7787,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.446195+00:00",
+      "duration_ms": 43.9203,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.490140+00:00",
+      "duration_ms": 44.0221,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.534188+00:00",
+      "duration_ms": 44.7741,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.578987+00:00",
+      "duration_ms": 42.9406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.621956+00:00",
+      "duration_ms": 43.7535,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.665727+00:00",
+      "duration_ms": 44.7005,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.710542+00:00",
+      "duration_ms": 43.8818,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.754447+00:00",
+      "duration_ms": 47.758,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.802229+00:00",
+      "duration_ms": 43.9736,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.846227+00:00",
+      "duration_ms": 43.7245,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.889974+00:00",
+      "duration_ms": 43.771,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.933764+00:00",
+      "duration_ms": 44.092,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:08.977875+00:00",
+      "duration_ms": 43.9525,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.021847+00:00",
+      "duration_ms": 43.9335,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.065800+00:00",
+      "duration_ms": 44.2834,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_1hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.110107+00:00",
+      "duration_ms": 44.2332,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.603901+00:00",
+      "duration_ms": 46.1526,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.650083+00:00",
+      "duration_ms": 43.8379,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.693945+00:00",
+      "duration_ms": 43.88,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.737842+00:00",
+      "duration_ms": 44.2443,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.782109+00:00",
+      "duration_ms": 43.9559,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.826091+00:00",
+      "duration_ms": 45.5533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.871672+00:00",
+      "duration_ms": 46.0485,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.917749+00:00",
+      "duration_ms": 43.9326,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:09.961700+00:00",
+      "duration_ms": 44.9398,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.006669+00:00",
+      "duration_ms": 45.8604,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.052850+00:00",
+      "duration_ms": 45.3088,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.098186+00:00",
+      "duration_ms": 43.8406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.142051+00:00",
+      "duration_ms": 43.9485,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.186026+00:00",
+      "duration_ms": 82.5234,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.268569+00:00",
+      "duration_ms": 45.334,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.313922+00:00",
+      "duration_ms": 44.056,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.358000+00:00",
+      "duration_ms": 43.924,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.401945+00:00",
+      "duration_ms": 45.5775,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.447548+00:00",
+      "duration_ms": 46.78,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.494358+00:00",
+      "duration_ms": 43.849,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.538403+00:00",
+      "duration_ms": 43.8067,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.582233+00:00",
+      "duration_ms": 43.6756,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.625929+00:00",
+      "duration_ms": 44.7719,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.670727+00:00",
+      "duration_ms": 43.6052,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.714361+00:00",
+      "duration_ms": 43.6083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.757991+00:00",
+      "duration_ms": 44.5435,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.802551+00:00",
+      "duration_ms": 43.3644,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.845932+00:00",
+      "duration_ms": 43.9324,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.889883+00:00",
+      "duration_ms": 44.0225,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.933928+00:00",
+      "duration_ms": 44.1659,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:10.978250+00:00",
+      "duration_ms": 43.8112,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.022084+00:00",
+      "duration_ms": 44.1853,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.066295+00:00",
+      "duration_ms": 43.7779,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.110099+00:00",
+      "duration_ms": 43.5337,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.153655+00:00",
+      "duration_ms": 50.7661,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.204438+00:00",
+      "duration_ms": 45.1635,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.249617+00:00",
+      "duration_ms": 44.4078,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.294048+00:00",
+      "duration_ms": 44.2693,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.338343+00:00",
+      "duration_ms": 43.676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.382042+00:00",
+      "duration_ms": 44.1075,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.426843+00:00",
+      "duration_ms": 43.1754,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.470049+00:00",
+      "duration_ms": 44.3463,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.514421+00:00",
+      "duration_ms": 43.9085,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.558353+00:00",
+      "duration_ms": 43.734,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.602109+00:00",
+      "duration_ms": 44.0029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.646135+00:00",
+      "duration_ms": 43.978,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.690138+00:00",
+      "duration_ms": 44.3533,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.734518+00:00",
+      "duration_ms": 43.6467,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.778192+00:00",
+      "duration_ms": 43.9621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.822184+00:00",
+      "duration_ms": 44.0442,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.866933+00:00",
+      "duration_ms": 43.2303,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.910193+00:00",
+      "duration_ms": 44.1146,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.954337+00:00",
+      "duration_ms": 43.982,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:11.998347+00:00",
+      "duration_ms": 43.9625,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.042335+00:00",
+      "duration_ms": 43.8263,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.086191+00:00",
+      "duration_ms": 43.5862,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.129797+00:00",
+      "duration_ms": 45.004,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.174824+00:00",
+      "duration_ms": 43.6358,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.218491+00:00",
+      "duration_ms": 44.1735,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.262690+00:00",
+      "duration_ms": 43.3762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.306697+00:00",
+      "duration_ms": 43.3259,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.350049+00:00",
+      "duration_ms": 44.0386,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.394110+00:00",
+      "duration_ms": 42.994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.437121+00:00",
+      "duration_ms": 45.3916,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.482528+00:00",
+      "duration_ms": 43.8859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.526435+00:00",
+      "duration_ms": 43.6966,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.570156+00:00",
+      "duration_ms": 43.8617,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.614039+00:00",
+      "duration_ms": 43.777,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.657838+00:00",
+      "duration_ms": 44.0454,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.701905+00:00",
+      "duration_ms": 44.405,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.746713+00:00",
+      "duration_ms": 43.4217,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.790161+00:00",
+      "duration_ms": 44.4063,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.834594+00:00",
+      "duration_ms": 43.1724,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.877795+00:00",
+      "duration_ms": 44.3657,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.922181+00:00",
+      "duration_ms": 43.9327,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:12.966138+00:00",
+      "duration_ms": 44.7226,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.010889+00:00",
+      "duration_ms": 43.5394,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.054458+00:00",
+      "duration_ms": 43.6065,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.098090+00:00",
+      "duration_ms": 43.5872,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.141701+00:00",
+      "duration_ms": 44.444,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.186577+00:00",
+      "duration_ms": 43.5171,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.230130+00:00",
+      "duration_ms": 44.057,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.274214+00:00",
+      "duration_ms": 44.1496,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.318388+00:00",
+      "duration_ms": 43.6337,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.362049+00:00",
+      "duration_ms": 44.0085,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.406082+00:00",
+      "duration_ms": 44.5135,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.450621+00:00",
+      "duration_ms": 43.5595,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.494210+00:00",
+      "duration_ms": 44.5162,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.538751+00:00",
+      "duration_ms": 42.9641,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.581738+00:00",
+      "duration_ms": 45.3884,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.627266+00:00",
+      "duration_ms": 46.6304,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.673929+00:00",
+      "duration_ms": 47.8933,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.721850+00:00",
+      "duration_ms": 45.5614,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.767442+00:00",
+      "duration_ms": 46.708,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.814175+00:00",
+      "duration_ms": 43.2539,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.857449+00:00",
+      "duration_ms": 44.8716,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.902344+00:00",
+      "duration_ms": 43.4081,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.945782+00:00",
+      "duration_ms": 44.1878,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:13.989991+00:00",
+      "duration_ms": 43.83,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_2hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.033847+00:00",
+      "duration_ms": 44.0766,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.561628+00:00",
+      "duration_ms": 43.5787,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.605231+00:00",
+      "duration_ms": 44.3322,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.649583+00:00",
+      "duration_ms": 43.8807,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.693488+00:00",
+      "duration_ms": 44.0835,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.737597+00:00",
+      "duration_ms": 44.1112,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.781731+00:00",
+      "duration_ms": 44.0021,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.825755+00:00",
+      "duration_ms": 43.9094,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.869687+00:00",
+      "duration_ms": 44.2962,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.914009+00:00",
+      "duration_ms": 43.7861,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:14.957822+00:00",
+      "duration_ms": 73.8777,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.031801+00:00",
+      "duration_ms": 45.7868,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.077614+00:00",
+      "duration_ms": 44.1058,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.121743+00:00",
+      "duration_ms": 43.7894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.165555+00:00",
+      "duration_ms": 141.1057,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.306681+00:00",
+      "duration_ms": 43.2131,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.349913+00:00",
+      "duration_ms": 45.1025,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.395039+00:00",
+      "duration_ms": 46.4063,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.441471+00:00",
+      "duration_ms": 44.2443,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.485736+00:00",
+      "duration_ms": 43.857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.529616+00:00",
+      "duration_ms": 43.8877,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.573648+00:00",
+      "duration_ms": 44.122,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.617792+00:00",
+      "duration_ms": 43.7877,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.661602+00:00",
+      "duration_ms": 44.9078,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.706532+00:00",
+      "duration_ms": 43.2236,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.749781+00:00",
+      "duration_ms": 43.6944,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.793499+00:00",
+      "duration_ms": 44.2277,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.837747+00:00",
+      "duration_ms": 43.9641,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.881731+00:00",
+      "duration_ms": 44.2216,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.925978+00:00",
+      "duration_ms": 43.6369,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:15.969641+00:00",
+      "duration_ms": 44.2065,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.014037+00:00",
+      "duration_ms": 43.6136,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.057672+00:00",
+      "duration_ms": 43.9894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.101682+00:00",
+      "duration_ms": 43.8179,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.145521+00:00",
+      "duration_ms": 43.9591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.189501+00:00",
+      "duration_ms": 122.608,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.312130+00:00",
+      "duration_ms": 44.9688,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.357117+00:00",
+      "duration_ms": 44.2265,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.401363+00:00",
+      "duration_ms": 44.0773,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.445461+00:00",
+      "duration_ms": 44.4236,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.489907+00:00",
+      "duration_ms": 43.7215,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.533920+00:00",
+      "duration_ms": 43.9411,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.577893+00:00",
+      "duration_ms": 43.4169,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.621336+00:00",
+      "duration_ms": 44.1488,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.665503+00:00",
+      "duration_ms": 43.6047,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.709125+00:00",
+      "duration_ms": 45.0673,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.754221+00:00",
+      "duration_ms": 43.4513,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.797705+00:00",
+      "duration_ms": 44.1106,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.841843+00:00",
+      "duration_ms": 44.0608,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.885932+00:00",
+      "duration_ms": 44.2621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.930227+00:00",
+      "duration_ms": 43.0211,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:16.973378+00:00",
+      "duration_ms": 43.7892,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.017194+00:00",
+      "duration_ms": 44.8347,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.062052+00:00",
+      "duration_ms": 43.3144,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.105391+00:00",
+      "duration_ms": 43.8457,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.149261+00:00",
+      "duration_ms": 44.6988,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.193985+00:00",
+      "duration_ms": 43.4001,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.237414+00:00",
+      "duration_ms": 43.8884,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.281328+00:00",
+      "duration_ms": 43.8864,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.325235+00:00",
+      "duration_ms": 44.3033,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.369560+00:00",
+      "duration_ms": 43.9506,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.413651+00:00",
+      "duration_ms": 44.233,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.457910+00:00",
+      "duration_ms": 43.7623,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.501697+00:00",
+      "duration_ms": 43.8188,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.545539+00:00",
+      "duration_ms": 53.8169,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.599373+00:00",
+      "duration_ms": 47.6903,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.647084+00:00",
+      "duration_ms": 47.1416,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.694256+00:00",
+      "duration_ms": 46.84,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.741120+00:00",
+      "duration_ms": 43.9908,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.785130+00:00",
+      "duration_ms": 44.254,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.829408+00:00",
+      "duration_ms": 44.1416,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.873720+00:00",
+      "duration_ms": 44.2517,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.918001+00:00",
+      "duration_ms": 43.6478,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:17.961676+00:00",
+      "duration_ms": 44.2457,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.005945+00:00",
+      "duration_ms": 43.872,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.049842+00:00",
+      "duration_ms": 44.2263,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.094097+00:00",
+      "duration_ms": 43.4676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.137590+00:00",
+      "duration_ms": 43.7399,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.181353+00:00",
+      "duration_ms": 43.7712,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.225144+00:00",
+      "duration_ms": 45.0374,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.270204+00:00",
+      "duration_ms": 43.7472,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.314252+00:00",
+      "duration_ms": 43.3591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.357646+00:00",
+      "duration_ms": 43.8611,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.401533+00:00",
+      "duration_ms": 43.7999,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.445355+00:00",
+      "duration_ms": 44.1031,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.489478+00:00",
+      "duration_ms": 43.9526,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.533450+00:00",
+      "duration_ms": 43.9811,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.577452+00:00",
+      "duration_ms": 43.9676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.621441+00:00",
+      "duration_ms": 45.3134,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.666778+00:00",
+      "duration_ms": 43.5672,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.710372+00:00",
+      "duration_ms": 47.4891,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.758035+00:00",
+      "duration_ms": 43.5471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.801610+00:00",
+      "duration_ms": 90.5113,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.892142+00:00",
+      "duration_ms": 45.3282,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.937489+00:00",
+      "duration_ms": 43.5265,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:18.981035+00:00",
+      "duration_ms": 44.6958,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.025756+00:00",
+      "duration_ms": 43.9744,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.069760+00:00",
+      "duration_ms": 43.6037,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.113389+00:00",
+      "duration_ms": 43.8724,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.157283+00:00",
+      "duration_ms": 45.2033,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "traversal_3hop",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.202514+00:00",
+      "duration_ms": 42.5928,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.704691+00:00",
+      "duration_ms": 44.6554,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.749376+00:00",
+      "duration_ms": 44.1189,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.793521+00:00",
+      "duration_ms": 43.7148,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.837262+00:00",
+      "duration_ms": 44.1083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.881393+00:00",
+      "duration_ms": 44.0268,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.925439+00:00",
+      "duration_ms": 44.0796,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:19.969538+00:00",
+      "duration_ms": 44.8489,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.014413+00:00",
+      "duration_ms": 43.8938,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.058338+00:00",
+      "duration_ms": 44.5319,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.102905+00:00",
+      "duration_ms": 47.1874,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.150411+00:00",
+      "duration_ms": 42.8256,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.193266+00:00",
+      "duration_ms": 44.1155,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.237404+00:00",
+      "duration_ms": 43.8547,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.281281+00:00",
+      "duration_ms": 47.0925,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.328395+00:00",
+      "duration_ms": 45.6481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.374067+00:00",
+      "duration_ms": 44.4845,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.418582+00:00",
+      "duration_ms": 42.5806,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.461186+00:00",
+      "duration_ms": 44.0566,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.505263+00:00",
+      "duration_ms": 44.6659,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.549956+00:00",
+      "duration_ms": 44.1329,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.594284+00:00",
+      "duration_ms": 47.1243,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.641441+00:00",
+      "duration_ms": 43.9585,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.685423+00:00",
+      "duration_ms": 43.8037,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.729248+00:00",
+      "duration_ms": 44.0193,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.773289+00:00",
+      "duration_ms": 43.9491,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.817260+00:00",
+      "duration_ms": 45.2976,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.862581+00:00",
+      "duration_ms": 47.3019,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.909912+00:00",
+      "duration_ms": 43.471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.953405+00:00",
+      "duration_ms": 43.8874,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:20.997314+00:00",
+      "duration_ms": 44.2669,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.041761+00:00",
+      "duration_ms": 43.7751,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.085583+00:00",
+      "duration_ms": 43.6488,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.129260+00:00",
+      "duration_ms": 43.7781,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.173062+00:00",
+      "duration_ms": 44.3165,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.217402+00:00",
+      "duration_ms": 45.369,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.262798+00:00",
+      "duration_ms": 47.1096,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.309954+00:00",
+      "duration_ms": 42.8601,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.352838+00:00",
+      "duration_ms": 45.4766,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.398337+00:00",
+      "duration_ms": 48.2848,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.446652+00:00",
+      "duration_ms": 46.1151,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.492864+00:00",
+      "duration_ms": 44.3951,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.537278+00:00",
+      "duration_ms": 43.9676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.581270+00:00",
+      "duration_ms": 43.8116,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.625104+00:00",
+      "duration_ms": 44.1181,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.669244+00:00",
+      "duration_ms": 44.0685,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.713334+00:00",
+      "duration_ms": 44.9394,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.758301+00:00",
+      "duration_ms": 47.8525,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.806186+00:00",
+      "duration_ms": 43.1201,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.849332+00:00",
+      "duration_ms": 43.8061,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.893158+00:00",
+      "duration_ms": 44.5238,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.937839+00:00",
+      "duration_ms": 43.8807,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:21.981749+00:00",
+      "duration_ms": 43.5831,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.025360+00:00",
+      "duration_ms": 44.4801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.069868+00:00",
+      "duration_ms": 43.2145,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.113105+00:00",
+      "duration_ms": 44.2765,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.157398+00:00",
+      "duration_ms": 43.9251,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.201345+00:00",
+      "duration_ms": 43.851,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.245220+00:00",
+      "duration_ms": 46.1086,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.291353+00:00",
+      "duration_ms": 45.8329,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.337210+00:00",
+      "duration_ms": 43.9973,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.381392+00:00",
+      "duration_ms": 43.4762,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.424889+00:00",
+      "duration_ms": 45.0578,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.469968+00:00",
+      "duration_ms": 43.2654,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.513260+00:00",
+      "duration_ms": 44.1859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.557470+00:00",
+      "duration_ms": 43.8764,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.601370+00:00",
+      "duration_ms": 44.4412,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.645835+00:00",
+      "duration_ms": 43.5498,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.689415+00:00",
+      "duration_ms": 47.2944,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.736737+00:00",
+      "duration_ms": 44.5071,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.781269+00:00",
+      "duration_ms": 45.2964,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.826775+00:00",
+      "duration_ms": 46.6169,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.873430+00:00",
+      "duration_ms": 43.7489,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.917202+00:00",
+      "duration_ms": 44.6738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:22.961902+00:00",
+      "duration_ms": 43.3394,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.005269+00:00",
+      "duration_ms": 44.3991,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.049690+00:00",
+      "duration_ms": 44.0355,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.093748+00:00",
+      "duration_ms": 43.4998,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.137270+00:00",
+      "duration_ms": 45.186,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.182483+00:00",
+      "duration_ms": 47.1978,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.229712+00:00",
+      "duration_ms": 43.5481,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.273420+00:00",
+      "duration_ms": 43.8307,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.317276+00:00",
+      "duration_ms": 43.887,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.361187+00:00",
+      "duration_ms": 44.0136,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.405225+00:00",
+      "duration_ms": 43.3995,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.448646+00:00",
+      "duration_ms": 44.0702,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.492729+00:00",
+      "duration_ms": 44.734,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.537484+00:00",
+      "duration_ms": 43.8704,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.581380+00:00",
+      "duration_ms": 44.1666,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.625570+00:00",
+      "duration_ms": 43.8013,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.669396+00:00",
+      "duration_ms": 44.3079,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.713896+00:00",
+      "duration_ms": 43.4341,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.757355+00:00",
+      "duration_ms": 44.4074,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.801786+00:00",
+      "duration_ms": 43.531,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.845345+00:00",
+      "duration_ms": 44.1269,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.889495+00:00",
+      "duration_ms": 43.6661,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.933184+00:00",
+      "duration_ms": 44.2963,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:23.977503+00:00",
+      "duration_ms": 44.5582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.022086+00:00",
+      "duration_ms": 43.3256,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.065440+00:00",
+      "duration_ms": 43.7581,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "point_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.109224+00:00",
+      "duration_ms": 44.0962,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.636066+00:00",
+      "duration_ms": 46.3877,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.682483+00:00",
+      "duration_ms": 45.0387,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.727542+00:00",
+      "duration_ms": 47.8858,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.775446+00:00",
+      "duration_ms": 48.5192,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.823988+00:00",
+      "duration_ms": 46.5582,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.870568+00:00",
+      "duration_ms": 44.875,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.915460+00:00",
+      "duration_ms": 49.2984,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:24.964776+00:00",
+      "duration_ms": 45.6845,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.010479+00:00",
+      "duration_ms": 45.5355,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.056033+00:00",
+      "duration_ms": 45.9949,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.102304+00:00",
+      "duration_ms": 44.5729,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.146906+00:00",
+      "duration_ms": 47.4406,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.194370+00:00",
+      "duration_ms": 45.1026,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.239512+00:00",
+      "duration_ms": 47.5859,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.287120+00:00",
+      "duration_ms": 47.9933,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.335136+00:00",
+      "duration_ms": 47.6488,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.382808+00:00",
+      "duration_ms": 47.8164,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.430645+00:00",
+      "duration_ms": 47.8028,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.478474+00:00",
+      "duration_ms": 48.904,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.527403+00:00",
+      "duration_ms": 47.1862,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.574772+00:00",
+      "duration_ms": 47.8749,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.622667+00:00",
+      "duration_ms": 43.9902,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.666676+00:00",
+      "duration_ms": 48.8184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.715515+00:00",
+      "duration_ms": 47.2827,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.762817+00:00",
+      "duration_ms": 48.0635,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.810904+00:00",
+      "duration_ms": 47.6924,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.858617+00:00",
+      "duration_ms": 48.2029,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.906840+00:00",
+      "duration_ms": 48.0676,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:25.954931+00:00",
+      "duration_ms": 47.6975,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.002648+00:00",
+      "duration_ms": 48.6741,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.051474+00:00",
+      "duration_ms": 47.0109,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.098509+00:00",
+      "duration_ms": 44.1813,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.142708+00:00",
+      "duration_ms": 48.2929,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.191018+00:00",
+      "duration_ms": 47.8159,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.238853+00:00",
+      "duration_ms": 48.3957,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.287271+00:00",
+      "duration_ms": 47.3005,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.334591+00:00",
+      "duration_ms": 44.1127,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.378719+00:00",
+      "duration_ms": 47.658,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.426396+00:00",
+      "duration_ms": 47.5813,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.474002+00:00",
+      "duration_ms": 44.5241,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.518708+00:00",
+      "duration_ms": 47.7307,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.566468+00:00",
+      "duration_ms": 44.1991,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.610682+00:00",
+      "duration_ms": 46.8592,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.657556+00:00",
+      "duration_ms": 46.1652,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.703737+00:00",
+      "duration_ms": 51.4975,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.755257+00:00",
+      "duration_ms": 49.1083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.804390+00:00",
+      "duration_ms": 45.6587,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.850074+00:00",
+      "duration_ms": 44.6474,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.894738+00:00",
+      "duration_ms": 48.6706,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.943426+00:00",
+      "duration_ms": 52.3976,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:26.996014+00:00",
+      "duration_ms": 45.7308,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.041775+00:00",
+      "duration_ms": 43.7339,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.085527+00:00",
+      "duration_ms": 44.4443,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.129988+00:00",
+      "duration_ms": 45.0537,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.175061+00:00",
+      "duration_ms": 47.7763,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.222861+00:00",
+      "duration_ms": 47.7082,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.270594+00:00",
+      "duration_ms": 47.9214,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.318539+00:00",
+      "duration_ms": 48.2335,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.366795+00:00",
+      "duration_ms": 49.0471,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.415869+00:00",
+      "duration_ms": 46.9874,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.463078+00:00",
+      "duration_ms": 46.861,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.509972+00:00",
+      "duration_ms": 44.2007,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.554192+00:00",
+      "duration_ms": 44.1315,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.598343+00:00",
+      "duration_ms": 43.6512,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.642014+00:00",
+      "duration_ms": 44.9141,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.686948+00:00",
+      "duration_ms": 47.1428,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.734110+00:00",
+      "duration_ms": 47.6101,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.781738+00:00",
+      "duration_ms": 43.8653,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.825623+00:00",
+      "duration_ms": 44.7515,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.870393+00:00",
+      "duration_ms": 44.3353,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.914890+00:00",
+      "duration_ms": 47.534,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:27.962450+00:00",
+      "duration_ms": 43.3808,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.005849+00:00",
+      "duration_ms": 44.9613,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.050828+00:00",
+      "duration_ms": 47.6747,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.098524+00:00",
+      "duration_ms": 48.2148,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.146763+00:00",
+      "duration_ms": 48.1892,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.194974+00:00",
+      "duration_ms": 47.7687,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.242766+00:00",
+      "duration_ms": 47.8002,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.290591+00:00",
+      "duration_ms": 48.1572,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.338771+00:00",
+      "duration_ms": 46.8937,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.385780+00:00",
+      "duration_ms": 45.5672,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.431372+00:00",
+      "duration_ms": 47.5943,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.478986+00:00",
+      "duration_ms": 47.6171,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.526622+00:00",
+      "duration_ms": 47.9052,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.574549+00:00",
+      "duration_ms": 47.7157,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.622282+00:00",
+      "duration_ms": 44.5945,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.666897+00:00",
+      "duration_ms": 47.4715,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.714388+00:00",
+      "duration_ms": 44.449,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.758851+00:00",
+      "duration_ms": 47.7842,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.806654+00:00",
+      "duration_ms": 47.0981,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.853854+00:00",
+      "duration_ms": 44.1184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.897995+00:00",
+      "duration_ms": 44.6554,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.942669+00:00",
+      "duration_ms": 51.1445,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:28.993834+00:00",
+      "duration_ms": 45.1511,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.039005+00:00",
+      "duration_ms": 48.3798,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.087404+00:00",
+      "duration_ms": 47.5644,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.134993+00:00",
+      "duration_ms": 48.2039,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.183226+00:00",
+      "duration_ms": 48.0641,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.231319+00:00",
+      "duration_ms": 48.5536,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "indexed_lookup",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.279905+00:00",
+      "duration_ms": 47.8531,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.902938+00:00",
+      "duration_ms": 59.5184,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:29.962483+00:00",
+      "duration_ms": 60.4885,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.022990+00:00",
+      "duration_ms": 58.7217,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.081730+00:00",
+      "duration_ms": 56.401,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.138147+00:00",
+      "duration_ms": 55.8281,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.193992+00:00",
+      "duration_ms": 54.8799,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.248889+00:00",
+      "duration_ms": 57.6824,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.306588+00:00",
+      "duration_ms": 59.1126,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.365718+00:00",
+      "duration_ms": 55.468,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.421202+00:00",
+      "duration_ms": 54.7091,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.476056+00:00",
+      "duration_ms": 57.8844,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.533966+00:00",
+      "duration_ms": 55.345,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.589328+00:00",
+      "duration_ms": 55.7412,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.645085+00:00",
+      "duration_ms": 55.469,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.700572+00:00",
+      "duration_ms": 55.7912,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.756380+00:00",
+      "duration_ms": 56.6716,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.813066+00:00",
+      "duration_ms": 59.3792,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.872460+00:00",
+      "duration_ms": 56.1682,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.928642+00:00",
+      "duration_ms": 57.5888,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:30.986252+00:00",
+      "duration_ms": 60.2709,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.046622+00:00",
+      "duration_ms": 59.1325,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.105772+00:00",
+      "duration_ms": 57.5244,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.163315+00:00",
+      "duration_ms": 58.1591,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.221493+00:00",
+      "duration_ms": 56.5581,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.278069+00:00",
+      "duration_ms": 54.1209,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.332207+00:00",
+      "duration_ms": 57.0043,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.389227+00:00",
+      "duration_ms": 55.6889,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.444930+00:00",
+      "duration_ms": 57.4348,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.502379+00:00",
+      "duration_ms": 55.6785,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.558073+00:00",
+      "duration_ms": 55.2606,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.613427+00:00",
+      "duration_ms": 56.3567,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.669801+00:00",
+      "duration_ms": 55.4282,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.725251+00:00",
+      "duration_ms": 56.728,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.781998+00:00",
+      "duration_ms": 55.9273,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.837941+00:00",
+      "duration_ms": 56.9191,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.894880+00:00",
+      "duration_ms": 59.6785,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:31.954578+00:00",
+      "duration_ms": 61.5595,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.016157+00:00",
+      "duration_ms": 57.0083,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.073183+00:00",
+      "duration_ms": 56.0498,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.129250+00:00",
+      "duration_ms": 55.4089,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.184760+00:00",
+      "duration_ms": 56.6879,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.241469+00:00",
+      "duration_ms": 56.7994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.298286+00:00",
+      "duration_ms": 60.2853,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.358589+00:00",
+      "duration_ms": 59.5639,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.418170+00:00",
+      "duration_ms": 54.8208,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.473006+00:00",
+      "duration_ms": 57.0034,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.530025+00:00",
+      "duration_ms": 55.98,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.586021+00:00",
+      "duration_ms": 55.5046,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.641547+00:00",
+      "duration_ms": 56.4709,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.698034+00:00",
+      "duration_ms": 55.3721,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.753499+00:00",
+      "duration_ms": 56.8785,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.810395+00:00",
+      "duration_ms": 59.0135,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.869425+00:00",
+      "duration_ms": 56.2763,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.925718+00:00",
+      "duration_ms": 56.4857,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:32.982226+00:00",
+      "duration_ms": 59.9894,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.042235+00:00",
+      "duration_ms": 54.3437,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.096595+00:00",
+      "duration_ms": 57.0017,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.153611+00:00",
+      "duration_ms": 56.0137,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.209643+00:00",
+      "duration_ms": 59.1291,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.268790+00:00",
+      "duration_ms": 57.7446,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.326828+00:00",
+      "duration_ms": 60.3897,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.387248+00:00",
+      "duration_ms": 56.895,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.444161+00:00",
+      "duration_ms": 56.2233,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.500402+00:00",
+      "duration_ms": 56.952,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.557370+00:00",
+      "duration_ms": 56.1264,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.613518+00:00",
+      "duration_ms": 57.6603,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.671205+00:00",
+      "duration_ms": 60.0,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.731230+00:00",
+      "duration_ms": 59.183,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.790433+00:00",
+      "duration_ms": 59.6066,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.850060+00:00",
+      "duration_ms": 54.7368,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.904951+00:00",
+      "duration_ms": 56.9918,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:33.961962+00:00",
+      "duration_ms": 58.068,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.020052+00:00",
+      "duration_ms": 56.4323,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.076504+00:00",
+      "duration_ms": 57.7929,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.134315+00:00",
+      "duration_ms": 62.1875,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.196522+00:00",
+      "duration_ms": 55.9966,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.252537+00:00",
+      "duration_ms": 57.8093,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.310368+00:00",
+      "duration_ms": 60.1987,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.370586+00:00",
+      "duration_ms": 57.5218,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.428125+00:00",
+      "duration_ms": 54.9227,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.483169+00:00",
+      "duration_ms": 58.5134,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.541710+00:00",
+      "duration_ms": 57.5212,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.599249+00:00",
+      "duration_ms": 57.5621,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.656828+00:00",
+      "duration_ms": 56.3199,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.713163+00:00",
+      "duration_ms": 56.608,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.769787+00:00",
+      "duration_ms": 56.437,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.826240+00:00",
+      "duration_ms": 58.84,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.885096+00:00",
+      "duration_ms": 55.4237,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.940536+00:00",
+      "duration_ms": 56.7662,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:34.997318+00:00",
+      "duration_ms": 57.6284,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.055060+00:00",
+      "duration_ms": 57.611,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.112695+00:00",
+      "duration_ms": 55.952,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.168665+00:00",
+      "duration_ms": 55.5738,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.224255+00:00",
+      "duration_ms": 56.801,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.281070+00:00",
+      "duration_ms": 55.68,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.336769+00:00",
+      "duration_ms": 58.9804,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.395772+00:00",
+      "duration_ms": 57.7362,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.453525+00:00",
+      "duration_ms": 56.115,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.509655+00:00",
+      "duration_ms": 54.994,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "aggregation",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.564665+00:00",
+      "duration_ms": 53.8727,
+      "ok": true,
+      "error": null,
+      "concurrency": null
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.620501+00:00",
+      "duration_ms": 12.242200085893273,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.623775+00:00",
+      "duration_ms": 10.10299997869879,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.621474+00:00",
+      "duration_ms": 13.6515999911353,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627432+00:00",
+      "duration_ms": 7.703099981881678,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.619909+00:00",
+      "duration_ms": 16.33589994162321,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.622782+00:00",
+      "duration_ms": 13.468399993143976,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.622216+00:00",
+      "duration_ms": 14.033700106665492,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.625208+00:00",
+      "duration_ms": 12.241699965670705,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.626118+00:00",
+      "duration_ms": 11.34589989669621,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.619219+00:00",
+      "duration_ms": 44.818999944254756,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627462+00:00",
+      "duration_ms": 49.032800015993416,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627453+00:00",
+      "duration_ms": 49.05610007699579,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627501+00:00",
+      "duration_ms": 52.98480007331818,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627487+00:00",
+      "duration_ms": 53.00690000876784,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627497+00:00",
+      "duration_ms": 53.756300010718405,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627492+00:00",
+      "duration_ms": 53.77330002374947,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627480+00:00",
+      "duration_ms": 54.44979993626475,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627507+00:00",
+      "duration_ms": 56.90049997065216,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627513+00:00",
+      "duration_ms": 56.901899981312454,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627518+00:00",
+      "duration_ms": 80.7208000915125,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627530+00:00",
+      "duration_ms": 93.37279992178082,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627523+00:00",
+      "duration_ms": 93.39189995080233,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627552+00:00",
+      "duration_ms": 97.8025000076741,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627535+00:00",
+      "duration_ms": 97.82710007857531,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627539+00:00",
+      "duration_ms": 97.8258999530226,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627547+00:00",
+      "duration_ms": 97.81980002298951,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627543+00:00",
+      "duration_ms": 98.6013999208808,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627556+00:00",
+      "duration_ms": 100.06900003645569,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627560+00:00",
+      "duration_ms": 104.02819991577417,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627564+00:00",
+      "duration_ms": 124.56750008277595,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627568+00:00",
+      "duration_ms": 136.8233000393957,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627591+00:00",
+      "duration_ms": 137.28959998115897,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627607+00:00",
+      "duration_ms": 141.1368999397382,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627735+00:00",
+      "duration_ms": 141.01520006079227,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627602+00:00",
+      "duration_ms": 141.1510999314487,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627740+00:00",
+      "duration_ms": 141.64379995781928,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627747+00:00",
+      "duration_ms": 144.03810002841055,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627744+00:00",
+      "duration_ms": 144.44810000713915,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627751+00:00",
+      "duration_ms": 147.8506000712514,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627754+00:00",
+      "duration_ms": 168.2723000412807,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627761+00:00",
+      "duration_ms": 180.89050007984042,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627758+00:00",
+      "duration_ms": 180.9008999262005,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627774+00:00",
+      "duration_ms": 184.96669991873205,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627766+00:00",
+      "duration_ms": 184.99680003151298,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627771+00:00",
+      "duration_ms": 185.70979998912662,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627778+00:00",
+      "duration_ms": 185.70900009945035,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627785+00:00",
+      "duration_ms": 188.10959998518229,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627781+00:00",
+      "duration_ms": 188.71959997341037,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627789+00:00",
+      "duration_ms": 191.79919990710914,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627793+00:00",
+      "duration_ms": 212.0110000250861,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627801+00:00",
+      "duration_ms": 224.7197999386117,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627796+00:00",
+      "duration_ms": 224.74029997829348,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627819+00:00",
+      "duration_ms": 229.15999998804182,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627815+00:00",
+      "duration_ms": 229.17219996452332,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627807+00:00",
+      "duration_ms": 229.18260004371405,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627812+00:00",
+      "duration_ms": 229.82370003592223,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627823+00:00",
+      "duration_ms": 232.12130006868392,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627827+00:00",
+      "duration_ms": 232.13969997595996,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627830+00:00",
+      "duration_ms": 235.790399950929,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627834+00:00",
+      "duration_ms": 256.16300001274794,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627840+00:00",
+      "duration_ms": 268.96190003026277,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627837+00:00",
+      "duration_ms": 268.9811000600457,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627847+00:00",
+      "duration_ms": 272.2854999592528,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627844+00:00",
+      "duration_ms": 273.45159999094903,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627855+00:00",
+      "duration_ms": 273.45810004044324,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627851+00:00",
+      "duration_ms": 273.46689999103546,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627858+00:00",
+      "duration_ms": 275.71770001668483,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627865+00:00",
+      "duration_ms": 280.3667999105528,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627861+00:00",
+      "duration_ms": 280.3777999943122,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627868+00:00",
+      "duration_ms": 300.14290008693933,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627872+00:00",
+      "duration_ms": 312.6911000581458,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627875+00:00",
+      "duration_ms": 312.7047000452876,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627878+00:00",
+      "duration_ms": 316.3411000277847,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627890+00:00",
+      "duration_ms": 316.3367999950424,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627882+00:00",
+      "duration_ms": 317.5505999242887,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627886+00:00",
+      "duration_ms": 317.55879998672754,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627893+00:00",
+      "duration_ms": 319.7031000163406,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627907+00:00",
+      "duration_ms": 324.29659995250404,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627897+00:00",
+      "duration_ms": 324.31289996020496,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627910+00:00",
+      "duration_ms": 344.37229996547103,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627914+00:00",
+      "duration_ms": 356.98720009531826,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627936+00:00",
+      "duration_ms": 356.9809999316931,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627948+00:00",
+      "duration_ms": 360.20220001228154,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628007+00:00",
+      "duration_ms": 360.6831000652164,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627952+00:00",
+      "duration_ms": 361.7980999406427,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.627997+00:00",
+      "duration_ms": 361.75609997007996,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628015+00:00",
+      "duration_ms": 363.6929999338463,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628023+00:00",
+      "duration_ms": 368.05330007337034,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628019+00:00",
+      "duration_ms": 368.0707999737933,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628027+00:00",
+      "duration_ms": 388.20609997492284,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628030+00:00",
+      "duration_ms": 400.333600002341,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628034+00:00",
+      "duration_ms": 400.337899918668,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628038+00:00",
+      "duration_ms": 404.1924000484869,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628049+00:00",
+      "duration_ms": 404.1893999092281,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628046+00:00",
+      "duration_ms": 404.62249994743615,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628042+00:00",
+      "duration_ms": 404.63160001672804,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628053+00:00",
+      "duration_ms": 407.47770003508776,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628060+00:00",
+      "duration_ms": 411.6904999827966,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628056+00:00",
+      "duration_ms": 411.6996000520885,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    },
+    {
+      "workload": "mixed_read_write",
+      "database": "arango_docker",
+      "started_at": "2026-08-24T18:08:35.628063+00:00",
+      "duration_ms": 431.86149990651757,
+      "ok": true,
+      "error": null,
+      "concurrency": 10
+    }
+  ],
+  "notes": [
+    "{\"load_wall_ms\": 6583.439000067301, \"loaded_nodes\": 74062, \"loaded_relationships\": 150000}",
+    "{\"mixed_clients\": 10, \"mixed_ok\": 100, \"mixed_qps\": 226.24234765976018, \"read_fraction\": 0.5, \"write_fraction\": 0.5}"
+  ]
+}

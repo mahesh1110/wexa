@@ -1,24 +1,24 @@
 # Graph Database Cloud Benchmark
 
-A reproducible, protocol-aware benchmark harness for the Wexa AI take-home assignment. The project compares **CognoDB Cloud** with Neo4j Aura Free, Memgraph Cloud, and FalkorDB Cloud using the same public graph topology, the same client machine, the same logical workloads, and percentile-based reporting.
+A reproducible, protocol-aware benchmark harness for the Wexa AI take-home assignment. The project compares **CognoDB Cloud** as a managed reference with Neo4j Community, Memgraph, FalkorDB Server, and ArangoDB in a controlled local Docker comparison using the same public graph topology, the same client machine, the same logical workloads, and percentile-based reporting.
 
 > **Important:** This repository never contains passwords, connection URIs, or fabricated performance numbers. Raw benchmark results are generated only after the operator supplies credentials and runs the commands below.
 
 ## Scope and platform selection
 
-The selected systems are credible graph products with free, trial, or evaluation access. CognoDB, Neo4j Aura, and Memgraph use Bolt-compatible drivers; FalkorDB Cloud is intentionally implemented through its Redis/OpenCypher protocol rather than incorrectly treating it as Bolt-compatible. The formal resource-parity decision rule is in [`config/resource-parity.md`](config/resource-parity.md): unequal tiers are not silently normalized, and a platform that cannot satisfy the common envelope is excluded from the equal-resource ranking.
+The final run uses CognoDB Cloud as a managed reference and four local Docker engines: Neo4j Community, Memgraph, FalkorDB Server, and ArangoDB. CognoDB, Neo4j, and Memgraph use Bolt-compatible drivers; FalkorDB uses Redis/OpenCypher; ArangoDB uses REST/AQL. The formal resource-parity decision rule is in [`config/resource-parity.md`](config/resource-parity.md): unequal tiers are not silently normalized, and CognoDB is excluded from the equal-resource Docker ranking because it cannot run as a local peer from the supplied access.
 
 | Platform | Access used for this benchmark | Client protocol | Resource-parity record |
 |---|---|---|---|
 | CognoDB Cloud | c0 free instance | Bolt + Cypher | Advertised c0 values from the assignment: burstable 0.5 vCPU, 256 MB RAM, 1 GB disk |
-| Neo4j Aura Free | Free managed database | Bolt + Cypher | Record the exact console-advertised limits at run time; Aura Free documents up to 200,000 nodes and 400,000 relationships [2] |
-| Memgraph Cloud | Free trial or smallest available evaluation project | Bolt + Cypher/Memgraph dialect | Record RAM, vCPU, disk, provider, and region from the console; Memgraph documents a minimum on-premise requirement of 1 GB RAM and 1 vCPU [4] |
-| FalkorDB Cloud | Free cloud tier | Redis protocol + OpenCypher | Free tier documents 100 MB RAM and 100 MB maximum graph dataset; inactive instances may be deleted [3] |
-| Arango Managed Platform | Evaluation/trial deployment | HTTP REST + AQL | Record the exact managed-plan vCPU, RAM, storage, provider, and region from the console |
+| Neo4j Community Docker | `neo4j:2026.07.1` | Bolt + Cypher | 0.5 CPU; 512 MB RAM; 1 GB writable layer |
+| Memgraph Docker | `memgraph/memgraph:2.14.1` | Bolt + Memgraph dialect | 0.5 CPU; 512 MB RAM; 1 GB writable layer |
+| FalkorDB Server Docker | `falkordb/falkordb-server:latest` | Redis protocol + OpenCypher | 0.5 CPU; 512 MB RAM; 1 GB writable layer; latest tag digest retained in inspect file |
+| ArangoDB Docker | `arangodb:3.12.4` | HTTP REST + AQL | 0.5 CPU; 512 MB RAM; 1 GB writable layer |
 
-The assignment asks for at least four comparison targets in addition to CognoDB. The harness covers five total targets including CognoDB: Neo4j Aura Free, Memgraph Cloud, FalkorDB Cloud, and Arango Managed Platform. Arango is implemented through its REST/AQL API, which keeps its query-language differences explicit rather than pretending all products share one protocol. Do not report a platform as completed until it has actually been run.
+The assignment asks for at least four comparison targets in addition to CognoDB. The final run covers five total targets: CognoDB Cloud, Neo4j Community Docker, Memgraph Docker, FalkorDB Server Docker, and ArangoDB Docker. Arango is implemented through its REST/AQL API, and FalkorDB through Redis/OpenCypher, which keeps query-language differences explicit rather than pretending all products share one protocol. All five targets completed the measured run.
 
-The smallest observed limit is FalkorDB Cloud Free at 100 MB graph data [3]. The dataset sampler therefore defaults to 150,000 relationships and should be checked against the actual stored footprint before final runs. If it exceeds the smallest tier, reduce the sample only if it remains at or above 100,000 relationships; otherwise, document that the platform cannot satisfy the assignment’s minimum without a paid tier.
+The final Docker comparison uses a common 512 MB memory and 1 GB writable-layer envelope. The CognoDB reference uses its fixed c0 allocation and is not part of the equal-resource ranking.
 
 ## Dataset
 
@@ -109,7 +109,7 @@ After all real runs complete:
 graphbench report --results results --markdown results/summary.md --csv results/summary.csv
 ```
 
-The raw JSON preserves individual observations, failures, host information, dataset counts, settings, and notes. The generated summary reports count, p50, p95, p99, mean, failed requests, and mixed-workload concurrency. The implementation uses a nearest-rank percentile definition so that the calculation is deterministic and easy to audit.
+The raw JSON preserves individual observations, failures, host information, dataset counts, settings, and notes. The generated summary reports count, p50, p95, p99, mean, failed requests, and mixed-workload concurrency. The implementation uses a nearest-rank percentile definition so that the calculation is deterministic and easy to audit. The completed sanitized analysis is in [`results/final/FINAL_ANALYSIS.md`](results/final/FINAL_ANALYSIS.md), with supporting charts and resource records in the same directory.
 
 ## Workloads and fairness controls
 
@@ -121,23 +121,23 @@ For a strong final submission, repeat mixed workload runs at 1, 10, and 40 clien
 
 ## Results table template
 
-Do not fill this table with estimates. Replace the rows with the generated `results/summary.md` after real runs.
+Do not fill this table with estimates. The completed run is documented in [`results/final/FINAL_ANALYSIS.md`](results/final/FINAL_ANALYSIS.md); `results/summary.md` is the generated machine-readable summary table.
 
 | Database | Workload | p50 (ms) | p95 (ms) | Successful | Failed | Notes |
 |---|---|---:|---:|---:|---:|---|
-| CognoDB | 1-hop traversal | — | — | — | — | Run required |
-| Neo4j Aura | 1-hop traversal | — | — | — | — | Run required |
-| Memgraph | 1-hop traversal | — | — | — | — | Run required |
-| FalkorDB | 1-hop traversal | — | — | — | — | Run required |
-| Arango | 1-hop traversal | — | — | — | — | Run required |
+| CognoDB reference | See generated `results/summary.md` | — | — | — | — | Managed c0 reference |
+| Neo4j Community Docker | See generated `results/summary.md` | — | — | — | — | Equal-resource Docker comparison |
+| Memgraph Docker | See generated `results/summary.md` | — | — | — | — | Equal-resource Docker comparison |
+| FalkorDB Server Docker | See generated `results/summary.md` | — | — | — | — | Equal-resource Docker comparison |
+| ArangoDB Docker | See generated `results/summary.md` | — | — | — | — | Equal-resource Docker comparison |
 
-The final report should include every required metric for every database: ingestion throughput and wall time; p50/p95 for 1-hop, 2-hop, and 3-hop traversals; p50/p95 for point and indexed/filtered lookup; p50/p95 for aggregation; mixed read/write throughput with concurrency; and observable footprint. Use “not observable” when a managed service does not expose a metric.
+The final report includes every required metric for every database: ingestion throughput and wall time; p50/p95 for 1-hop, 2-hop, and 3-hop traversals; p50/p95 for point and indexed/filtered lookup; p50/p95 for aggregation; mixed read/write throughput with concurrency; and observable footprint. Use “not observable” when a managed service does not expose a metric.
 
 ## Known limitations and honest caveats
 
-The benchmark is networked: client-to-cloud latency, routing, TLS, throttling, instance idling, and transient provider load can dominate very small queries. The dataset sampler uses a deterministic prefix rather than a statistically representative graph sample; this is reproducible but should be stated in the final analysis. FalkorDB Cloud Free has a substantially smaller published memory limit than CognoDB c0, so the operator must verify the sample fits before claiming a fair comparison [3]. The harness does not infer hidden vCPU or memory values. If the console does not expose a value, report “not observable.”
+The benchmark is networked: client-to-cloud latency, routing, TLS, throttling, instance idling, and transient provider load can dominate very small queries. The dataset sampler uses a deterministic prefix rather than a statistically representative graph sample; this is reproducible but should be stated in the final analysis. The harness does not infer hidden vCPU or memory values. If a console or container runtime does not expose a value, report “not observable.”
 
-The current implementation records the mixed-workload write completion rate. For the final report, describe it as the sustained successful operation rate for the configured read/write task mix, not as a vendor-independent database QPS number. Add a separate read operation to `mixed_write` if the exact final mix needs to be 50% reads and 50% writes; the adapter boundary makes that extension local and auditable.
+The implementation records the sustained successful operation rate for the configured 50% read / 50% write task mix, not as a vendor-independent database QPS number. The raw samples record per-operation mixed-workload latency and concurrency.
 
 ## Repository hygiene and submission
 
