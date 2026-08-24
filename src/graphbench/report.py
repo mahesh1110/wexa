@@ -96,7 +96,12 @@ def write_reports(results_dir: str, markdown_path: str, csv_path: str) -> None:
     summary = summarize_directory(results_dir)
     Path(markdown_path).write_text(render_markdown(summary), encoding="utf-8")
     rows = summary["rows"]
+    fieldnames = [
+        "database", "workload", "count", "min", "p50", "p95", "p99", "max", "mean",
+        "successful", "failed", "concurrency", "load_wall_ms", "nodes_per_second",
+        "relationships_per_second",
+    ]
     with Path(csv_path).open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()) if rows else ["database", "workload"])
+        writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction="ignore")
         writer.writeheader()
         writer.writerows(rows)
