@@ -45,7 +45,10 @@ class ArangoAdapter:
         cursor = self._request("POST", "/_api/cursor", json={"query": query, "bindVars": bind_vars or {}, "batchSize": 1000})
         rows = cursor.get("result", [])
         while cursor.get("hasMore"):
-            cursor = self._request("PUT", f"/_api/cursor/{cursor['_id']}")
+            cursor_id = cursor.get("id") or cursor.get("_id")
+            if not cursor_id:
+                raise RuntimeError(f"Arango cursor indicated more rows but returned no cursor id: {cursor!r}")
+            cursor = self._request("PUT", f"/_api/cursor/{cursor_id}")
             rows.extend(cursor.get("result", []))
         return rows
 
