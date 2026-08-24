@@ -11,7 +11,11 @@ from graphbench.core import percentiles
 def summarize_directory(results_dir: str) -> dict[str, Any]:
     rows: list[dict[str, Any]] = []
     for path in sorted(Path(results_dir).glob("*.json")):
+        if path.name.endswith("-docker-inspect.json") or path.name.endswith("_docker-inspect.json"):
+            continue
         payload = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict) or "database" not in payload or "samples" not in payload:
+            continue
         note_objects = []
         for note in payload.get("notes", []):
             try:
