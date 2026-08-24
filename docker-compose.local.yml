@@ -40,7 +40,7 @@ services:
       retries: 30
 
   falkordb:
-    image: ${FALKORDB_IMAGE:-falkordb/falkordb-server:4.0.0}
+    image: ${FALKORDB_IMAGE:-falkordb/falkordb-server:latest}
     container_name: graphbench-falkordb
     ports:
       - "36379:6379"
