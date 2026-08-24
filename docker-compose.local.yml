@@ -9,8 +9,6 @@ services:
       NEO4J_server_memory_heap_initial__size: 128m
       NEO4J_server_memory_heap_max__size: 128m
       NEO4J_server_memory_pagecache_size: 64m
-    volumes:
-      - ./docker-data/neo4j:/data
     cpus: "0.5"
     mem_limit: 512m
     storage_opt:
@@ -27,8 +25,6 @@ services:
     ports:
       - "27687:7687"
     command: ["--bolt-port", "7687", "--log-level", "WARNING"]
-    volumes:
-      - ./docker-data/memgraph:/var/lib/memgraph
     cpus: "0.5"
     mem_limit: 512m
     storage_opt:
@@ -47,8 +43,6 @@ services:
     environment:
       REDIS_ARGS: "--requirepass ${LOCAL_FALKORDB_PASSWORD:-graphbench_falkordb} --appendonly yes"
       FALKORDB_ARGS: "THREAD_COUNT 1 TIMEOUT_MAX 30000"
-    volumes:
-      - ./docker-data/falkordb:/data
     cpus: "0.5"
     mem_limit: 512m
     storage_opt:
@@ -66,9 +60,6 @@ services:
       - "18529:8529"
     environment:
       ARANGO_ROOT_PASSWORD: ${LOCAL_ARANGO_PASSWORD:-graphbench_arango}
-    volumes:
-      - ./docker-data/arango:/var/lib/arangodb3
-      - ./docker-data/arango-apps:/var/lib/arangodb3-apps
     cpus: "0.5"
     mem_limit: 512m
     storage_opt:
