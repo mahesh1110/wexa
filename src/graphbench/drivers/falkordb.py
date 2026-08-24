@@ -19,12 +19,29 @@ class FalkorConfig:
 
 
 def first_scalar(value: Any) -> Any:
-    """Return the first scalar from FalkorDB's nested compact response."""
+    """Return the first scalar from a nested FalkorDB response value."""
     while isinstance(value, (list, tuple)):
         if not value:
             return 0
         value = value[0]
     return value
+
+
+def first_result_scalar(result: Any) -> Any:
+    """Read the scalar value from the first compact result cell.
+
+    FalkorDB compact result cells are `[ValueType, value]`, nested under
+    top-level header, rows, and columns arrays.
+    """
+    if not isinstance(result, (list, tuple)) or len(result) < 2:
+        return 0
+    rows = result[1]
+    if not rows:
+        return 0
+    cell = rows[0][0]
+    if isinstance(cell, (list, tuple)) and len(cell) >= 2:
+        return first_scalar(cell[1])
+    return first_scalar(cell)
 
 
 class FalkorAdapter:
@@ -94,7 +111,7 @@ class FalkorAdapter:
     def counts(self) -> tuple[int, int]:
         nodes = self._query("MATCH (u:User) RETURN count(u)")
         rels = self._query("MATCH (:User)-[r:FOLLOWS]->(:User) RETURN count(r)")
-        return int(first_scalar(nodes[1])), int(first_scalar(rels[1]))
+        return int(first_result_scalar(nodes)), int(first_result_scalar(rels))
 
     def traversal(self, start_id: int, hops: int) -> int:
         result = self._query(
@@ -102,21 +119,21 @@ class FalkorAdapter:
             "RETURN count(DISTINCT x)",
             {"user_id": start_id},
         )
-        return int(first_scalar(result[1]))
+        return int(first_result_scalar(result))
 
     def point_lookup(self, user_id: int) -> int:
         result = self._query(
             "MATCH (u:User) WHERE u.user_id = $user_id RETURN count(u)",
             {"user_id": user_id},
         )
-        return int(first_scalar(result[1]))
+        return int(first_result_scalar(result))
 
     def indexed_lookup(self, country: str) -> int:
         result = self._query(
             "MATCH (u:User) WHERE u.country = $country RETURN count(u)",
             {"country": country},
         )
-        return int(first_scalar(result[1]))
+        return int(first_result_scalar(result))
 
     def aggregate(self) -> int:
         result = self._query("MATCH (u:User) RETURN u.country, count(*) ORDER BY count(*) DESC")
