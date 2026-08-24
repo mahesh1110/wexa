@@ -42,7 +42,8 @@ def load_dataset(path: str | Path) -> tuple[list[NodeRow], list[EdgeRow]]:
 
 
 def make_adapter(name: str):
-    load_dotenv()
+    load_dotenv(".env")
+    load_dotenv(".env.docker", override=False)
     key = name.upper().replace("-", "_")
     if name in {"cognodb", "neo4j_aura", "memgraph", "neo4j_docker", "memgraph_docker"}:
         if name == "neo4j_aura":
