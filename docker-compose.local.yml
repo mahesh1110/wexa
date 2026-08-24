@@ -1,0 +1,80 @@
+services:
+  neo4j:
+    image: ${NEO4J_IMAGE:-neo4j:2026.07.1}
+    container_name: graphbench-neo4j
+    ports:
+      - "17687:7687"
+    environment:
+      NEO4J_AUTH: neo4j/${LOCAL_NEO4J_PASSWORD:-graphbench_neo4j}
+      NEO4J_server_memory_heap_initial__size: 64m
+      NEO4J_server_memory_heap_max__size: 64m
+      NEO4J_server_memory_pagecache_size: 32m
+    volumes:
+      - ./docker-data/neo4j:/data
+    cpus: "0.5"
+    mem_limit: 256m
+    storage_opt:
+      size: 1G
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  memgraph:
+    image: ${MEMGRAPH_IMAGE:-memgraph/memgraph:2.14.1}
+    container_name: graphbench-memgraph
+    ports:
+      - "27687:7687"
+    command: ["--bolt-port", "7687", "--log-level", "WARNING"]
+    volumes:
+      - ./docker-data/memgraph:/var/lib/memgraph
+    cpus: "0.5"
+    mem_limit: 256m
+    storage_opt:
+      size: 1G
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/127.0.0.1/7687'"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  falkordb:
+    image: ${FALKORDB_IMAGE:-falkordb/falkordb-server:4.0.0}
+    container_name: graphbench-falkordb
+    ports:
+      - "36379:6379"
+    environment:
+      REDIS_ARGS: "--requirepass ${LOCAL_FALKORDB_PASSWORD:-graphbench_falkordb} --appendonly yes"
+      FALKORDB_ARGS: "THREAD_COUNT 1 TIMEOUT_MAX 30000"
+    volumes:
+      - ./docker-data/falkordb:/data
+    cpus: "0.5"
+    mem_limit: 256m
+    storage_opt:
+      size: 1G
+    healthcheck:
+      test: ["CMD-SHELL", "redis-cli -a '${LOCAL_FALKORDB_PASSWORD:-graphbench_falkordb}' ping | grep PONG"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+
+  arango:
+    image: ${ARANGO_IMAGE:-arangodb:3.12.4}
+    container_name: graphbench-arango
+    ports:
+      - "18529:8529"
+    environment:
+      ARANGO_ROOT_PASSWORD: ${LOCAL_ARANGO_PASSWORD:-graphbench_arango}
+    volumes:
+      - ./docker-data/arango:/var/lib/arangodb3
+      - ./docker-data/arango-apps:/var/lib/arangodb3-apps
+    cpus: "0.5"
+    mem_limit: 256m
+    storage_opt:
+      size: 1G
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8529/_api/version || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 30

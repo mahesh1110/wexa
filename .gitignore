@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.docker
+docker-data/
+results/*.json
+results/*.csv
+results/*.md
+*.log
+.DS_Store
+
+data/pokec_sample/soc-pokec-relationships.txt.gz
