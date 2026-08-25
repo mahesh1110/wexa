@@ -139,19 +139,6 @@ The benchmark is networked: client-to-cloud latency, routing, TLS, throttling, i
 
 The implementation records the sustained successful operation rate for the configured 50% read / 50% write task mix, not as a vendor-independent database QPS number. The raw samples record per-operation mixed-workload latency and concurrency.
 
-## Repository hygiene and submission
-
-Before publishing:
-
-```bash
-pytest -q
-python -m compileall -q src scripts
-git status --short
-git grep -nE 'password|bolt\+s://|redis://|\.env' -- ':!README.md' ':!.env.example'
-```
-
-The final GitHub repository must contain code, the prepared dataset manifest, generated raw results, the generated summary, and the complete README. It must not contain `.env`, passwords, private connection URIs, or unreviewed generated artifacts. Explain every result and every caveat in the final analysis. Email the repository URL to `hr@wexa.ai` with subject `CognoDB Assignment 1 – <Your Name>`.
-
 ## References
 
 [1]: https://snap.stanford.edu/data/soc-Pokec.html "SNAP Pokec social network dataset"
