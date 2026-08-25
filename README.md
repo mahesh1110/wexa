@@ -121,7 +121,7 @@ For a strong final submission, repeat mixed workload runs at 1, 10, and 40 clien
 
 ## Results table template
 
-Do not fill this table with estimates. The completed run is documented in [`results/final/FINAL_ANALYSIS.md`](results/final/FINAL_ANALYSIS.md); `results/summary.md` is the generated machine-readable summary table.
+The completed run is documented in [`results/final/FINAL_ANALYSIS.md`](results/final/FINAL_ANALYSIS.md); `results/summary.md` is the generated machine-readable summary table.
 
 | Database | Workload | p50 (ms) | p95 (ms) | Successful | Failed | Notes |
 |---|---|---:|---:|---:|---:|---|
